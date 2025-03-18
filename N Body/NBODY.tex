@@ -68,6 +68,7 @@ Very short summary what the experiment is about and why the subject plays a role
 
 \section{Theory}\label{sec:theory}
 \subsection{Classical N-Body Problem}
+
 \subsection{Time Integrators}
 \subsubsection{Leapfrog}
 \subsubsection{IAS15}
@@ -89,6 +90,18 @@ Very short summary what the experiment is about and why the subject plays a role
 
 \section{Experiment}
 \subsection{Two Body Problem}
+We use the simple two body problem to test various integrators in REBOUND (Leapfrog, IAS15, WHFast, Gragg-Bulirsch-Stoer) and compare the quality of the resulting outputs.
+We also test the quality of the results as we change the timestep from 1 to $10^{-6}$\\
+In a two body problem we simulate a moon orbiting a planet, or a planet orbiting a star. The energy and the angular momentum of the system will remain constant. 
+They are given as: 
+\begin{equation}
+   E = -\mu \frac{GM}{2a}
+\end{equation}
+\begin{equation}
+  L = \mu \sqrt{GMa(1-e^2)}
+\end{equation}
+Where $\mu = \frac{m_1m_2}{M}$ is the reduced mass of the system and $M=m_1+m_2$ is the total mass.\\
+From the above equations we can derive that the semi major axis and the eccentricity of the system should also remain constant when we simulate the system.
 \subsection{Three Body Problem and Stability of the Planet System}
 \subsection{Jupiter and Kirkwood Gaps}
 \subsection{Resonant Capture of a Planet}
