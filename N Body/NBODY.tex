@@ -1,7 +1,10 @@
 \documentclass[12pt,a4paper]{article}
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
-\graphicspath{{graphics/}}
+\usepackage{float}
+\usepackage{subcaption}
+
+\graphicspath{{./N Body/}}
 \DeclareGraphicsExtensions{.pdf,.jpeg,.jpg,.png}
 
 \usepackage{amsmath} % equations
@@ -101,7 +104,84 @@ They are given as:
   L = \mu \sqrt{GMa(1-e^2)}
 \end{equation}
 Where $\mu = \frac{m_1m_2}{M}$ is the reduced mass of the system and $M=m_1+m_2$ is the total mass.\\
-From the above equations we can derive that the semi major axis and the eccentricity of the system should also remain constant when we simulate the system.
+From the above equations we can derive that the semi major axis and the eccentricity of the system should also remain constant when we simulate the system.\\
+The two body problem is simulated with REBOUND as per the following procedure:
+
+\begin{enumerate}
+  \item We initialize the simulation with a chosen integrator and timestep
+  \item Next, add the two bodies to the system with $m_1 = 1$ and $m_2 = 0.3, a=1, e=0.3 $
+  \item Then the simulation is integrated for one orbit and 250 steps. At each step the positions, energies and orbital parameters of the system are stored.
+  \item The orbit can be plotted from the stored postions. Various properties of the system can be plotted as a function of time.
+\end{enumerate}
+
+Here is the orbit we obtain with the leapfrog integrator and a timestep of $10^{-3}$:
+\begin{figure}[H]
+  \centering
+  \includegraphics[width=\textwidth]{2Body/2BD0.png}
+  \caption{Orbit of a two body system with leapfrog integrator and timestep of $10^{-3}$. The number of data points are less dense closer to the pericenter, which means that $m_2$ is moving faster. This follows Kepler's second law.}
+  \label{fig:leapfrog_1e-3}
+\end{figure}
+Effect of smaller timesteps is tested with the leapfrog integrator with timesteps of $1$, $10^{-1}$,$10^{-2}$, $10^{-3}$,$10^{-4}$, $10^{-5}$ and $10^{-6}$.\\
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}{0.49\textwidth}
+    \includegraphics[height = 1.7in]{2Body/2Body_Energy_Consv_dt.png}
+    \caption{Conservation of Energy at various timesteps}
+    \label{fig:dt_e}  
+  \end{subfigure}
+  \begin{subfigure}{0.49\textwidth}
+    \includegraphics[height = 1.7in]{2Body/2Body_L_Consv_dt.png}
+    \caption{Conservation of Angular Momentum at various timesteps}
+    \label{fig:dt_L}  
+  \end{subfigure}
+  \caption{Conservation of Energy and Angular Momentum at various timesteps}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}{0.49\textwidth}
+    \includegraphics[height = 1.7in]{2Body/2Body_const_a_dt.png}
+    \caption{Semi Major Axis at various timesteps}
+    \label{fig:dt_a}  
+  \end{subfigure}
+  \begin{subfigure}{0.49\textwidth}
+    \includegraphics[height = 1.7in]{2Body/2Body_const_ecc_dt.png}
+    \caption{Eccentricity at various timesteps}
+    \label{fig:dt_ecc}  
+  \end{subfigure}
+  \caption{Constant semi major axis and eccentricity at various timesteps}
+\end{figure}
+Effect of different integrators is tested with a timestep of $10^{-3}$ using the leapfrog, IAS15, WHFast and Gragg-Bulirsch-Stoer integrators\\
+% add figure
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}{0.49\textwidth}
+    \includegraphics[height = 1.7in]{2Body/2Body_Energy_Consv_int.png}
+    \caption{Conservation of Energy using different integrators}
+    \label{fig:int_e}  
+  \end{subfigure}
+  \begin{subfigure}{0.49\textwidth}
+    \includegraphics[height = 1.7in]{2Body/2Body_L_Consv_int.png}
+    \caption{Conservation of Angular Momentum using different integrators}
+    \label{fig:int_L}  
+  \end{subfigure}
+  \caption{Conservation of Energy and Angular Momentum using different integrators}
+\end{figure}
+
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}{0.49\textwidth}
+    \includegraphics[height = 1.7in]{2Body/2Body_const_a_int.png}
+    \caption{Semi Major Axis using different integrators}
+    \label{fig:int_a}  
+  \end{subfigure}
+  \begin{subfigure}{0.49\textwidth}
+    \includegraphics[height = 1.7in]{2Body/2Body_const_ecc_int.png}
+    \caption{Eccentricity using different integrators}
+    \label{fig:int_ecc}  
+  \end{subfigure}
+  \caption{Constant semi major axis and eccentricity using different integrators}
+\end{figure}
 \subsection{Three Body Problem and Stability of the Planet System}
 \subsection{Jupiter and Kirkwood Gaps}
 \subsection{Resonant Capture of a Planet}
