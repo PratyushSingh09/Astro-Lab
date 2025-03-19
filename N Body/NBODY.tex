@@ -202,6 +202,40 @@ Effect of different integrators is tested with a timestep of $10^{-3}$ using the
 \end{figure}
 \subsection{Three Body Problem and Stability of the Planet System}
 \subsection{Jupiter and Kirkwood Gaps}
+
+In this part of the lab work we must observe Kirkwood gaps - gaps in the asteroid belt - by simulationg and observing the evolution of Sun-Jupiter-Mars system with 10000 test particles. 
+Using REBOUND we can simulate these objects and get semi-major axis and eccentricity of all bodies up to 1 million years of evolution. Additionally, we check the change of distibution at every 100000 years.
+
+Kirkwood gaps are caused by the resonant interaction between the asteroids and Jupiter. The resonant interaction leads to the instability of the orbits of the asteroids.
+Moreover, the instabilities cause the increase of eccentricity of the asteroids, and the asteroids with higher eccentricity are more likely to collide with inner planets.
+The main Kirkwood gaps are at 2.50, 2.82, 2.95, 3.27 AU corresponding to the resonant periods of 3:1, 5:2, 7:3, 2:1 respectively.
+
+First, Sun, Jupiter and Mars are added with their corresponding masses, semi-major axes and eccemtricities. 
+Next, we add 10000 test particles in a range of 2 to 4 AU and random true anomaly and eccentricities. It is important to make only three major objects active with $\tt sim.N_active=3$ line so all test particles do not affect the system. 
+Additionally, we simplify the solution by using leap-frog integrator due to the complicatied computation. The code records the values of semi-major axis $a$ and eccentricity $a$ of each body to .txt file for further visualization.
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=\linewidth]{kirkwood/hist_kirkwood.png}
+  \caption{Histograms of the number of asteroids at various distances every $10^5$ years. Red vertical lines correspond to actual Kirkwood gaps at 2.50, 2.82, 2.95, 3.27 AU.}
+  \label{fig:kirkwood_histogram}
+\end{figure}
+
+Fig. \ref{fig: kirkwood_histogram} shows the histograms of the number of asteroids at various distances every $10^5$ years.
+End result does not show the exact Kirkwood gaps due to the short timespan of the simulation and simplifications in the model and integrator. However, there are smaller number of asteroids near the expected respnance locations, especially near 2.82 AU and 2.95 AU.
+
+Further, we can plot the semi-major axis and eccentricity of the test particles to see the evolution of the system:
+
+\begin{figure}[ht]
+  \centering
+  \includegraphics[width=\linewidth]{kirkwood/a_e_kirkwood.png}
+  \caption{Eccentricity vs Semi-Major Axis of asteroids over time. The gaps and smaller eccentricity at smaller semi-major axis can be seen.}
+  \label{fig:kirkwood_a_e}
+\end{figure}
+
+Fig. \ref{fig:kirkwood_a_e} shows the eccentricity vs semi-major axis of the asteroids over time. One can see gaps near 2.82 and 2.95 AU as well as decrease of the eccentricity at smaller orbits.
+At smaller semi-major axis, objects with higher eccentricity more likely to interact with Mars, but at some even bigger eccentricities can keep being in the system at least for $10^6$ million years.
+
 \subsection{Resonant Capture of a Planet}
 % For each experimental part:
 % \begin{enumerate}
