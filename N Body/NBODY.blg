@@ -1,0 +1,15 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'NBODY.blg'
+[141] biber-MSWIN64:340> INFO - === 
+[212] Biber.pm:419> INFO - Reading 'NBODY.bcf'
+[359] Biber.pm:979> INFO - Found 1 citekeys in bib section 0
+[378] Biber.pm:4419> INFO - Processing section 0
+[399] Biber.pm:4610> INFO - Looking for bibtex file 'NBODY.bib' for section 0
+[480] bibtex.pm:1713> INFO - LaTeX decoding ...
+[499] bibtex.pm:1519> INFO - Found BibTeX data source 'NBODY.bib'
+[562] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[563] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[565] Biber.pm:4239> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'en-US'
+[566] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[569] bbl.pm:660> INFO - Writing 'NBODY.bbl' with encoding 'UTF-8'
+[571] bbl.pm:763> INFO - Output to NBODY.bbl

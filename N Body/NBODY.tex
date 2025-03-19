@@ -3,10 +3,17 @@
 \usepackage{graphicx}
 \usepackage{float}
 \usepackage{subcaption}
+\usepackage[margin=1in]{geometry}
 \usepackage{hyperref}
 \hypersetup{
   pdfborder = {0 0 0}
 }
+\usepackage[
+backend=biber,
+style=alphabetic,
+]{biblatex}
+
+\addbibresource{NBODY.bib}
 
 \graphicspath{{./N Body/}}
 \DeclareGraphicsExtensions{.pdf,.jpeg,.jpg,.png}
@@ -94,13 +101,20 @@ Very short summary what the experiment is about and why the subject plays a role
 %     x &= \frac{-ln\left(\frac{D}{D_0}\right)}{\frac{\mu}{\rho}\rho}
 % \end{align}
 \subsection{REBOUND}
+To simulate the N-body problem in various astrophysical contexts, we use the REBOUND software package developed by \href{https://hanno-rein.de/}{ Professor Hanno Rein}. 
+REBOUND can simulate particles under the influence of their gravities. These particles can represent astrophysical bodies like stars, planets, moons, asteroids, dust particles etc\cite{rebound}. 
+The documentation for REBOUND can be found at: \href{https://rebound.readthedocs.io/en/latest/}{https://rebound.readthedocs.io/en/latest/}. It provides convenient tools to study the properties and evolution of an N-body system
+like the energy, angular momentum and orbital elements. 
+\\ REBOUND runs natively on windows, mac and linux. This can be run in either C or Python. For our purposes
+we will stick with the latter. REBOUND for python can be easily installed by \texttt{pip install rebound}.
 
+\subsubsection{REBOUNDX}
 \section{Experiment}
 \subsection{Two Body Problem}
 We use the simple two body problem to test various integrators in REBOUND (Leapfrog, IAS15, WHFast, Gragg-Bulirsch-Stoer) and compare the quality of the resulting outputs.
 We also test the quality of the results as we change the timestep from 1 to $10^{-6}$\\
-In a two body problem we simulate a moon orbiting a planet, or a planet orbiting a star. The energy and the angular momentum of the system will remain constant. 
-They are given as: 
+In this two body problem we simulate a moon orbiting a planet or a planet orbiting a star. Here, one body will be significantly heavier than the other. 
+The energy and the angular momentum of the system should remain constant and are given as: 
 \begin{equation}
    E = -\mu \frac{GM}{2a}
 \end{equation}
@@ -108,14 +122,14 @@ They are given as:
   L = \mu \sqrt{GMa(1-e^2)}
 \end{equation}
 Where $\mu = \frac{m_1m_2}{M}$ is the reduced mass of the system and $M=m_1+m_2$ is the total mass.\\
-From the above equations we can derive that the semi major axis and the eccentricity of the system should also remain constant when we simulate the system.\\
+From the above equations we can derive that the semi major axis and the eccentricity of the system should also remain constant as we integrate the system over time.\\
 The two body problem is simulated with REBOUND as per the following procedure:
 
 \begin{enumerate}
-  \item We initialize the simulation with a chosen integrator and timestep
-  \item Next, add the two bodies to the system with $m_1 = 1$ and $m_2 = 0.3, a=1, e=0.3 $
-  \item Then the simulation is integrated for one orbit and 250 steps. At each step the positions, energies and orbital parameters of the system are stored.
-  \item The orbit can be plotted from the stored postions. Various properties of the system can be plotted as a function of time.
+  \item Initialize the simulation with a chosen integrator and timestep
+  \item Add the two bodies to the system with $m_1 = 1$ and $m_2 = 0.3, a=1, e=0.3 $
+  \item The simulation is integrated for one orbit and 250 steps. At each step the positions, energies and orbital parameters of the system are stored.
+  \item The orbit can be plotted from the stored positions of the two bodies. Various properties of the system can be plotted as a function of time.
 \end{enumerate}
 The code where the following procedure is implemented is given in the appendix \ref{code}.\\
 Here is the orbit we obtain with the leapfrog integrator and a timestep of $10^{-3}$:
@@ -130,12 +144,12 @@ Effect of smaller timesteps is tested with the leapfrog integrator with timestep
   \centering
   \begin{subfigure}{0.49\textwidth}
     \includegraphics[height = 1.7in]{2Body/2Body_Energy_Consv_dt.png}
-    \caption{Conservation of Energy at various timesteps}
+    \caption{Conservation of Energy at various timesteps. As we increase the timestep, the energy deviation from the initial value increases.}
     \label{fig:dt_e}  
   \end{subfigure}
   \begin{subfigure}{0.49\textwidth}
     \includegraphics[height = 1.7in]{2Body/2Body_L_Consv_dt.png}
-    \caption{Conservation of Angular Momentum at various timesteps}
+    \caption{Conservation of Angular Momentum at various timesteps. Conservation of angular momentum gets worse as we decrease the timestep.}
     \label{fig:dt_L}  
   \end{subfigure}
   \caption{Conservation of Energy and Angular Momentum at various timesteps}
@@ -235,24 +249,8 @@ Effect of different integrators is tested with a timestep of $10^{-3}$ using the
 An important section in which you should critically review the experiment and its results. Mention also parts that did not work out as expected, but keep a neutral to positive view. This can span from a few sentences to half a page.
 
 \setcounter{secnumdepth}{0}
-\begin{thebibliography}{99.}
-% Book Chapter
-\bibitem{basic-contrib} Brown B, Aaron M (2001) The politics of nature. In: Smith J (ed) The rise of modern genomics, 3rd edn. Wiley, New York, p 234--295  
-%
-% Online Document
-\bibitem{basic-online} Dod J (1999) Effective Substances. In: The dictionary of substances and their effects. Royal Society of Chemistry. Available via DIALOG. \\
-http://www.rsc.org/dose/title of subordinate document. Cited 15 Jan 1999
-%
-% Journal article by DOI
-\bibitem{basic-DOI} Slifka MK, Whitton JL (2000) Clinical implications of dysregulated cytokine production. J Mol Med, doi: 10.1007/s001090000086
-%
-% Journal article
-\bibitem{basic-journal} Smith J, Jones M Jr, Houghton L et al (1999) Future of health insurance. N Engl J Med 965:325--329
-%
-% Monograph
-\bibitem{basic-mono} South J, Blass B (2001) The future of modern genomics. Blackwell, London 
-%
-\end{thebibliography}
+
+\printbibliography
 \appendix
 \section{Appendix}
 \subsection{Code}
