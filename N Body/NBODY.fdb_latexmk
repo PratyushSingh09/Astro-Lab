@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber NBODY"] 1742326733.16527 "NBODY.bcf" "NBODY.bbl" "NBODY" 1742424711.90451 0
-  "NBODY.bcf" 1742424711 107859 f57977d38d7dde9bdd2e6e28a45b2ca8 "pdflatex"
+["biber NBODY"] 1742326733.16527 "NBODY.bcf" "NBODY.bbl" "NBODY" 1742424824.42115 0
+  "NBODY.bcf" 1742424824 107859 f57977d38d7dde9bdd2e6e28a45b2ca8 "pdflatex"
   "NBODY.bib" 1742326732 857 bf5625354a49bee89b7d87c5de4b7287 ""
   (generated)
   "NBODY.bbl"
   "NBODY.blg"
   (rewritten before read)
-["pdflatex"] 1742424709.4535 "c:/Users/praty/OneDrive - UT Cloud/Astro Lab/Astro-Lab/N Body/NBODY.tex" "NBODY.pdf" "NBODY" 1742424711.90555 0
+["pdflatex"] 1742424820.71754 "c:/Users/praty/OneDrive - UT Cloud/Astro Lab/Astro-Lab/N Body/NBODY.tex" "NBODY.pdf" "NBODY" 1742424824.42214 0
   "2Body/2BD0.png" 1742316785 28625 e90b7da1a993a64f2db4fafe14fded6f ""
   "2Body/2Body_Energy_Consv_dt.png" 1742303599 224770 9386bb2f596d4e7fbb4aa62d42fce11c ""
   "2Body/2Body_Energy_Consv_int.png" 1742303599 204504 b66de74fc9c1d6953e884c84f2ded3f2 ""
@@ -36,6 +36,7 @@
   "C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy8.tfm" 1136765053 1120 8b7d695260f3cff42e636090a8002094 ""
   "C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmti12.tfm" 1136765053 1484 ed72f8f5cf654cda15ecc8e32bfcbee5 ""
   "C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmtt12.tfm" 1136765053 772 9a936b7f5e2ff0557fce0f62822f0bbf ""
+  "C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmtt8.tfm" 1136765053 768 d7b9a2629a0c353102ad947dc9221d49 ""
   "C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1247596666 32080 340ef9bf63678554ee606688e7b5339d ""
   "C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb" 1247596667 32001 6aeea3afe875097b1eb0da29acd61e28 ""
   "C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1247596667 30251 6afa5cb1d0204815a708a080681d4674 ""
@@ -50,6 +51,7 @@
   "C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1247596667 32626 5abc8bb2f28aa647d4c70f8ea38cc0d3 ""
   "C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb" 1247596667 36118 fad905eba93cff5bce1e185fe980a177 ""
   "C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb" 1247596666 24252 1e4e051947e12dfb50fee0b7f4e26e3a ""
+  "C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb" 1247596666 24287 6b803fa9eb1ddff9112e00519b09dd9e ""
   "C:/Users/praty/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mkii" 1580390158 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "C:/Users/praty/AppData/Local/Programs/MiKTeX/tex/generic/atbegshi/atbegshi.sty" 1575571100 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "C:/Users/praty/AppData/Local/Programs/MiKTeX/tex/generic/bigintcalc/bigintcalc.sty" 1576433602 40635 c40361e206be584d448876bba8a64a3b ""
@@ -120,13 +122,15 @@
   "C:/Users/praty/AppData/Local/Programs/MiKTeX/tex/latex/refcount/refcount.sty" 1576433952 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "C:/Users/praty/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657800696 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "C:/Users/praty/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "NBODY.aux" 1742424711 6014 4c6138bd10de7b8484f99d2cf9930009 "pdflatex"
+  "NBODY.aux" 1742424824 6955 8c3f9e8e16bdb2814636e71c9434914d "pdflatex"
   "NBODY.bbl" 1742326736 2422 a6017321dcadf4a4d8ebd1a17cb316ce "biber NBODY"
-  "NBODY.out" 1742424711 2409 cc733c98d75f70f8c7eb7200ab267ebc "pdflatex"
-  "NBODY.run.xml" 1742424711 2313 e7b59289b0ac85d00fb25e9c96986adf "pdflatex"
-  "NBODY.tex" 1742424701 11233 7b809b499603c12bf6cff4994380b4a5 ""
-  "NBODY.toc" 1742424711 1421 7955d0b00ebcbc5ff72515b65d4624f7 "pdflatex"
-  "c:/Users/praty/OneDrive - UT Cloud/Astro Lab/Astro-Lab/N Body/NBODY.tex" 1742424701 11233 7b809b499603c12bf6cff4994380b4a5 ""
+  "NBODY.out" 1742424824 2411 b496c6e140e254cf0f42e7946ffb104f "pdflatex"
+  "NBODY.run.xml" 1742424824 2313 e7b59289b0ac85d00fb25e9c96986adf "pdflatex"
+  "NBODY.tex" 1742424819 14216 93d522321c0ba423d22ec9a0ef87f1a8 ""
+  "NBODY.toc" 1742424824 1422 4157e53c4141c21281363472057f00e6 "pdflatex"
+  "c:/Users/praty/OneDrive - UT Cloud/Astro Lab/Astro-Lab/N Body/NBODY.tex" 1742424819 14216 93d522321c0ba423d22ec9a0ef87f1a8 ""
+  "kirkwood/a_e_kirkwood.png" 1742424775 1031287 dd0e53d2eb34df245257a38d1eff8d34 ""
+  "kirkwood/hist_kirkwood.png" 1742424775 289633 72a49aa0e29728c2bc37d3475148db10 ""
   (generated)
   "NBODY.aux"
   "NBODY.bcf"
