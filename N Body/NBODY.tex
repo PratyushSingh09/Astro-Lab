@@ -189,11 +189,9 @@ Effect of different integrators is tested with a timestep of $10^{-3}$ using the
 \subsection{Three Body Problem and Stability of the Planet System}
 \subsection{Jupiter and Kirkwood Gaps}
 
-In this part of the lab work we simulate 10000 inactive bodies at semi-major axis range $[2, 4] AU$ along with Sun-Jupiter-Mars system to observe the distribution of these objects over time. Our goal is to observe Kirkwood gaps - gaps in the asteroid belt. These gaps apprear due to the orbital resonance with Jupiter.
+In this part of the lab work we must observe Kirkwood gaps - gaps in the asteroid belt - by simulationg and observing the evolution of Sun-Jupiter-Mars system with 10000 test particles. Using REBOUND we can simulate these objects and get semi-major axis and eccentricity of all bodies up to 1 million years of evolution. Additionally, we check the change of distibution at every 100000 years.
 
-Using REBOUND we can simulate these objects and get semi-major axis and eccentricity of all bodies up to 1 million years of evolution. Additionally, we check the change of distibution at every 100000 years.
-
-
+First, Sun, Jupiter and Mars are added with their corresponding masses, semi-major axes and eccemtricities. Next, we add 10000 test particles in a range of 2 to 4 AU and random true anomaly and eccentricities. It is important to make only three major objects active with $\tt sim.N_active=3$ line so all test particles do not affect the system. Additionally, we simplify the solution by using leap-frog integrator due to the complicatied computation. The code records the values of semi-major axis $a$ and eccentricity $a$ of each bodu to .txt file for further visualization.
 
 \subsection{Resonant Capture of a Planet}
 % For each experimental part:
