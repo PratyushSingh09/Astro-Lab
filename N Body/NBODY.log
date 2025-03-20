@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.10)  19 MAR 2025 23:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.10)  20 MAR 2025 20:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -717,59 +717,4 @@ File: 2Body/2Body_const_a_int.png Graphic file (type png)
 <use 2Body/2Body_const_a_int.png>
 Package pdftex.def Info: 2Body/2Body_const_a_int.png  used on input line 192.
 (pdftex.def)             Requested size: 206.49228pt x 122.85876pt.
-<2Body/2Body_const_ecc_int.png, id=151, 1930.21124pt x 1022.82124pt>
-File: 2Body/2Body_const_ecc_int.png Graphic file (type png)
-<use 2Body/2Body_const_ecc_int.png>
-Package pdftex.def Info: 2Body/2Body_const_ecc_int.png  used on input line 197.
-(pdftex.def)             Requested size: 231.85098pt x 122.85876pt.
-
-Overfull \hbox (9.89423pt too wide) in paragraph at lines 197--198
-[][] 
- []
-
-[4 <./2Body/2Body_const_a_dt.png> <./2Body/2Body_const_ecc_dt.png> <./2Body/2Body_Energy_Consv_int.png> <./2Body/2Body_L_Consv_int.png> <./2Body/2Body_const_a_int.png> <./2Body/2Body_const_ecc_int.png>]
-<kirkwood/hist_kirkwood.png, id=165, 1845.7758pt x 1052.2512pt>
-File: kirkwood/hist_kirkwood.png Graphic file (type png)
-<use kirkwood/hist_kirkwood.png>
-Package pdftex.def Info: kirkwood/hist_kirkwood.png  used on input line 219.
-(pdftex.def)             Requested size: 452.9679pt x 258.22928pt.
-
-
-LaTeX Warning: Reference `fig: kirkwood_histogram' on page 5 undefined on input line 224.
-
-[5 <./kirkwood/hist_kirkwood.png>]
-<kirkwood/a_e_kirkwood.png, id=174, 1845.7758pt x 1052.2512pt>
-File: kirkwood/a_e_kirkwood.png Graphic file (type png)
-<use kirkwood/a_e_kirkwood.png>
-Package pdftex.def Info: kirkwood/a_e_kirkwood.png  used on input line 231.
-(pdftex.def)             Requested size: 452.9679pt x 258.22928pt.
- [6 <./kirkwood/a_e_kirkwood.png>] [7] (NBODY.aux)
- ***********
-LaTeX2e <2023-11-01> patch level 1
-L3 programming layer <2024-01-04>
- ***********
-
-
-LaTeX Warning: There were undefined references.
-
-Package rerunfilecheck Info: File `NBODY.out' has not changed.
-(rerunfilecheck)             Checksum: B496C6E140E254CF0F42E7946FFB104F;2411.
-Package logreq Info: Writing requests to 'NBODY.run.xml'.
-\openout1 = `NBODY.run.xml'.
-
- ) 
-Here is how much of TeX's memory you used:
- 18842 strings out of 476441
- 335321 string characters out of 5794799
- 1934542 words of memory out of 5000000
- 40629 multiletter control sequences out of 15000+600000
- 565048 words of font info for 61 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 75i,12n,81p,742b,1386s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on NBODY.pdf (9 pages, 2327525 bytes).
-PDF statistics:
- 267 PDF objects out of 1000 (max. 8388607)
- 43 named destinations out of 1000 (max. 500000)
- 200 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+<2Body/2Body_const_ecc_int.pn
