@@ -239,12 +239,19 @@ stronger changes for the eccentricities and semi major axis. For initially circu
   \Delta_c \simeq 2.40(\mu_2+\mu_3)^{1/3}
 \end{equation}
 Where $\mu$ is the mass ratio with respect to $m_1$. %CHECK THIS
-At distances greater than $\Delta_c$, the system is considered to be stable. When the system is unstable, there is a possibility of close encounters between $m_1$ and $m_2$. A 'close encounter' is when the distance between 
+At distances greater than $\Delta_c$, the system is considered to be stable. When the system is unstable, there is a possibility of close encounters between $m_1$ and $m_2$. A `close encounter' is when the distance between 
 the two bodies is less than the Hill radius of the larger of the two bodies. Here, the Hill radius is given by:
 \begin{equation}
   R_{in} = a^3\sqrt{\mu/3}
 \end{equation}
-If there are no close encounters between the bodies at all times, the system is 'Hill stable' or simply stable.
+If there are no close encounters between the bodies at all times, the system is `Hill stable' or simply stable.\\
+We simulate the 3 body problem using REBOUND by following a similar procedure to the 2 body problem. Using the IAS15 integrator to achieve high accuracy we simulate the system for 1000 orbits for different separations 
+between the two smaller bodies. REBOUND can automatically detect close encounters between the bodies and handle them accordingly (halting the simulation, merging the bodies, hard sphere collision or a user defined function). 
+For our purposes we will only count the number of close encounters.\\
+We  simulate the system with $m_1=1$, $m_2=m_3=10^-5$,$a_1=1$,$a_2=1+\Delta$ where $\Delta$ is the separation between the two smaller bodies. The eccentricities of both bodies is initially 0. We create different simulations for
+$\Delta = 0.1, 0.5, 1, 1.5$ and $10$.
+
+
 \subsection{Jupiter and Kirkwood Gaps}
 
 In this part of the lab work we must observe Kirkwood gaps - gaps in the asteroid belt - by simulationg and observing the evolution of Sun-Jupiter-Mars system with 10000 test particles. 
