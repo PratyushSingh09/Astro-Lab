@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.10)  20 MAR 2025 20:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.10)  20 MAR 2025 21:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -628,147 +628,141 @@ l.72 \newpage
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.118 \begin{equation}
-                       [1]
-<2Body/2BD0.png, id=115, 462.528pt x 346.896pt>
+l.117 
+       [1] [2]
+<2Body/2BD0.png, id=122, 462.528pt x 346.896pt>
 File: 2Body/2BD0.png Graphic file (type png)
 <use 2Body/2BD0.png>
-Package pdftex.def Info: 2Body/2BD0.png  used on input line 138.
+Package pdftex.def Info: 2Body/2BD0.png  used on input line 168.
 (pdftex.def)             Requested size: 452.9679pt x 339.74402pt.
- [2]
-<2Body/2Body_Energy_Consv_dt.png, id=134, 1729.46124pt x 1006.76125pt>
+<2Body/2Body_Energy_Consv_dt.png, id=124, 1729.46124pt x 1006.76125pt>
 File: 2Body/2Body_Energy_Consv_dt.png Graphic file (type png)
 <use 2Body/2Body_Energy_Consv_dt.png>
-Package pdftex.def Info: 2Body/2Body_Energy_Consv_dt.png  used on input line 146.
+Package pdftex.def Info: 2Body/2Body_Energy_Consv_dt.png  used on input line 176.
 (pdftex.def)             Requested size: 211.03618pt x 122.85876pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
+Underfull \hbox (badness 10000) in paragraph at lines 177--177
 []\OT1/cmr/m/n/10.95 (a) |Con-ser-va-tion of En-ergy at var-i-ous
  []
 
 
-Underfull \hbox (badness 1629) in paragraph at lines 147--147
+Underfull \hbox (badness 1629) in paragraph at lines 177--177
 \OT1/cmr/m/n/10.95 timesteps. As we in-crease the timestep,
  []
 
-<2Body/2Body_L_Consv_dt.png, id=135, 1912.14375pt x 1027.84pt>
+<2Body/2Body_L_Consv_dt.png, id=125, 1912.14375pt x 1027.84pt>
 File: 2Body/2Body_L_Consv_dt.png Graphic file (type png)
 <use 2Body/2Body_L_Consv_dt.png>
-Package pdftex.def Info: 2Body/2Body_L_Consv_dt.png  used on input line 151.
+Package pdftex.def Info: 2Body/2Body_L_Consv_dt.png  used on input line 181.
 (pdftex.def)             Requested size: 228.54286pt x 122.85876pt.
 
-Overfull \hbox (6.5861pt too wide) in paragraph at lines 151--152
+Overfull \hbox (6.5861pt too wide) in paragraph at lines 181--182
 [][] 
  []
 
 
-Underfull \hbox (badness 1005) in paragraph at lines 152--152
+Underfull \hbox (badness 1005) in paragraph at lines 182--182
 \OT1/cmr/m/n/10.95 mo-men-tum gets worse as we de-crease the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 142--156
+Underfull \hbox (badness 10000) in paragraph at lines 172--186
 
  []
 
+[3 <./2Body/2BD0.png>]
 <2Body/2Body_const_a_dt.png, id=136, 2055.68pt x 1057.9525pt>
 File: 2Body/2Body_const_a_dt.png Graphic file (type png)
 <use 2Body/2Body_const_a_dt.png>
-Package pdftex.def Info: 2Body/2Body_const_a_dt.png  used on input line 161.
+Package pdftex.def Info: 2Body/2Body_const_a_dt.png  used on input line 191.
 (pdftex.def)             Requested size: 238.7037pt x 122.85876pt.
 
-Overfull \hbox (16.74695pt too wide) in paragraph at lines 161--162
+Overfull \hbox (16.74695pt too wide) in paragraph at lines 191--192
 [][] 
  []
 
 <2Body/2Body_const_ecc_dt.png, id=137, 1962.33125pt x 1001.7425pt>
 File: 2Body/2Body_const_ecc_dt.png Graphic file (type png)
 <use 2Body/2Body_const_ecc_dt.png>
-Package pdftex.def Info: 2Body/2Body_const_ecc_dt.png  used on input line 166.
+Package pdftex.def Info: 2Body/2Body_const_ecc_dt.png  used on input line 196.
 (pdftex.def)             Requested size: 240.64967pt x 122.85876pt.
 
-Overfull \hbox (18.69292pt too wide) in paragraph at lines 166--167
+Overfull \hbox (18.69292pt too wide) in paragraph at lines 196--197
 [][] 
  []
 
-[3 <./2Body/2BD0.png> <./2Body/2Body_Energy_Consv_dt.png> <./2Body/2Body_L_Consv_dt.png>]
-<2Body/2Body_Energy_Consv_int.png, id=148, 1679.27374pt x 1001.7425pt>
+<2Body/2Body_Energy_Consv_int.png, id=138, 1679.27374pt x 1001.7425pt>
 File: 2Body/2Body_Energy_Consv_int.png Graphic file (type png)
 <use 2Body/2Body_Energy_Consv_int.png>
-Package pdftex.def Info: 2Body/2Body_Energy_Consv_int.png  used on input line 177.
+Package pdftex.def Info: 2Body/2Body_Energy_Consv_int.png  used on input line 207.
 (pdftex.def)             Requested size: 205.93704pt x 122.85876pt.
-<2Body/2Body_L_Consv_int.png, id=149, 1879.02pt x 993.7125pt>
+<2Body/2Body_L_Consv_int.png, id=139, 1879.02pt x 993.7125pt>
 File: 2Body/2Body_L_Consv_int.png Graphic file (type png)
 <use 2Body/2Body_L_Consv_int.png>
-Package pdftex.def Info: 2Body/2Body_L_Consv_int.png  used on input line 182.
+Package pdftex.def Info: 2Body/2Body_L_Consv_int.png  used on input line 212.
 (pdftex.def)             Requested size: 232.2965pt x 122.85876pt.
 
-Overfull \hbox (10.33974pt too wide) in paragraph at lines 182--183
+Overfull \hbox (10.33974pt too wide) in paragraph at lines 212--213
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 172--187
+Underfull \hbox (badness 10000) in paragraph at lines 202--217
 
  []
 
-<2Body/2Body_const_a_int.png, id=150, 1930.21124pt x 1148.29pt>
+<2Body/2Body_const_a_int.png, id=140, 1930.21124pt x 1148.29pt>
 File: 2Body/2Body_const_a_int.png Graphic file (type png)
 <use 2Body/2Body_const_a_int.png>
-Package pdftex.def Info: 2Body/2Body_const_a_int.png  used on input line 192.
+Package pdftex.def Info: 2Body/2Body_const_a_int.png  used on input line 222.
 (pdftex.def)             Requested size: 206.49228pt x 122.85876pt.
-<2Body/2Body_const_ecc_int.png, id=151, 1930.21124pt x 1022.82124pt>
+<2Body/2Body_const_ecc_int.png, id=141, 1930.21124pt x 1022.82124pt>
 File: 2Body/2Body_const_ecc_int.png Graphic file (type png)
 <use 2Body/2Body_const_ecc_int.png>
-Package pdftex.def Info: 2Body/2Body_const_ecc_int.png  used on input line 197.
+Package pdftex.def Info: 2Body/2Body_const_ecc_int.png  used on input line 227.
 (pdftex.def)             Requested size: 231.85098pt x 122.85876pt.
 
-Overfull \hbox (9.89423pt too wide) in paragraph at lines 197--198
+Overfull \hbox (9.89423pt too wide) in paragraph at lines 227--228
 [][] 
  []
 
-[4 <./2Body/2Body_const_a_dt.png> <./2Body/2Body_const_ecc_dt.png> <./2Body/2Body_Energy_Consv_int.png> <./2Body/2Body_L_Consv_int.png> <./2Body/2Body_const_a_int.png> <./2Body/2Body_const_ecc_int.png>]
-<kirkwood/hist_kirkwood.png, id=166, 1845.7758pt x 1052.2512pt>
+[4 <./2Body/2Body_Energy_Consv_dt.png> <./2Body/2Body_L_Consv_dt.png> <./2Body/2Body_const_a_dt.png> <./2Body/2Body_const_ecc_dt.png> <./2Body/2Body_Energy_Consv_int.png> <./2Body/2Body_L_Consv_int.png>] [5 <./2Body/2Body_const_a_int.png> <./2Body/2Body_const_ecc_int.png>]
+
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 258.
+
+<kirkwood/hist_kirkwood.png, id=170, 1845.7758pt x 1052.2512pt>
 File: kirkwood/hist_kirkwood.png Graphic file (type png)
 <use kirkwood/hist_kirkwood.png>
-Package pdftex.def Info: kirkwood/hist_kirkwood.png  used on input line 227.
+Package pdftex.def Info: kirkwood/hist_kirkwood.png  used on input line 263.
 (pdftex.def)             Requested size: 452.9679pt x 258.22928pt.
-
-
-LaTeX Warning: Reference `fig: kirkwood_histogram' on page 5 undefined on input line 232.
-
-<kirkwood/a_e_kirkwood.png, id=167, 1845.7758pt x 1052.2512pt>
+<kirkwood/a_e_kirkwood.png, id=172, 1845.7758pt x 1052.2512pt>
 File: kirkwood/a_e_kirkwood.png Graphic file (type png)
 <use kirkwood/a_e_kirkwood.png>
-Package pdftex.def Info: kirkwood/a_e_kirkwood.png  used on input line 239.
+Package pdftex.def Info: kirkwood/a_e_kirkwood.png  used on input line 275.
 (pdftex.def)             Requested size: 452.9679pt x 258.22928pt.
-[5] [6 <./kirkwood/hist_kirkwood.png>] [7 <./kirkwood/a_e_kirkwood.png>] (NBODY.aux)
+[6 <./kirkwood/hist_kirkwood.png>] [7 <./kirkwood/a_e_kirkwood.png>] [8] (NBODY.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
 Package rerunfilecheck Info: File `NBODY.out' has not changed.
-(rerunfilecheck)             Checksum: B496C6E140E254CF0F42E7946FFB104F;2411.
+(rerunfilecheck)             Checksum: 3DCE6742FF51C3B33072E9E8BB55A9BC;2324.
 Package logreq Info: Writing requests to 'NBODY.run.xml'.
 \openout1 = `NBODY.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18847 strings out of 476441
- 335466 string characters out of 5794799
- 1936542 words of memory out of 5000000
- 40632 multiletter control sequences out of 15000+600000
- 565048 words of font info for 61 fonts, out of 8000000 for 9000
+ 18857 strings out of 476441
+ 335624 string characters out of 5794799
+ 1935542 words of memory out of 5000000
+ 40635 multiletter control sequences out of 15000+600000
+ 565669 words of font info for 63 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,12n,81p,742b,1301s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt8.pfb>
-Output written on NBODY.pdf (9 pages, 2331610 bytes).
+ 75i,11n,81p,742b,1301s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on NBODY.pdf (10 pages, 2334934 bytes).
 PDF statistics:
- 271 PDF objects out of 1000 (max. 8388607)
- 45 named destinations out of 1000 (max. 500000)
- 200 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 270 PDF objects out of 1000 (max. 8388607)
+ 50 named destinations out of 1000 (max. 500000)
+ 184 words of extra memory for PDF output out of 10000 (max. 10000000)
 

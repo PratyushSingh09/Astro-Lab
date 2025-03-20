@@ -238,17 +238,23 @@ stronger changes for the eccentricities and semi major axis. For initially circu
 \begin{equation}
   \Delta_c \simeq 2.40(\mu_2+\mu_3)^{1/3}
 \end{equation}
-At distances greater than $\Delta_c$, the system is considered to be stable. 
+Where $\mu$ is the mass ratio with respect to $m_1$. %CHECK THIS
+At distances greater than $\Delta_c$, the system is considered to be stable. When the system is unstable, there is a possibility of close encounters between $m_1$ and $m_2$. A 'close encounter' is when the distance between 
+the two bodies is less than the Hill radius of the larger of the two bodies. Here, the Hill radius is given by:
+\begin{equation}
+  R_{in} = a^3\sqrt{\mu/3}
+\end{equation}
+If there are no close encounters between the bodies at all times, the system is 'Hill stable' or simply stable.
 \subsection{Jupiter and Kirkwood Gaps}
 
 In this part of the lab work we must observe Kirkwood gaps - gaps in the asteroid belt - by simulationg and observing the evolution of Sun-Jupiter-Mars system with 10000 test particles. 
 Using REBOUND we can simulate these objects and get semi-major axis and eccentricity of all bodies up to 1 million years of evolution. Additionally, we check the change of distibution at every 100000 years.
 
-Kirkwood gaps are caused by the resonant interaction between the asteroids and Jupiter \ref{asteroids}. The resonant interaction leads to the instability of the orbits of the asteroids.
+Kirkwood gaps are caused by the resonant interaction between the asteroids and Jupiter \cite{asteroids}. The resonant interaction leads to the instability of the orbits of the asteroids.
 Moreover, the instabilities cause the increase of eccentricity of the asteroids, and the asteroids with higher eccentricity are more likely to collide with inner planets.
 The main Kirkwood gaps are at 2.50, 2.82, 2.95, 3.27 AU corresponding to the resonant periods of 3:1, 5:2, 7:3, 2:1 respectively.
 
-First, Sun, Jupiter and Mars are added with their corresponding masses, semi-major axes and eccemtricities. 
+First, Sun, Jupiter and Mars are added with their corresponding masses, semi-major axes and eccentricities. 
 Next, we add 10000 test particles in a range of 2 to 4 AU and random true anomaly and eccentricities. It is important to make only three major objects active with $\tt sim.N\textunderscore active=3$ line so all test particles do not affect the system. 
 Additionally, we simplify the solution by using leap-frog integrator due to the complicatied computation. The code records the values of semi-major axis $a$ and eccentricity $a$ of each body to .txt file for further visualization.
 

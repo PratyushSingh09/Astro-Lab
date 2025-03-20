@@ -49,6 +49,36 @@
       \verb 10.1006/icar.1993.1169
       \endverb
     \endentry
+    \entry{asteroids}{article}{}
+      \name{author}{1}{}{%
+        {{hash=98e39b188485d782c2f735d6a5f5a6d3}{%
+           family={Greenstreet},
+           familyi={G\bibinitperiod},
+           given={Sarah},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{98e39b188485d782c2f735d6a5f5a6d3}
+      \strng{fullhash}{98e39b188485d782c2f735d6a5f5a6d3}
+      \strng{bibnamehash}{98e39b188485d782c2f735d6a5f5a6d3}
+      \strng{authorbibnamehash}{98e39b188485d782c2f735d6a5f5a6d3}
+      \strng{authornamehash}{98e39b188485d782c2f735d6a5f5a6d3}
+      \strng{authorfullhash}{98e39b188485d782c2f735d6a5f5a6d3}
+      \field{labelalpha}{Gre21}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physics Today}
+      \field{number}{7}
+      \field{title}{{Asteroids in the inner solar system}}
+      \field{volume}{74}
+      \field{year}{2021}
+      \field{pages}{42\bibrangedash 47}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1063/PT.3.4794
+      \endverb
+    \endentry
     \entry{rebound}{article}{}
       \name{author}{2}{}{%
         {{hash=17320eec0d683d2c1c8d189c77abcdc6}{%
