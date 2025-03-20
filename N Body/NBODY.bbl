@@ -19,6 +19,36 @@
 
 \refsection{0}
   \datalist[entry]{anyt/global//global/global}
+    \entry{Gladman}{article}{}
+      \name{author}{1}{}{%
+        {{hash=2f70985d4bae65e9d8ff96664b8b7d3d}{%
+           family={Gladman},
+           familyi={G\bibinitperiod},
+           given={Brett},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{2f70985d4bae65e9d8ff96664b8b7d3d}
+      \strng{fullhash}{2f70985d4bae65e9d8ff96664b8b7d3d}
+      \strng{bibnamehash}{2f70985d4bae65e9d8ff96664b8b7d3d}
+      \strng{authorbibnamehash}{2f70985d4bae65e9d8ff96664b8b7d3d}
+      \strng{authornamehash}{2f70985d4bae65e9d8ff96664b8b7d3d}
+      \strng{authorfullhash}{2f70985d4bae65e9d8ff96664b8b7d3d}
+      \field{labelalpha}{Gla93}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Icarus}
+      \field{month}{11}
+      \field{title}{Dynamics of Systems of Two Close Planets}
+      \field{volume}{106}
+      \field{year}{1993}
+      \field{pages}{247\bibrangedash 263}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1006/icar.1993.1169
+      \endverb
+    \endentry
     \entry{rebound}{article}{}
       \name{author}{2}{}{%
         {{hash=17320eec0d683d2c1c8d189c77abcdc6}{%
