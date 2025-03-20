@@ -78,16 +78,46 @@ This is optional, but never longer than half a page.
 \lhead{\groupno; \experiment}
 
 \section{Introduction}\label{sec:intro} % labels allow references, particularly important for figures and tables
-Very short summary what the experiment is about and why the subject plays a role in astronomy/astrophysics.
+In this laboratory work numerically we solve various N-body problems using integrator software package REBOUND.
+
 
 \section{Theory}\label{sec:theory}
 \subsection{Classical N-Body Problem}
 
 \subsection{Time Integrators}
+Computers can calculate equations of motion for N-bodies with time integrators. Time integrators use certain algorithms to solve ODEs with discrete values of time starting from initial time $t_n$, and computers position and velocity at next time $t_n+\Delta t$. There are various numerical schemes to solve initial value problems in such way, and next subsections will give a general outlook on some of methods, since one of our tasks is to compare different time integrators.
+
 \subsubsection{Leapfrog}
-\subsubsection{IAS15}
-\subsubsection{WHFast}
-\subsubsection{Gragg-Bulirsch-Stoer}
+
+Leapfrog is second order symplectic integrator. In the first step, it calculates the next value for position at time $\Delta t/2$:
+
+\begin{equation}
+	\textbf{r}_{1/2} = \textbf{r}_0 + \textbf{v}_0 \frac{\Delta t}{2}
+\end{equation}
+
+From that slope (acceleration) $a_{1/2}$ is calculated, and next regular steps calculate velocity and position at integer and half integer steps:
+
+\begin{equation}
+	\textbf{v}_{n+1} = \textbf{v}_n + \textbf{a}_{n+1/2} \Delta t
+\end{equation}
+
+\begin{equation}
+	\textbf{r}_{n+3/2} = \textbf{r}_{n+1/2} + \textbf{v}_{n+1} \Delta t
+\end{equation}
+
+And the last step for position:
+
+\begin{equation}
+	\textbf{r}_{n+1} = \textbf{r}_{n+1/2} + \textbf{v}_{n+1} \frac{\Delta t}{2}
+\end{equation}
+
+\subsubsection{IAS15, WHFast, and Gragg-Bulirsch-Stoer}
+
+IAS15 is a non-symplectic 15th order integrator with dynamic step size. This method can compute chaotic encounters in N-body systems down to machine precision, but very computationally demanding.
+
+Wisdom-Holman Fast (WHFast) is second-order integrator with 11th order corrector. Is is fast for integrating long evolutions with conserved energy, so it is best for systems without collisions.
+
+Gragg-Bulirsch-Stoer is a method based on Richardson exrapolation with very high accuracy. It uses adaptive step sizes for higher accuracy, but computationally demanding.
 % A short overview over the most important points of the experiment, including the answers
 % to the questions (2 to 3 pages maximum plus questions).
 
@@ -219,7 +249,7 @@ Moreover, the instabilities cause the increase of eccentricity of the asteroids,
 The main Kirkwood gaps are at 2.50, 2.82, 2.95, 3.27 AU corresponding to the resonant periods of 3:1, 5:2, 7:3, 2:1 respectively.
 
 First, Sun, Jupiter and Mars are added with their corresponding masses, semi-major axes and eccemtricities. 
-Next, we add 10000 test particles in a range of 2 to 4 AU and random true anomaly and eccentricities. It is important to make only three major objects active with $\tt sim.N_active=3$ line so all test particles do not affect the system. 
+Next, we add 10000 test particles in a range of 2 to 4 AU and random true anomaly and eccentricities. It is important to make only three major objects active with $\tt sim.N\textunderscore active=3$ line so all test particles do not affect the system. 
 Additionally, we simplify the solution by using leap-frog integrator due to the complicatied computation. The code records the values of semi-major axis $a$ and eccentricity $a$ of each body to .txt file for further visualization.
 
 \begin{figure}[ht]
@@ -229,7 +259,7 @@ Additionally, we simplify the solution by using leap-frog integrator due to the 
   \label{fig:kirkwood_histogram}
 \end{figure}
 
-Fig. \ref{fig: kirkwood_histogram} shows the histograms of the number of asteroids at various distances every $10^5$ years.
+Fig. \ref{fig:kirkwood_histogram} shows the histograms of the number of asteroids at various distances every $10^5$ years.
 End result does not show the exact Kirkwood gaps due to the short timespan of the simulation and simplifications in the model and integrator. However, there are smaller number of asteroids near the expected respnance locations, especially near 2.82 AU and 2.95 AU.
 
 Further, we can plot the semi-major axis and eccentricity of the test particles to see the evolution of the system:
