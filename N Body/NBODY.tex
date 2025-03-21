@@ -248,10 +248,72 @@ If there are no close encounters between the bodies at all times, the system is 
 We simulate the 3 body problem using REBOUND by following a similar procedure to the 2 body problem. Using the IAS15 integrator to achieve high accuracy we simulate the system for 1000 orbits for different separations 
 between the two smaller bodies. REBOUND can automatically detect close encounters between the bodies and handle them accordingly (halting the simulation, merging the bodies, hard sphere collision or a user defined function). 
 For our purposes we will only count the number of close encounters.\\
+\subsubsection{Equal Mass Planets}
 We  simulate the system with $m_1=1$, $m_2=m_3=10^-5$,$a_1=1$,$a_2=1+\Delta$ where $\Delta$ is the separation between the two smaller bodies. The eccentricities of both bodies is initially 0. We create different simulations for
-$\Delta = 0.1, 0.5, 1, 1.5$ and $10$.
+$\Delta = 0.1, 0.5, 1, 1.5$ and $10$ times the value of $\Delta_c$ for this system.
+As expected, for $\Delta\geq\Delta_c$ the orbits are stable. For $\Delta=1\Delta_c$ and $\Delta=1.5\Delta_c$ the planets are in resonances.
+\begin{figure}[H]
+  \begin{subfigure}{0.49\textwidth}
+    \centering
+    \includegraphics[height = 2.3in]{3Body/3BD_orbit_delta1.5.png}
+    \caption{Orbit of a 3 body system with $\Delta = 1.5\Delta_c$. The system is stable and the planets are in a 3:2 resonance}
+    \label{fig:3Body_1.5}
+  \end{subfigure}
+  \begin{subfigure}{0.49\textwidth}
+    \centering
+    \includegraphics[height = 2.3in]{3Body/3BD_ecc_delta1.5.png}
+    \caption{Eccentricity of the planets with $\Delta = 1.5\Delta_c$. It is same for both planets throughout its evolution}
+    \label{fig:3Body_1.5_ecc}
+  \end{subfigure}
+  
+  \begin{subfigure}{0.49\textwidth}
+    \centering
+    \includegraphics[height = 2.1in]{3Body/3BD_a_delta1.5.png}
+    \caption{Semi Major Axis of the planets with $\Delta = 1.5\Delta_c$. It is basically constant}
+    \label{fig:3Body_1.5_a}
+  \end{subfigure}
+  \caption{Properties of a 3 body system with $\Delta = 1.5\Delta_c$}
+\end{figure}
 
+For $\Delta=10\Delta_c$, we observe the effect of tidal forces and observe the eccentricity of the closer planet increase
+\begin{figure}[H]
+  % \begin{subfigure}{0.49\textwidth}
+  \centering
+  \includegraphics[height = 2.7in]{3Body/3BD_ecc_delta10.png}
+  \caption{Eccentricity of the planets with $\Delta = 10\Delta_c$. An increase in eccentricity for the planet closer to the star($m_2$) is observed}
+  \label{fig:3Body_10}
+  % \end{subfigure}
+\end{figure}
 
+For $\Delta=0.1\Delta_c$ we observe that the planets periodically exchange their orbits. Even though this is less than $\Delta_c$, there are no close encounters
+detected by REBOUND.
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}{0.49\textwidth}
+    \centering
+    \includegraphics[height = 2.4in]{3Body/3BD_orbit_delta0.1.png}
+    \caption{Orbit of a 3 body system with $\Delta = 0.1\Delta_c$. In this plot both of the planet orbits are on top of each other}
+    \label{fig:3Body_0.1}
+  \end{subfigure}
+  \begin{subfigure}{0.49\textwidth}
+    \centering
+    \includegraphics[height = 2.4in]{3Body/3BD_orbit_delta0.1_Close.png}
+    \caption{A closer view of the orbit. The exchange of orbits is clearly observed here}
+    \label{fig:3Body_0.1_close}
+  \end{subfigure}
+
+  \begin{subfigure}{0.49\textwidth}
+    \centering
+    \includegraphics[height = 2.4in]{3Body/3BD_a_delta0.1.png}
+    \caption{Change in semi major axis of the planets with $\Delta = 0.1\Delta_c$. The orbit exchange is clearly observed here}
+    \label{fig:3Body_0.1_close}
+  \end{subfigure}
+  \caption{Orbit of a 3 body system with $\Delta = 0.1\Delta_c$}
+\end{figure}
+
+For $\Delta=0.5\Delta_c$ the system is unstable and REBOUND detects several collisions here (in hour case$ \sim $ 11,000 collisions but this can vary depending on the type of integrator or time step).
+
+\subsubsection{Unequal Mass Planets}
 \subsection{Jupiter and Kirkwood Gaps}
 
 In this part of the lab work we must observe Kirkwood gaps - gaps in the asteroid belt - by simulationg and observing the evolution of Sun-Jupiter-Mars system with 10000 test particles. 
