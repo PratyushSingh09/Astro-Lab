@@ -313,7 +313,58 @@ detected by REBOUND.
 
 For $\Delta=0.5\Delta_c$ the system is unstable and REBOUND detects several collisions here (in hour case$ \sim $ 11,000 collisions but this can vary depending on the type of integrator or time step).
 
+\begin{figure}[H]
+  % \centering
+  \begin{subfigure}{0.4\textwidth}
+    \centering
+    \includegraphics[height = 2.4in]{3Body/3BD_orbit_delta0.5.png}
+    \caption{Orbit of a 3 body system with $\Delta = 0.5\Delta_c$}
+    \label{fig:3Body_0.5}
+  \end{subfigure}
+  \begin{subfigure}{0.4\textwidth}
+    \centering
+    \includegraphics[height = 2.4in]{3Body/3BD_orbit_delta0.5_short.png}
+    \caption{The orbit plotted for a shorter time}
+    \label{fig:3Body_0.5_short}
+  \end{subfigure}
+  \begin{subfigure}{0.4\textwidth}
+    \centering
+    \includegraphics[height = 2.4in]{3Body/3BD_a_delta0.5.png}
+    \caption{Change in semi major axis of the planets with $\Delta = 0.5\Delta_c$}
+    \label{fig:3Body_0.5_a}
+  \end{subfigure}
+
+  \begin{subfigure}{0.4\textwidth}
+    \centering
+    \includegraphics[height = 2.4in]{3Body/3BD_ecc_delta0.5.png}
+    \caption{Change in eccentricity of the planets with $\Delta = 0.5\Delta_c$}
+    \label{fig:3Body_0.5_ecc}
+  \end{subfigure}
+  \caption{Properties of a 3 body system with $\Delta = 0.5\Delta_c$}
+\end{figure}
 \subsubsection{Unequal Mass Planets}
+The above exercise was repeated by changing one of the masses $m_3= 10^{-7}$. \\
+For $\Delta=0.1\Delta_c$ the orbit exchange is still observed, but now the smaller planet $m_3$ has a larger variation in semi major axis as compared to $m_2$.
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}{0.49\textwidth}
+    \centering
+    \includegraphics[height = 2.4in]{3Body/3BD_orbit_delta0.1_Close_2.png}
+    \caption{A closer view of the orbit. The exchange of orbits is clearly observed here}
+    \label{fig:3Body_0.1_close}
+  \end{subfigure}
+
+  \begin{subfigure}{0.49\textwidth}
+    \centering
+    \includegraphics[height = 2.4in]{3Body/3BD_a_delta_20.1.png}
+    \caption{Change in semi major axis of the planets with $\Delta = 0.1\Delta_c$ for planets of different masses. The orbit exchange is clearly observed here}
+    \label{fig:3Body_0.1_close}
+  \end{subfigure}
+  \caption{Orbit of a 3 body system with $\Delta = 0.1\Delta_c$}
+\end{figure}
+Now, REBOUND detects collisions for both $\Delta=0.5\Delta_c$ and $\Delta=1\Delta_c$.\\
+Systems with higher $\Delta_c$ are still stable
+
 \subsection{Jupiter and Kirkwood Gaps}
 
 In this part of the lab work we must observe Kirkwood gaps - gaps in the asteroid belt - by simulationg and observing the evolution of Sun-Jupiter-Mars system with 10000 test particles. 

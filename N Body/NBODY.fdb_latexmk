@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber NBODY"] 0 "NBODY.bcf" "NBODY.bbl" "NBODY" 1742587582.65851 -1
-  "NBODY.bcf" 1742587582 107985 e59ac5a62823635739bfec4d9378633c "pdflatex"
+["biber NBODY"] 0 "NBODY.bcf" "NBODY.bbl" "NBODY" 1742602301.48321 -1
+  "NBODY.bcf" 1742602301 107985 e59ac5a62823635739bfec4d9378633c "pdflatex"
   "NBODY.bib" 1742500720 1367 ae21336254012c7bd89289967b1e6698 ""
   (generated)
   "NBODY.bbl"
   "NBODY.blg"
   (rewritten before read)
-["pdflatex"] 1742587578.26146 "c:/Users/praty/OneDrive - UT Cloud/Astro Lab/Astro-Lab/N Body/NBODY.tex" "NBODY.pdf" "NBODY" 1742587582.65948 0
+["pdflatex"] 1742602294.44847 "c:/Users/praty/OneDrive - UT Cloud/Astro Lab/Astro-Lab/N Body/NBODY.tex" "NBODY.pdf" "NBODY" 1742602301.48488 0
   "2Body/2BD0.png" 1742316785 28625 e90b7da1a993a64f2db4fafe14fded6f ""
   "2Body/2Body_Energy_Consv_dt.png" 1742303599 224770 9386bb2f596d4e7fbb4aa62d42fce11c ""
   "2Body/2Body_Energy_Consv_int.png" 1742303599 204504 b66de74fc9c1d6953e884c84f2ded3f2 ""
@@ -17,11 +17,17 @@
   "2Body/2Body_const_ecc_dt.png" 1742303599 248021 3bfce01df2454ab45f71e3b842a73252 ""
   "2Body/2Body_const_ecc_int.png" 1742303599 244971 cac3c64f177a22845c46f2c5f30fd097 ""
   "3Body/3BD_a_delta0.1.png" 1742582278 39353 6c647a943cb31e4a48371a5ec66e05ec ""
+  "3Body/3BD_a_delta0.5.png" 1742582325 31372 13f88f54ae47ffd5d05065456b6f3f88 ""
   "3Body/3BD_a_delta1.5.png" 1742582428 23290 823f74e15b358a67f08bbacc099db637 ""
+  "3Body/3BD_a_delta_20.1.png" 1742582660 31873 9d012ea1aa4ba3b0853382035c78dcac ""
+  "3Body/3BD_ecc_delta0.5.png" 1742582320 26768 6aa475fbd4ce84c8d00230e952384ba5 ""
   "3Body/3BD_ecc_delta1.5.png" 1742582419 32610 c5e18a7c9749c5623667a78f6aec732d ""
   "3Body/3BD_ecc_delta10.png" 1742582465 37266 b477ac760ee1e4eddc79d713c8c96f92 ""
   "3Body/3BD_orbit_delta0.1.png" 1742582244 32849 d6023659fd76853125f62f654bd8d3c8 ""
   "3Body/3BD_orbit_delta0.1_Close.png" 1742510504 174057 8fb312ee8cdceb2b5db0ba833e2399ac ""
+  "3Body/3BD_orbit_delta0.1_Close_2.png" 1742602088 151317 ae736156268b9f52cad85cc47ae57b74 ""
+  "3Body/3BD_orbit_delta0.5.png" 1742582307 47369 9d049f7edec2bda896fc825bb910d4b6 ""
+  "3Body/3BD_orbit_delta0.5_short.png" 1742510662 126760 91c960b6f3f9c437885a87c54865264f ""
   "3Body/3BD_orbit_delta1.5.png" 1742582405 32391 d01b9c48a478944ae96158c36d33dd70 ""
   "C:/Users/praty/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1742298661 82507 a9eef8696c92627b87e9975edea03b2a ""
   "C:/Users/praty/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1710090178 21099418 0159a99414e81aa6d3ff6bc36213b4d6 ""
@@ -132,13 +138,13 @@
   "C:/Users/praty/AppData/Local/Programs/MiKTeX/tex/latex/refcount/refcount.sty" 1576433952 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "C:/Users/praty/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657800696 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "C:/Users/praty/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "NBODY.aux" 1742587582 10026 eeadec94749cfdc6ea923fa12658c49f "pdflatex"
+  "NBODY.aux" 1742602301 12031 49fb48fcae2e5f047b05549272b699c0 "pdflatex"
   "NBODY.bbl" 1742500924 4741 1753dfad69dc477460c818d756178540 "biber NBODY"
-  "NBODY.out" 1742587582 2662 a1aa8d41ddba7f9308659a9d01f2b874 "pdflatex"
-  "NBODY.run.xml" 1742587582 2313 e7b59289b0ac85d00fb25e9c96986adf "pdflatex"
-  "NBODY.tex" 1742587573 21235 0b7d25d3a1ffc051a0b262fd243ed8ef ""
-  "NBODY.toc" 1742587582 1472 743c207c9c3240f55611b1890f7c5e51 "pdflatex"
-  "c:/Users/praty/OneDrive - UT Cloud/Astro Lab/Astro-Lab/N Body/NBODY.tex" 1742587573 21235 0b7d25d3a1ffc051a0b262fd243ed8ef ""
+  "NBODY.out" 1742602301 2662 27067ff2a330be95b27879b21bafa7c8 "pdflatex"
+  "NBODY.run.xml" 1742602301 2313 e7b59289b0ac85d00fb25e9c96986adf "pdflatex"
+  "NBODY.tex" 1742602293 23420 c14290a2ca570cbf11e91f9533e9a86a ""
+  "NBODY.toc" 1742602301 1474 1cc54dca013080dd1263a12336f8e4e9 "pdflatex"
+  "c:/Users/praty/OneDrive - UT Cloud/Astro Lab/Astro-Lab/N Body/NBODY.tex" 1742602293 23420 c14290a2ca570cbf11e91f9533e9a86a ""
   "kirkwood/a_e_kirkwood.png" 1742424775 1031287 dd0e53d2eb34df245257a38d1eff8d34 ""
   "kirkwood/hist_kirkwood.png" 1742424775 289633 72a49aa0e29728c2bc37d3475148db10 ""
   (generated)
