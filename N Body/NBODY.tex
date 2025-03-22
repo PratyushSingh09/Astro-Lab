@@ -85,6 +85,7 @@ In this laboratory work numerically we solve various N-body problems using integ
 \subsection{Classical N-Body Problem}
 
 \subsection{Time Integrators}
+\label{integrators}
 Computers can calculate equations of motion for N-bodies with time integrators. Time integrators use certain algorithms to solve ODEs with discrete values of time starting from initial time $t_n$, and computers position and velocity at next time $t_n+\Delta t$. There are various numerical schemes to solve initial value problems in such way, and next subsections will give a general outlook on some of methods, since one of our tasks is to compare different time integrators.
 
 \subsubsection{Leapfrog}
@@ -169,6 +170,8 @@ Here is the orbit we obtain with the leapfrog integrator and a timestep of $10^{
   \caption{Orbit of a two body system with leapfrog integrator and timestep of $10^{-3}$. The number of data points are less dense closer to the pericenter, which means that $m_2$ is moving faster. This follows Kepler's second law.}
   \label{fig:leapfrog_1e-3}
 \end{figure}
+
+\subsubsection{Testing for different timesteps}
 Effect of smaller timesteps is tested with the leapfrog integrator with timesteps of $1$, $10^{-1}$,$10^{-2}$, $10^{-3}$,$10^{-4}$, $10^{-5}$ and $10^{-6}$.\\
 \begin{figure}[H]
   \centering
@@ -199,7 +202,10 @@ Effect of smaller timesteps is tested with the leapfrog integrator with timestep
   \end{subfigure}
   \caption{Constant semi major axis and eccentricity at various timesteps}
 \end{figure}
-Effect of different integrators is tested with a timestep of $10^{-3}$ using the leapfrog, IAS15, WHFast and Gragg-Bulirsch-Stoer integrators\\
+\subsubsection{Testing for different integrators}
+Effect of different integrators is tested with a timestep of $10^{-3}$ using the leapfrog, IAS15, WHFast and Gragg-Bulirsch-Stoer integrators. 
+The description of these Integrators is given in section \ref{integrators}.\\
+
 % add figure
 \begin{figure}[H]
   \centering
@@ -214,6 +220,7 @@ Effect of different integrators is tested with a timestep of $10^{-3}$ using the
     \label{fig:int_L}  
   \end{subfigure}
   \caption{Conservation of Energy and Angular Momentum using different integrators}
+  \label{fig:int:4}
 \end{figure}
 
 \begin{figure}[H]
@@ -229,7 +236,11 @@ Effect of different integrators is tested with a timestep of $10^{-3}$ using the
     \label{fig:int_ecc}  
   \end{subfigure}
   \caption{Constant semi major axis and eccentricity using different integrators}
+  \label{fig:int:5}
 \end{figure}
+
+From figure \ref{fig:int:4} and figure \ref{fig:int:5} we can see that the IAS 15 integrator is significantly more accurate than the other integrators. WHFast and Gragg-Bulirsch-Stoer integrators have similar accuracy while
+ the leapfrog integrator is the least accurate.
 \subsection{Three Body Problem and Stability of the Planet System}
 Here we will simulate a coplanar 3 body system with a large central mass $(m_1)$ and two smaller masses $(m_2, m_3)$ in circular orbits. The two small objects will start opposite to each other (at a 
 phase difference of $\pi$). We vary the distance  between $m_2$ and $m_3$ to study the stability of the system.\\
@@ -314,30 +325,30 @@ detected by REBOUND.
 For $\Delta=0.5\Delta_c$ the system is unstable and REBOUND detects several collisions here (in hour case$ \sim $ 11,000 collisions but this can vary depending on the type of integrator or time step).
 
 \begin{figure}[H]
-  % \centering
+  \centering
+  % \begin{subfigure}{0.4\textwidth}
+  %   \centering
+  %   \includegraphics[height = 2.4in]{3Body/3BD_orbit_delta0.5.png}
+  %   \caption{Orbit of a 3 body system with $\Delta = 0.5\Delta_c$}
+  %   \label{fig:3Body_0.5}
+  % \end{subfigure}
   \begin{subfigure}{0.4\textwidth}
     \centering
-    \includegraphics[height = 2.4in]{3Body/3BD_orbit_delta0.5.png}
-    \caption{Orbit of a 3 body system with $\Delta = 0.5\Delta_c$}
-    \label{fig:3Body_0.5}
-  \end{subfigure}
-  \begin{subfigure}{0.4\textwidth}
-    \centering
-    \includegraphics[height = 2.4in]{3Body/3BD_orbit_delta0.5_short.png}
-    \caption{The orbit plotted for a shorter time}
+    \includegraphics[height = 2.4in]{3Body/3BD_orbit_delta0.5_till_collision.png}
+    \caption{Close view of the orbit plotted till the first collision is detected}
     \label{fig:3Body_0.5_short}
   \end{subfigure}
   \begin{subfigure}{0.4\textwidth}
     \centering
-    \includegraphics[height = 2.4in]{3Body/3BD_a_delta0.5.png}
-    \caption{Change in semi major axis of the planets with $\Delta = 0.5\Delta_c$}
+    \includegraphics[height = 2.4in]{3Body/3BD_a_delta0.5_till_collision.png}
+    \caption{Change in semi major axis of the planets with $\Delta = 0.5\Delta_c$ till first collision}
     \label{fig:3Body_0.5_a}
   \end{subfigure}
 
   \begin{subfigure}{0.4\textwidth}
     \centering
-    \includegraphics[height = 2.4in]{3Body/3BD_ecc_delta0.5.png}
-    \caption{Change in eccentricity of the planets with $\Delta = 0.5\Delta_c$}
+    \includegraphics[height = 2.4in]{3Body/3BD_ecc_delta0.5_till_collision.png}
+    \caption{Change in eccentricity of the planets with $\Delta = 0.5\Delta_c$ till first collision}
     \label{fig:3Body_0.5_ecc}
   \end{subfigure}
   \caption{Properties of a 3 body system with $\Delta = 0.5\Delta_c$}
@@ -350,21 +361,68 @@ For $\Delta=0.1\Delta_c$ the orbit exchange is still observed, but now the small
   \begin{subfigure}{0.49\textwidth}
     \centering
     \includegraphics[height = 2.4in]{3Body/3BD_orbit_delta0.1_Close_2.png}
-    \caption{A closer view of the orbit. The exchange of orbits is clearly observed here}
-    \label{fig:3Body_0.1_close}
+    \caption{A closer view of the orbit}
+    \label{fig:3Body_0.1_close_ueq}
   \end{subfigure}
 
   \begin{subfigure}{0.49\textwidth}
     \centering
     \includegraphics[height = 2.4in]{3Body/3BD_a_delta_20.1.png}
-    \caption{Change in semi major axis of the planets with $\Delta = 0.1\Delta_c$ for planets of different masses. The orbit exchange is clearly observed here}
-    \label{fig:3Body_0.1_close}
+    \caption{Change in semi major axis of the planets with $\Delta = 0.1\Delta_c$ for planets of different masses}
+    \label{fig:3Body_0.1_close_ueq_a}
   \end{subfigure}
-  \caption{Orbit of a 3 body system with $\Delta = 0.1\Delta_c$}
+  \caption{Orbit of a 3 body system with $\Delta = 0.1\Delta_c$. In both graphs we observe that the smaller planet has a larger variation in semi major axis}
 \end{figure}
 Now, REBOUND detects collisions for both $\Delta=0.5\Delta_c$ and $\Delta=1\Delta_c$.\\
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}{0.4\textwidth}
+    \centering
+    \includegraphics[height = 2.4in]{3Body/3BD_orbit_delta_2_0.5_collide.png}
+    \caption{Close view of the orbit plotted till the first collision is detected}
+    % \label{fig:3Body_0.5_short}
+  \end{subfigure}
+  \begin{subfigure}{0.4\textwidth}
+    \centering
+    \includegraphics[height = 2.4in]{3Body/3BD_a_delta_2_0.5_collide.png}
+    \caption{Change in semi major axis of the planets with $\Delta = 0.5\Delta_c$ till first collision. The smaller planet travels a larger distance before collision}
+    % \label{fig:3Body_0.5_a}
+  \end{subfigure}
+
+  \begin{subfigure}{0.4\textwidth}
+    \centering
+    \includegraphics[height = 2.4in]{3Body/3BD_ecc_delta_2_0.5_collide.png}
+    \caption{Change in eccentricity of the planets with $\Delta = 0.5\Delta_c$ till first collision}
+    % \label{fig:3Body_0.5_ecc}
+  \end{subfigure}
+  \caption{Properties of a 3 body system with $\Delta = 0.5\Delta_c$ and with masses $m_2=10^{-5}$ and $m_3=10^{-7}$}
+\end{figure}
 Systems with higher $\Delta_c$ are still stable
 
+\begin{figure}
+  \centering
+  \includegraphics[height = 2.4in]{3Body/3BD_orbit_delta_21.png}
+  \caption{Orbit of a 3 body system with $\Delta = 1\Delta_c$ with unequal masses. The system is stable}
+  % \label{fig:3Body_0.5_ecc}
+\end{figure}
+
+Looking at the evolution of eccentricities with different seperations, we observe that $m_2$ has a lower eccentricity than $m_3$ in all cases
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}{0.49\textwidth}
+    \centering
+    \includegraphics[height = 2.4in]{3Body/3BD_ecc_delta_21.png}
+    \caption{Change in eccentricity of the planets with $\Delta = 1\Delta_c$}
+    % \label{fig:3Body_0.5_short}
+  \end{subfigure}
+  \begin{subfigure}{0.49\textwidth}
+    \centering
+    \includegraphics[height = 2.4in]{3Body/3BD_ecc_delta_210.png}
+    \caption{Change in eccentricity of the planets with $\Delta = 10\Delta_c$}
+    % \label{fig:3Body_0.5_a}
+  \end{subfigure}
+  \caption{Change in eccentricity of the planets with different separations and unequal masses}
+\end{figure}
 \subsection{Jupiter and Kirkwood Gaps}
 
 In this part of the lab work we must observe Kirkwood gaps - gaps in the asteroid belt - by simulationg and observing the evolution of Sun-Jupiter-Mars system with 10000 test particles. 
