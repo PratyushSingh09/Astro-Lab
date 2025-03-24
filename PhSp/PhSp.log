@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.10)  25 MAR 2025 00:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.10)  25 MAR 2025 00:09
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -638,7 +638,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
 <to be read again> 
                    \relax 
 l.109     I
-           n figure \ref{fig:80cm} we can see the path light has to travel t... [1]
+           n figure \ref{fig:80cm_lp} we can see the path light has to trave... [1]
 <Pictures/Nasmyth2.pdf, id=78, 1713.40125pt x 1472.50125pt>
 File: Pictures/Nasmyth2.pdf Graphic file (type pdf)
 <use Pictures/Nasmyth2.pdf>
