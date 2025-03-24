@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.10)  24 MAR 2025 19:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.10)  25 MAR 2025 00:07
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/praty/OneDrive - UT Cloud/Astro Lab/Astro-Lab/N Body/NBODY.tex"
-(c:/Users/praty/OneDrive - UT Cloud/Astro Lab/Astro-Lab/N Body/NBODY.tex
+**"c:/Users/praty/OneDrive - UT Cloud/Astro Lab/Astro-Lab/PhSp/PhSp.tex"
+(c:/Users/praty/OneDrive - UT Cloud/Astro Lab/Astro-Lab/PhSp/PhSp.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
 (C:\Users\praty\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
@@ -515,34 +515,27 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 )
 \@quotelevel=\count420
 \@quotereset=\count421
- (NBODY.aux
+ (PhSp.aux)
+\openout1 = `PhSp.aux'.
 
-LaTeX Warning: Label `fig:3Body_0.1_close' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:3Body_0.1_close' multiply defined.
-
-)
-\openout1 = `NBODY.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 34.
-LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 33.
+LaTeX Font Info:    ... okay on input line 33.
  (C:\Users\praty\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count422
@@ -600,10 +593,10 @@ Package caption Info: End \AtBeginDocument code.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 34.
-(NBODY.out) (NBODY.out)
+Package hyperref Info: Link coloring OFF on input line 33.
+(PhSp.out) (PhSp.out)
 \@outlinefile=\write4
-\openout4 = `NBODY.out'.
+\openout4 = `PhSp.out'.
 
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
@@ -613,339 +606,71 @@ File: english.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout3 = `NBODY.bcf'.
+\openout3 = `PhSp.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'NBODY.bbl' found.
- (NBODY.bbl)
-Package biblatex Info: Reference section=0 on input line 34.
-Package biblatex Info: Reference segment=0 on input line 34.
+Package biblatex Info: ... file 'PhSp.bbl' found.
+ (PhSp.bbl)
+Package biblatex Info: Reference section=0 on input line 33.
+Package biblatex Info: Reference segment=0 on input line 33.
  [1
 
-{C:/Users/praty/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (NBODY.toc)
+{C:/Users/praty/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (PhSp.toc)
 \tf@toc=\write5
-\openout5 = `NBODY.toc'.
+\openout5 = `PhSp.toc'.
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.72 \newpage
+l.71 \newpage
               [1]
+
+LaTeX Warning: Command \r invalid in math mode on input line 99.
+
+<./Pictures/2004_img_0962.jpg, id=71, 642.4pt x 428.4005pt>
+File: ./Pictures/2004_img_0962.jpg Graphic file (type jpg)
+<use ./Pictures/2004_img_0962.jpg>
+Package pdftex.def Info: ./Pictures/2004_img_0962.jpg  used on input line 105.
+(pdftex.def)             Requested size: 226.48395pt x 151.03407pt.
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.118 
-       [1] [2]
-<2Body/2BD0.png, id=142, 462.528pt x 346.896pt>
-File: 2Body/2BD0.png Graphic file (type png)
-<use 2Body/2BD0.png>
-Package pdftex.def Info: 2Body/2BD0.png  used on input line 169.
-(pdftex.def)             Requested size: 452.9679pt x 339.74402pt.
-<2Body/2Body_Energy_Consv_dt.png, id=144, 1729.46124pt x 1006.76125pt>
-File: 2Body/2Body_Energy_Consv_dt.png Graphic file (type png)
-<use 2Body/2Body_Energy_Consv_dt.png>
-Package pdftex.def Info: 2Body/2Body_Energy_Consv_dt.png  used on input line 179.
-(pdftex.def)             Requested size: 211.03618pt x 122.85876pt.
+l.109     I
+           n figure \ref{fig:80cm} we can see the path light has to travel t... [1]
+<Pictures/Nasmyth2.pdf, id=78, 1713.40125pt x 1472.50125pt>
+File: Pictures/Nasmyth2.pdf Graphic file (type pdf)
+<use Pictures/Nasmyth2.pdf>
+Package pdftex.def Info: Pictures/Nasmyth2.pdf  used on input line 114.
+(pdftex.def)             Requested size: 226.48395pt x 194.6224pt.
+ [2 <./Pictures/2004_img_0962.jpg> <./Pictures/Nasmyth2.pdf>]
 
-Underfull \hbox (badness 10000) in paragraph at lines 180--180
-[]\OT1/cmr/m/n/10.95 (a) |Con-ser-va-tion of En-ergy at var-i-ous
- []
+LaTeX Warning: Empty bibliography on input line 129.
 
-
-Underfull \hbox (badness 1629) in paragraph at lines 180--180
-\OT1/cmr/m/n/10.95 timesteps. As we in-crease the timestep,
- []
-
-<2Body/2Body_L_Consv_dt.png, id=145, 1912.14375pt x 1027.84pt>
-File: 2Body/2Body_L_Consv_dt.png Graphic file (type png)
-<use 2Body/2Body_L_Consv_dt.png>
-Package pdftex.def Info: 2Body/2Body_L_Consv_dt.png  used on input line 184.
-(pdftex.def)             Requested size: 228.54286pt x 122.85876pt.
-
-Overfull \hbox (6.5861pt too wide) in paragraph at lines 184--185
-[][] 
- []
-
-
-Underfull \hbox (badness 1005) in paragraph at lines 185--185
-\OT1/cmr/m/n/10.95 mo-men-tum gets worse as we de-crease the
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 175--189
-
- []
-
-[3 <./2Body/2BD0.png>]
-<2Body/2Body_const_a_dt.png, id=156, 2055.68pt x 1057.9525pt>
-File: 2Body/2Body_const_a_dt.png Graphic file (type png)
-<use 2Body/2Body_const_a_dt.png>
-Package pdftex.def Info: 2Body/2Body_const_a_dt.png  used on input line 194.
-(pdftex.def)             Requested size: 238.7037pt x 122.85876pt.
-
-Overfull \hbox (16.74695pt too wide) in paragraph at lines 194--195
-[][] 
- []
-
-<2Body/2Body_const_ecc_dt.png, id=157, 1962.33125pt x 1001.7425pt>
-File: 2Body/2Body_const_ecc_dt.png Graphic file (type png)
-<use 2Body/2Body_const_ecc_dt.png>
-Package pdftex.def Info: 2Body/2Body_const_ecc_dt.png  used on input line 199.
-(pdftex.def)             Requested size: 240.64967pt x 122.85876pt.
-
-Overfull \hbox (18.69292pt too wide) in paragraph at lines 199--200
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 206--208
-
- []
-
-<2Body/2Body_Energy_Consv_int.png, id=159, 1679.27374pt x 1001.7425pt>
-File: 2Body/2Body_Energy_Consv_int.png Graphic file (type png)
-<use 2Body/2Body_Energy_Consv_int.png>
-Package pdftex.def Info: 2Body/2Body_Energy_Consv_int.png  used on input line 213.
-(pdftex.def)             Requested size: 205.93704pt x 122.85876pt.
-<2Body/2Body_L_Consv_int.png, id=160, 1879.02pt x 993.7125pt>
-File: 2Body/2Body_L_Consv_int.png Graphic file (type png)
-<use 2Body/2Body_L_Consv_int.png>
-Package pdftex.def Info: 2Body/2Body_L_Consv_int.png  used on input line 218.
-(pdftex.def)             Requested size: 232.2965pt x 122.85876pt.
-
-Overfull \hbox (10.33974pt too wide) in paragraph at lines 218--219
-[][] 
- []
-
-[4 <./2Body/2Body_Energy_Consv_dt.png> <./2Body/2Body_L_Consv_dt.png> <./2Body/2Body_const_a_dt.png> <./2Body/2Body_const_ecc_dt.png>]
-<2Body/2Body_const_a_int.png, id=172, 1930.21124pt x 1148.29pt>
-File: 2Body/2Body_const_a_int.png Graphic file (type png)
-<use 2Body/2Body_const_a_int.png>
-Package pdftex.def Info: 2Body/2Body_const_a_int.png  used on input line 229.
-(pdftex.def)             Requested size: 206.49228pt x 122.85876pt.
-<2Body/2Body_const_ecc_int.png, id=173, 1930.21124pt x 1022.82124pt>
-File: 2Body/2Body_const_ecc_int.png Graphic file (type png)
-<use 2Body/2Body_const_ecc_int.png>
-Package pdftex.def Info: 2Body/2Body_const_ecc_int.png  used on input line 234.
-(pdftex.def)             Requested size: 231.85098pt x 122.85876pt.
-
-Overfull \hbox (9.89423pt too wide) in paragraph at lines 234--235
-[][] 
- []
-
-[5 <./2Body/2Body_Energy_Consv_int.png> <./2Body/2Body_L_Consv_int.png> <./2Body/2Body_const_a_int.png> <./2Body/2Body_const_ecc_int.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 257--262
-
- []
-
-<3Body/3BD_orbit_delta1.5.png, id=190, 462.528pt x 346.896pt>
-File: 3Body/3BD_orbit_delta1.5.png Graphic file (type png)
-<use 3Body/3BD_orbit_delta1.5.png>
-Package pdftex.def Info: 3Body/3BD_orbit_delta1.5.png  used on input line 269.
-(pdftex.def)             Requested size: 221.62979pt x 166.2212pt.
-<3Body/3BD_ecc_delta1.5.png, id=191, 462.528pt x 346.896pt>
-File: 3Body/3BD_ecc_delta1.5.png Graphic file (type png)
-<use 3Body/3BD_ecc_delta1.5.png>
-Package pdftex.def Info: 3Body/3BD_ecc_delta1.5.png  used on input line 275.
-(pdftex.def)             Requested size: 221.62979pt x 166.2212pt.
-<3Body/3BD_a_delta1.5.png, id=192, 462.528pt x 346.896pt>
-File: 3Body/3BD_a_delta1.5.png Graphic file (type png)
-<use 3Body/3BD_a_delta1.5.png>
-Package pdftex.def Info: 3Body/3BD_a_delta1.5.png  used on input line 282.
-(pdftex.def)             Requested size: 202.3555pt x 151.76744pt.
-[6]
-<3Body/3BD_ecc_delta10.png, id=198, 462.528pt x 346.896pt>
-File: 3Body/3BD_ecc_delta10.png Graphic file (type png)
-<use 3Body/3BD_ecc_delta10.png>
-Package pdftex.def Info: 3Body/3BD_ecc_delta10.png  used on input line 293.
-(pdftex.def)             Requested size: 260.17136pt x 195.12877pt.
- [7 <./3Body/3BD_orbit_delta1.5.png> <./3Body/3BD_ecc_delta1.5.png> <./3Body/3BD_a_delta1.5.png>]
-<3Body/3BD_orbit_delta0.1.png, id=208, 462.528pt x 346.896pt>
-File: 3Body/3BD_orbit_delta0.1.png Graphic file (type png)
-<use 3Body/3BD_orbit_delta0.1.png>
-Package pdftex.def Info: 3Body/3BD_orbit_delta0.1.png  used on input line 305.
-(pdftex.def)             Requested size: 231.26343pt x 173.44756pt.
-
-Overfull \hbox (9.30667pt too wide) in paragraph at lines 305--306
- [][] 
- []
-
-<3Body/3BD_orbit_delta0.1_Close.png, id=209, 1284.8pt x 963.6pt>
-File: 3Body/3BD_orbit_delta0.1_Close.png Graphic file (type png)
-<use 3Body/3BD_orbit_delta0.1_Close.png>
-Package pdftex.def Info: 3Body/3BD_orbit_delta0.1_Close.png  used on input line 311.
-(pdftex.def)             Requested size: 231.25401pt x 173.44756pt.
-
-Overfull \hbox (9.29726pt too wide) in paragraph at lines 311--312
- [][] 
- []
-
-<3Body/3BD_a_delta0.1.png, id=210, 462.528pt x 346.896pt>
-File: 3Body/3BD_a_delta0.1.png Graphic file (type png)
-<use 3Body/3BD_a_delta0.1.png>
-Package pdftex.def Info: 3Body/3BD_a_delta0.1.png  used on input line 318.
-(pdftex.def)             Requested size: 231.26343pt x 173.44756pt.
-
-Overfull \hbox (9.30667pt too wide) in paragraph at lines 318--319
- [][] 
- []
-
-[8 <./3Body/3BD_ecc_delta10.png>]
-<3Body/3BD_orbit_delta0.5_till_collision.png, id=217, 1284.8pt x 963.6pt>
-File: 3Body/3BD_orbit_delta0.5_till_collision.png Graphic file (type png)
-<use 3Body/3BD_orbit_delta0.5_till_collision.png>
-Package pdftex.def Info: 3Body/3BD_orbit_delta0.5_till_collision.png  used on input line 337.
-(pdftex.def)             Requested size: 231.25401pt x 173.44756pt.
-
-Overfull \hbox (50.06963pt too wide) in paragraph at lines 337--338
- [][] 
- []
-
-<3Body/3BD_a_delta0.5_till_collision.png, id=218, 1284.8pt x 963.6pt>
-File: 3Body/3BD_a_delta0.5_till_collision.png Graphic file (type png)
-<use 3Body/3BD_a_delta0.5_till_collision.png>
-Package pdftex.def Info: 3Body/3BD_a_delta0.5_till_collision.png  used on input line 343.
-(pdftex.def)             Requested size: 231.25401pt x 173.44756pt.
-
-Overfull \hbox (50.06963pt too wide) in paragraph at lines 343--344
- [][] 
- []
-
-<3Body/3BD_ecc_delta0.5_till_collision.png, id=219, 1284.8pt x 963.6pt>
-File: 3Body/3BD_ecc_delta0.5_till_collision.png Graphic file (type png)
-<use 3Body/3BD_ecc_delta0.5_till_collision.png>
-Package pdftex.def Info: 3Body/3BD_ecc_delta0.5_till_collision.png  used on input line 350.
-(pdftex.def)             Requested size: 231.25401pt x 173.44756pt.
-
-Overfull \hbox (50.06963pt too wide) in paragraph at lines 350--351
- [][] 
- []
-
-[9 <./3Body/3BD_orbit_delta0.1.png> <./3Body/3BD_orbit_delta0.1_Close.png> <./3Body/3BD_a_delta0.1.png>]
-<3Body/3BD_orbit_delta0.1_Close_2.png, id=228, 1284.8pt x 963.6pt>
-File: 3Body/3BD_orbit_delta0.1_Close_2.png Graphic file (type png)
-<use 3Body/3BD_orbit_delta0.1_Close_2.png>
-Package pdftex.def Info: 3Body/3BD_orbit_delta0.1_Close_2.png  used on input line 363.
-(pdftex.def)             Requested size: 231.25401pt x 173.44756pt.
-
-Overfull \hbox (9.29726pt too wide) in paragraph at lines 363--364
- [][] 
- []
-
-<3Body/3BD_a_delta_20.1.png, id=229, 462.528pt x 346.896pt>
-File: 3Body/3BD_a_delta_20.1.png Graphic file (type png)
-<use 3Body/3BD_a_delta_20.1.png>
-Package pdftex.def Info: 3Body/3BD_a_delta_20.1.png  used on input line 370.
-(pdftex.def)             Requested size: 231.26343pt x 173.44756pt.
-
-Overfull \hbox (9.30667pt too wide) in paragraph at lines 370--371
- [][] 
- []
-
-[10 <./3Body/3BD_orbit_delta0.5_till_collision.png> <./3Body/3BD_a_delta0.5_till_collision.png> <./3Body/3BD_ecc_delta0.5_till_collision.png>]
-<3Body/3BD_orbit_delta_2_0.5_collide.png, id=238, 1284.8pt x 963.6pt>
-File: 3Body/3BD_orbit_delta_2_0.5_collide.png Graphic file (type png)
-<use 3Body/3BD_orbit_delta_2_0.5_collide.png>
-Package pdftex.def Info: 3Body/3BD_orbit_delta_2_0.5_collide.png  used on input line 381.
-(pdftex.def)             Requested size: 231.25401pt x 173.44756pt.
-
-Overfull \hbox (50.06963pt too wide) in paragraph at lines 381--382
- [][] 
- []
-
-<3Body/3BD_a_delta_2_0.5_collide.png, id=239, 1284.8pt x 963.6pt>
-File: 3Body/3BD_a_delta_2_0.5_collide.png Graphic file (type png)
-<use 3Body/3BD_a_delta_2_0.5_collide.png>
-Package pdftex.def Info: 3Body/3BD_a_delta_2_0.5_collide.png  used on input line 387.
-(pdftex.def)             Requested size: 231.25401pt x 173.44756pt.
-
-Overfull \hbox (50.06963pt too wide) in paragraph at lines 387--388
- [][] 
- []
-
-<3Body/3BD_ecc_delta_2_0.5_collide.png, id=240, 1284.8pt x 963.6pt>
-File: 3Body/3BD_ecc_delta_2_0.5_collide.png Graphic file (type png)
-<use 3Body/3BD_ecc_delta_2_0.5_collide.png>
-Package pdftex.def Info: 3Body/3BD_ecc_delta_2_0.5_collide.png  used on input line 394.
-(pdftex.def)             Requested size: 231.25401pt x 173.44756pt.
-
-Overfull \hbox (50.06963pt too wide) in paragraph at lines 394--395
- [][] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 376--399
-
- []
-
-[11 <./3Body/3BD_orbit_delta0.1_Close_2.png> <./3Body/3BD_a_delta_20.1.png>]
-<3Body/3BD_orbit_delta_21.png, id=249, 462.528pt x 346.896pt>
-File: 3Body/3BD_orbit_delta_21.png Graphic file (type png)
-<use 3Body/3BD_orbit_delta_21.png>
-Package pdftex.def Info: 3Body/3BD_orbit_delta_21.png  used on input line 404.
-(pdftex.def)             Requested size: 231.26343pt x 173.44756pt.
-<3Body/3BD_ecc_delta_21.png, id=250, 462.528pt x 346.896pt>
-File: 3Body/3BD_ecc_delta_21.png Graphic file (type png)
-<use 3Body/3BD_ecc_delta_21.png>
-Package pdftex.def Info: 3Body/3BD_ecc_delta_21.png  used on input line 414.
-(pdftex.def)             Requested size: 231.26343pt x 173.44756pt.
-
-Overfull \hbox (9.30667pt too wide) in paragraph at lines 414--415
- [][] 
- []
-
-<3Body/3BD_ecc_delta_210.png, id=251, 462.528pt x 346.896pt>
-File: 3Body/3BD_ecc_delta_210.png Graphic file (type png)
-<use 3Body/3BD_ecc_delta_210.png>
-Package pdftex.def Info: 3Body/3BD_ecc_delta_210.png  used on input line 420.
-(pdftex.def)             Requested size: 231.26343pt x 173.44756pt.
-
-Overfull \hbox (9.30667pt too wide) in paragraph at lines 420--421
- [][] 
- []
-
-[12 <./3Body/3BD_orbit_delta_2_0.5_collide.png> <./3Body/3BD_a_delta_2_0.5_collide.png> <./3Body/3BD_ecc_delta_2_0.5_collide.png>] [13 <./3Body/3BD_orbit_delta_21.png> <./3Body/3BD_ecc_delta_21.png> <./3Body/3BD_ecc_delta_210.png>]
-
-LaTeX Warning: Command \textunderscore invalid in math mode on input line 436.
-
-<kirkwood/hist_kirkwood.png, id=271, 1845.7758pt x 1052.2512pt>
-File: kirkwood/hist_kirkwood.png Graphic file (type png)
-<use kirkwood/hist_kirkwood.png>
-Package pdftex.def Info: kirkwood/hist_kirkwood.png  used on input line 441.
-(pdftex.def)             Requested size: 452.9679pt x 258.22928pt.
-<kirkwood/a_e_kirkwood.png, id=273, 1845.7758pt x 1052.2512pt>
-File: kirkwood/a_e_kirkwood.png Graphic file (type png)
-<use kirkwood/a_e_kirkwood.png>
-Package pdftex.def Info: kirkwood/a_e_kirkwood.png  used on input line 453.
-(pdftex.def)             Requested size: 452.9679pt x 258.22928pt.
-[14 <./kirkwood/hist_kirkwood.png>] [15 <./kirkwood/a_e_kirkwood.png>] [16] (NBODY.aux)
+[3] (PhSp.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
-Package rerunfilecheck Info: File `NBODY.out' has not changed.
-(rerunfilecheck)             Checksum: 2C0473476BBA2368B2F7C50D8F3FBB2A;3136.
-Package logreq Info: Writing requests to 'NBODY.run.xml'.
-\openout1 = `NBODY.run.xml'.
+Package rerunfilecheck Info: File `PhSp.out' has not changed.
+(rerunfilecheck)             Checksum: E353068C40E981592518042F9BB8C6FC;1096.
+Package logreq Info: Writing requests to 'PhSp.run.xml'.
+\openout1 = `PhSp.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19034 strings out of 476441
- 341336 string characters out of 5794799
- 1934542 words of memory out of 5000000
- 40792 multiletter control sequences out of 15000+600000
- 566509 words of font info for 66 fonts, out of 8000000 for 9000
+ 18490 strings out of 476441
+ 327445 string characters out of 5794799
+ 1933542 words of memory out of 5000000
+ 40304 multiletter control sequences out of 15000+600000
+ 563595 words of font info for 55 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,12n,81p,742b,1301s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on NBODY.pdf (18 pages, 3062609 bytes).
+ 75i,12n,81p,739b,803s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
+Output written on PhSp.pdf (5 pages, 1503905 bytes).
 PDF statistics:
- 378 PDF objects out of 1000 (max. 8388607)
- 70 named destinations out of 1000 (max. 500000)
- 306 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 121 PDF objects out of 1000 (max. 8388607)
+ 20 named destinations out of 1000 (max. 500000)
+ 99 words of extra memory for PDF output out of 10000 (max. 10000000)
 
