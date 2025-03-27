@@ -16,5 +16,21 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{anyt/global//global/global}
+    \entry{Spectral_Classification}{misc}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \field{journaltitle}{Spectral Classification}
+      \verb{urlraw}
+      \verb https://lweb.cfa.harvard.edu/~pberlind/atlas/htmls/note.html
+      \endverb
+      \verb{url}
+      \verb https://lweb.cfa.harvard.edu/~pberlind/atlas/htmls/note.html
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

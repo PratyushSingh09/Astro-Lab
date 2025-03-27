@@ -119,7 +119,61 @@ the Castor binary system and identify the $H\alpha$ spectral line (and more).
   \subsection{CCD}
   \subsection{Photometry}
   \subsection{Spectroscopy}
-\section{Experiment}
+    Studying the spectrum of stars can reveal information like their temperature, composition and their physical properties. The absorption and emission lines present 
+    in a spectra caused by certain transitions in the elements present in the star and help in identifying its chemical composition. These lines are used to group
+    stars into different spectral classes. \\
+
+    \subsubsection{Star Classification}
+    Using the Morgan and Keenan system, stars are classified depending on their spectrum and their luminosity. Both these parameters are required for classification since 
+    stars st different stages of their life can have the same spectral class, while their sizes may strongly differ. Therefore to make their classification unambiguous `luminosity class' 
+    is also used. The luminosity classes are defined in the figure \ref{fig:MK}.
+    \begin{figure}[H]
+      \centering
+      \includegraphics[width=0.5\textwidth]{Pictures/HRD_lum_class.png}
+      \caption{HRD diagram with Luminosity Classification}
+      \label{fig:MK}
+    \end{figure}
+
+    Stars are classified into a `spectral class' based on the strength of their various spectral lines. The spectral class of a star is also a direct measure of the temperature of the star. The spectral classes are labelled
+    `O', `B', `A', `F', `G', `K', `M', `L' and `T' in decreasing order of temperature. Each is further split into 10 sub classes from 0 to 9. \\
+    \begin{table}[H]
+      \begin{tabular}{||c|c|c||}
+        \hline
+        Spectral Type & Temperature Range (K) & Distinguishing Features\\
+        \hline
+        \hline
+        O	&> 25,000K	&H; HeI; HeII\\
+        B	&10,000-25,000K	&H; HeI; HeII absent\\
+        A	&7,500-10,000K	&H; CaII; HeI and HeII absent\\
+        F	&6,000-7,500K	  &H; metals (CaII, Fe, etc)\\
+        G	&5,000-6,000K  	&H; metals; some molecular species\\
+        K	&3,500-5,000K	  &metals; some molecular species\\
+        M	&$\leq $3,500K	metals;& molecular species (TiO!)\\
+        C	&$\leq $ 3,500K	metals; &molecular species (C2!)\\
+        \hline
+      \end{tabular}
+      \caption{Temperature and Absorption lines at different spectral Classes\cite{Spectral_Classification}}
+    \end{table} 
+    Stellar plasma below the photosphere creates a black body spectrum. The temperature at which this peaks is the effective temperature of the star. As the temperature in the outer regions of the photosphere is lower,
+    different elements absorb parts of the light coming from deeper in the star and create the absorption lines. These lines are highly dependent on the effective temperature and the elements present in the photosphere.
+    \\
+    The most abundant absorption lines are usually the $H_\alpha$, $H_\beta$, $H_\gamma$ and $H_\delta$ lines of the Balmer series. These are caused by ionized hydrogen, which is the most abundant elements in stars.
+    Hydrogen lines are most abundant in A type stars. For G type and cooler stars, Calcium lines are more dominant. Figure \ref{fig:abs_lines} shows this in more detail.
+    \begin{figure}[H]
+      \centering
+      \includegraphics[width=0.75\textwidth]{Pictures/Line_strength.png}
+      \caption{Strength of absorption lines at different temperatures}
+      \label{fig:abs_lines}
+    \end{figure}
+    Figure \ref{fig:spec_class} shows the spectra of stars of different sizes. Most of the spectral features are found in UV, hence spectroscopy is very popular in UV astronomy. 
+    
+    \begin{figure}[H]
+      \centering
+      \includegraphics[width=0.75\textwidth]{Pictures/Spectral_class.png}
+      \caption{Spectra of stars of different spectral classes.}
+      \label{fig:spec_class}
+    \end{figure}
+\section{Experiment} 
 
 \section{Conclusions}
 An important section in which you should critically review the experiment and its results. Mention also parts that did not work out as expected, but keep a neutral to positive view. This can span from a few sentences to half a page.
@@ -129,8 +183,7 @@ An important section in which you should critically review the experiment and it
 \printbibliography
 \appendix
 \section{Appendix}
-\subsection{Code}
-\label{code}
+
 Please attach here your original handwritten notes and other documents created during the experiment.
 
 \end{document}

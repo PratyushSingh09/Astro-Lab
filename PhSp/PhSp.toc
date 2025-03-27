@@ -2,10 +2,10 @@
 \contentsline {section}{\numberline {2}Theory}{1}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Telescope}{1}{subsection.2.1}%
 \contentsline {subsubsection}{\numberline {2.1.1}The 80 cm Telescope}{1}{subsubsection.2.1.1}%
-\contentsline {subsection}{\numberline {2.2}CCD}{3}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Photometry}{3}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Spectroscopy}{3}{subsection.2.4}%
-\contentsline {section}{\numberline {3}Experiment}{3}{section.3}%
-\contentsline {section}{\numberline {4}Conclusions}{3}{section.4}%
-\contentsline {section}{Appendix}{3}{section*.5}%
-\contentsline {subsection}{Code}{3}{section*.6}%
+\contentsline {subsection}{\numberline {2.2}CCD}{2}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Photometry}{2}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Spectroscopy}{2}{subsection.2.4}%
+\contentsline {subsubsection}{\numberline {2.4.1}Star Classification}{3}{subsubsection.2.4.1}%
+\contentsline {section}{\numberline {3}Experiment}{5}{section.3}%
+\contentsline {section}{\numberline {4}Conclusions}{5}{section.4}%
+\contentsline {section}{Appendix}{6}{section*.10}%
