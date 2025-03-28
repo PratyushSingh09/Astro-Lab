@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.10)  27 MAR 2025 19:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.10)  28 MAR 2025 01:42
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -628,7 +628,7 @@ l.71 \newpage
 
 LaTeX Warning: Command \r invalid in math mode on input line 99.
 
-<./Pictures/2004_img_0962.jpg, id=71, 642.4pt x 428.4005pt>
+<./Pictures/2004_img_0962.jpg, id=86, 642.4pt x 428.4005pt>
 File: ./Pictures/2004_img_0962.jpg Graphic file (type jpg)
 <use ./Pictures/2004_img_0962.jpg>
 Package pdftex.def Info: ./Pictures/2004_img_0962.jpg  used on input line 105.
@@ -639,7 +639,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.109     I
            n figure \ref{fig:80cm_lp} we can see the path light has to trave... [1]
-<Pictures/Nasmyth2.pdf, id=78, 1713.40125pt x 1472.50125pt>
+<Pictures/Nasmyth2.pdf, id=93, 1713.40125pt x 1472.50125pt>
 File: Pictures/Nasmyth2.pdf Graphic file (type pdf)
 <use Pictures/Nasmyth2.pdf>
 Package pdftex.def Info: Pictures/Nasmyth2.pdf  used on input line 114.
@@ -650,7 +650,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 122--125
  []
 
 [2 <./Pictures/2004_img_0962.jpg> <./Pictures/Nasmyth2.pdf>]
-<Pictures/HRD_lum_class.png, id=94, 430.60875pt x 535.2497pt>
+<Pictures/HRD_lum_class.png, id=109, 430.60875pt x 535.2497pt>
 File: Pictures/HRD_lum_class.png Graphic file (type png)
 <use Pictures/HRD_lum_class.png>
 Package pdftex.def Info: Pictures/HRD_lum_class.png  used on input line 132.
@@ -661,39 +661,45 @@ Underfull \hbox (badness 10000) in paragraph at lines 137--156
  []
 
 [3 <./Pictures/HRD_lum_class.png>]
-<Pictures/Line_strength.png, id=105, 583.42969pt x 374.90062pt>
+<Pictures/Line_strength.png, id=120, 583.42969pt x 374.90062pt>
 File: Pictures/Line_strength.png Graphic file (type png)
 <use Pictures/Line_strength.png>
 Package pdftex.def Info: Pictures/Line_strength.png  used on input line 164.
 (pdftex.def)             Requested size: 339.72592pt x 218.3063pt.
-<Pictures/Spectral_class.png, id=107, 290.58563pt x 426.84468pt>
+<Pictures/Spectral_class.png, id=122, 290.58563pt x 426.84468pt>
 File: Pictures/Spectral_class.png Graphic file (type png)
 <use Pictures/Spectral_class.png>
 Package pdftex.def Info: Pictures/Spectral_class.png  used on input line 172.
 (pdftex.def)             Requested size: 339.72592pt x 499.06108pt.
- [4 <./Pictures/Line_strength.png>] [5 <./Pictures/Spectral_class.png>] [6] (PhSp.aux)
+ [4 <./Pictures/Line_strength.png>] [5 <./Pictures/Spectral_class.png>]
+<Pictures/spectrum_image.png, id=140, 1304.875pt x 1033.8625pt>
+File: Pictures/spectrum_image.png Graphic file (type png)
+<use Pictures/spectrum_image.png>
+Package pdftex.def Info: Pictures/spectrum_image.png  used on input line 195.
+(pdftex.def)             Requested size: 339.72592pt x 269.16075pt.
+ [6 <./Pictures/spectrum_image.png>] [7] (PhSp.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `PhSp.out' has not changed.
-(rerunfilecheck)             Checksum: A5072AA67FF3B2FF282FA30B38ACBEF2;1188.
+(rerunfilecheck)             Checksum: 9A87DF27D830C5DC467D0643868B8C64;1606.
 Package logreq Info: Writing requests to 'PhSp.run.xml'.
 \openout1 = `PhSp.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18735 strings out of 476441
- 332648 string characters out of 5794799
+ 18759 strings out of 476441
+ 333130 string characters out of 5794799
  1937542 words of memory out of 5000000
- 40538 multiletter control sequences out of 15000+600000
+ 40551 multiletter control sequences out of 15000+600000
  564065 words of font info for 57 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  75i,12n,81p,739b,1460s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on PhSp.pdf (8 pages, 2233719 bytes).
+Output written on PhSp.pdf (9 pages, 3203299 bytes).
 PDF statistics:
- 175 PDF objects out of 1000 (max. 8388607)
- 29 named destinations out of 1000 (max. 500000)
- 114 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 206 PDF objects out of 1000 (max. 8388607)
+ 40 named destinations out of 1000 (max. 500000)
+ 143 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -7,5 +7,8 @@
 \contentsline {subsection}{\numberline {2.4}Spectroscopy}{2}{subsection.2.4}%
 \contentsline {subsubsection}{\numberline {2.4.1}Star Classification}{3}{subsubsection.2.4.1}%
 \contentsline {section}{\numberline {3}Experiment}{5}{section.3}%
-\contentsline {section}{\numberline {4}Conclusions}{5}{section.4}%
-\contentsline {section}{Appendix}{6}{section*.10}%
+\contentsline {subsection}{\numberline {3.1}Spectroscopy}{5}{subsection.3.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Recording the Data}{6}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.2}Data Analysis}{7}{subsubsection.3.1.2}%
+\contentsline {section}{\numberline {4}Conclusions}{7}{section.4}%
+\contentsline {section}{Appendix}{7}{section*.11}%
