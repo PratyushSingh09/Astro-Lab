@@ -28,7 +28,7 @@ style=alphabetic,
 \newcommand\groupno{Group 3}       %%%%% group number
 \newcommand\names{Pratyush Singh,\\
                   Proshmit Dasputpa\\}        %%%%% full names
-\newcommand\expdate{07/03/2025}    %%%%% date of experiment day
+\newcommand\expdate{19/03/2025}    %%%%% date of experiment day
 
 \begin{document}
 \begin{titlepage}
@@ -198,7 +198,63 @@ the Castor binary system and identify the $H\alpha$ spectral line (and more).
         \label{spectrum_img} 
       \end{figure}
     \subsubsection{Data Analysis}
-      The obtained spectral image is analysed using the `Spec-Analyser' software. 
+      The obtained spectral image is analysed using the `Spec-Analyzer' software. The software interactively guides the user through the steps to analyze the image. The software is written In
+      IDL/GDL and involves command line inputs and mouse pointer interactions. Care needs to be taken when clicking mouse buttons as it can send incorrect inputs to the software. If a mistake is made, the process
+      needs to be started again. \\
+      In figure \ref{spectrum_img} The top and bottom spectrums are created by Neon lamps and are used for calibration of  the star spectrun. Currently, the star spectrum appears as a
+      continuous bright band in the middle and only a small decrease in intensity near what is possibly the $H_\alpha$ line is visible. \\
+      Using spec-analyzer, the final spectra is obtained with the following steps:
+      \begin{enumerate}
+        \item The software scans for three traces from the image, the top and bottom calibration traces(\texttt{cal-trace1} and \texttt{cal-trace2}) and the middle trace for the star (\texttt{spec-trace}). A `trace' is a 
+              1-D array that contains all the pixel values along the x direction for a fixed y. For `spec-trace', we take average of several traces along the middle region which covers the star spectrum. 
+        \item We now obtain the raw uncalibrated spectrum.
+          \begin{figure}[H]
+            \centering
+            \begin{subfigure}{0.49\textwidth}
+              \centering
+              \includegraphics[width=3in]{Pictures/Castor_121sec_2025_2-CalRawSpec.pdf}
+              \caption{Raw calibration spectrum}
+              \label{fig:rawcalspec}  
+            \end{subfigure}
+            \begin{subfigure}{0.49\textwidth}
+              \centering
+              \includegraphics[width=3in]{Pictures/Castor_121sec_2025_2-RawSpec.pdf}
+              \caption{Raw star spectrum}
+              \label{fig:rawstarspec}
+            \end{subfigure}
+            \caption{The raw spectrum with the pixel number on the x axis and the intensity on the y axis. }
+          \end{figure}
+
+        \item Due to the CCD camera being removable, there will be a skew between the image plane and the x axis of the spectrograph which needs to be corrected for. This can be done by correlating both the calibration spectrums
+              and the maximum correlation can be observed manually and is sent as an input to the software. Here, it was found to be $0.8$.
+        \item Now, we need to calibrate the observed calibration spectra to a reference spectrum with the same Neon lines. This is difficult to do hence we will compare
+              the observed spectrum image with a calibrated spectrum image. This calibrated image is shown in figure \ref{fig:calibrated_cal_image}.
+              \begin{figure}[H]
+                \centering
+                \includegraphics[width=0.95\textwidth]{Pictures/ReferenceImage.pdf}
+                \caption{Calibrated spectrum image. This was recorded using earlier using the 10C spectrograph calibration lambs for lines in optical spectrum($4000\AA-8000\AA$ ) These lines are compared with the observed calibration spectrum in figure \ref{spectrum_img}}
+                \label{fig:calibrated_cal_image}
+              \end{figure} 
+        \item We manually compare both these images to get the wavelengths of any 5 matching lines in the observed spectrum. This will finally convert the pixel numbers to wavelength numbers. If chosen correctly, the graph of wavelength vs pixel numbers would be a straight line.
+        \item We now have the calibrated spectrum
+              \begin{figure}[H]
+                \centering
+                \begin{subfigure}{0.49\textwidth}
+                  \centering
+                  \includegraphics[width=3in]{Pictures/Castor_121sec_2025_2-CalSpectrum.pdf}
+                  \caption{Calibrated spectrum for observed calibration lines}
+                  \label{fig:calibrated_calspec}
+                  
+                \end{subfigure}
+                \begin{subfigure}{0.49\textwidth}
+                  \centering
+                  \includegraphics[width=3in]{Pictures/Castor_121sec_2025_2-Spectrum.pdf}
+                  \caption{Calibrated star spectrum}
+                  \label{fig:calibrated_starspec}
+                \end{subfigure}
+                \caption{The calibrated spectrum with the wavelength on the x axis and the intensity on the y axis}
+              \end{figure}
+      \end{enumerate}
 \section{Conclusions}
 An important section in which you should critically review the experiment and its results. Mention also parts that did not work out as expected, but keep a neutral to positive view. This can span from a few sentences to half a page.
 

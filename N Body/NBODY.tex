@@ -322,7 +322,7 @@ detected by REBOUND.
   \caption{Orbit of a 3 body system with $\Delta = 0.1\Delta_c$}
 \end{figure}
 
-For $\Delta=0.5\Delta_c$ the system is unstable and REBOUND detects several collisions here (in hour case$ \sim $ 11,000 collisions but this can vary depending on the type of integrator or time step).
+For $\Delta=0.5\Delta_c$ the system is unstable and REBOUND detects several collisions here (in our case$ \sim $ 11,000 collisions but this can vary depending on the type of integrator or time step).
 
 \begin{figure}[H]
   \centering
@@ -402,7 +402,7 @@ Systems with higher $\Delta_c$ are still stable
 \begin{figure}
   \centering
   \includegraphics[height = 2.4in]{3Body/3BD_orbit_delta_21.png}
-  \caption{Orbit of a 3 body system with $\Delta = 1\Delta_c$ with unequal masses. The system is stable}
+  \caption{Orbit of a 3 body system with $\Delta = 1\Delta_c$ with unequal masses. The system is unstable}
   % \label{fig:3Body_0.5_ecc}
 \end{figure}
 
@@ -502,7 +502,18 @@ At smaller semi-major axis, objects with higher eccentricity more likely to inte
 % Put also citations in the text wherever necessary and appropriate. Citations are to be used whenever external material is included, also in the text \cite{basic-contrib}, \cite{basic-online}, \cite{basic-DOI}, \cite{basic-journal}, \cite{basic-mono}.
 
 \section{Conclusions}
-An important section in which you should critically review the experiment and its results. Mention also parts that did not work out as expected, but keep a neutral to positive view. This can span from a few sentences to half a page.
+  Using REBOUND we first simulated the two body problem and observed the effect of various integrators and timesteps on the accuracy of the simulation. We observed that overall IAS 15 performed the best, 
+  below that WHFast and Gragg-Bulirsch-Stoer performed similarly and leapfrog was the least accurate. We also observed that the accuracy of our simulations increased with smaller timesteps.\\
+
+
+  The stability of 3 body orbits with various seperations were studied. 
+  \begin{enumerate}
+    \item For $\Delta=0.1\Delta_c$ we observed that the planets exchanged their orbits without any collisions. 
+    \item For $\Delta=0.5\Delta_c$ we observed several collisions between the planets indicating that the system was unstable.
+    \item For $\Delta=1\Delta_c$, with equal masses the system was stable but unstable with unequal masses.
+    \item For $\Delta=10\Delta_c$ and with equal masses, we observed that the planet closer to the star had a larger eccentricity due to tidal forces
+    \item For enequal masses, the planet with smaller mass developed a larger eccentricity
+  \end{enumerate}
 
 \setcounter{secnumdepth}{0}
 
