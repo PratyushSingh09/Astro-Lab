@@ -4,7 +4,7 @@
 \usepackage{float}
 \usepackage{subcaption}
 \usepackage[margin=1in]{geometry}
-\usepackage{hyperref}
+\usepackage{hyperref}  
 \hypersetup{
   pdfborder = {0 0 0}
 }
@@ -139,7 +139,30 @@ like the energy, angular momentum and orbital elements.
 \\ REBOUND runs natively on windows, mac and linux. This can be run in either C or Python. For our purposes
 we will stick with the latter. REBOUND for python can be easily installed by \texttt{pip install rebound}.
 
-\subsubsection{REBOUNDX}
+\subsection{REBOUNDX}
+\texttt{Reboundx} is an extension package for the \texttt{REBOUND} N-body integrator, designed to introduce additional physical effects into gravitational simulations. While \texttt{REBOUND} handles pure Newtonian gravity, \texttt{Reboundx} enables users to include non-conservative forces and astrophysical effects such as:
+\begin{itemize}
+    \item Tidal forces
+    \item General relativity corrections
+    \item Stellar evolution effects
+    \item Migration forces (e.g., exponential migration, disk interactions)
+\end{itemize}
+\subsubsection{Supported Platforms}
+\texttt{Reboundx} can run on multiple platforms, including:
+\begin{itemize}
+    \item Linux (like Ubuntu, Fedora, etc.)
+    \item macOS
+    \item Windows (via Windows Subsystem for Linux (WSL) or native Python installations)
+    \item Jupyter Notebooks \& Google Colab
+\end{itemize}
+\subsubsection{Installation}
+The \texttt{Reboundx} package was created by Dan Tamayo, and is currently maintained by him as well \cite{Tamayo_2019}. Like REBOUND, it can be run in both C and Python. \\
+For this experiment, we have used Python - and the package can be installed by simply using:
+\begin{verbatim}
+pip install reboundx
+\end{verbatim}
+The Github link for documentation and problem examples concerning \texttt{reboundx} is as follows: \href{https://github.com/dtamayo/reboundx}{https://github.com/dtamayo/reboundx}
+
 \section{Experiment}
 \subsection{Two Body Problem}
 We use the simple two body problem to test various integrators in REBOUND (Leapfrog, IAS15, WHFast, Gragg-Bulirsch-Stoer) and compare the quality of the resulting outputs.
@@ -459,6 +482,157 @@ Fig. \ref{fig:kirkwood_a_e} shows the eccentricity vs semi-major axis of the ast
 At smaller semi-major axis, objects with higher eccentricity more likely to interact with Mars, but at some even bigger eccentricities can keep being in the system at least for $10^6$ million years.
 
 \subsection{Resonant Capture of a Planet}
+This exercise investigates the effect of a Neptune-sized planet's \textbf{exponential migration} on the orbital evolution of an inner planet. Using the \texttt{REBOUND} package, we simulate the migration process and analyze how the system evolves in terms of \textbf{semimajor axes, eccentricities, and orbital period ratio.}
+\\ Planetary migration is a key process in planetary system formation, occurring when planets exchange angular momentum with a gaseous protoplanetary disk or due to planet-planet interactions. During migration, planets can become locked into \textbf{mean-motion resonances (MMRs)}, which significantly influence their long-term orbital stability and eccentricities.
+
+In this study, we simulate the migration of 'Neptune' using an \textbf{exponential migration model} and analyze how its movement affects the orbital evolution of an inner planet. We will try to track the evolution of \textbf{semimajor axes}, changes in \textbf{eccentricities}, and finally the \textbf{ratio of orbital periods} to detect resonance capture.
+
+\subsubsection{Theory}
+
+\textbf{1. Exponential Migration Model}
+
+Planetary migration can be modeled as an exponential decay function:
+
+\begin{equation}
+    a(t) = a_{\text{final}} + (a_{\text{initial}} - a_{\text{final}}) e^{-t/\tau}
+\end{equation}
+
+where:
+\begin{itemize}
+    \item \( a_{\text{initial}} \) and \( a_{\text{final}} \) are the initial and final semimajor axes, respectively.
+    \item \( \tau \) is the \textbf{e-folding time}, controlling the migration speed.
+\end{itemize}
+
+For our simulation, \textbf{Neptune migrates from 24 AU to 10 AU} with different values of \( \tau \) (\( 10^5 \) years and \( 10^6 \) years). 
+
+\textbf{2. Resonant Capture and Mean-Motion Resonances}
+
+When a migrating planet interacts with another body, their orbits may become \textbf{locked in resonance}, where the ratio of their orbital periods forms a simple fraction:
+
+\begin{equation}
+    \frac{P_{\text{outer}}}{P_{\text{inner}}} \approx \frac{p}{q}
+\end{equation}
+
+where \( p, q \) are small integers. Common resonances include:
+\begin{itemize}
+    \item \textbf{2:1 resonance} (outer planet completes 2 orbits for every 1 orbit of the inner planet).
+    \item \textbf{3:2 resonance} (outer planet completes 3 orbits for every 2 of the inner planet).
+\end{itemize}
+
+Resonance capture can be detected by analyzing the \textbf{libration} of the resonant argument instead of free circulation.
+
+\subsubsection{Simulation Setup and Code Explanation}
+
+The simulation is performed using the \textbf{REBOUND} and \textbf{REBOUNDx} packages, with the following setup:
+
+\textbf{1. System Initialization}
+\\ A \texttt{rebound.Simulation()} object is created with the following celestial bodies:
+\begin{itemize}
+    \item \textbf{Sun:} Central mass of \( 1 M_{\odot} \).
+    \item \textbf{Neptune:} Initially at 24 AU, mass \( 5.1 \times 10^{-5} M_{\odot} \), eccentricity 0.01.
+    \item \textbf{Inner Planet:} Initially at 10 AU, mass \( 3 \times 10^{-6} M_{\odot} \), eccentricity 0.0.
+\end{itemize}
+
+\textbf{2. Exponential Migration Implementation}
+\begin{itemize}
+    \item \texttt{reboundx} is used to apply an exponential migration force.
+    \item Two migration rates are tested:
+    \begin{itemize}
+        \item \textbf{Fast migration:} \( \tau = 10^5 \) years.
+        \item \textbf{Slow migration:} \( \tau = 10^6 \) years.
+    \end{itemize}
+    \item The system is integrated for \textbf{1 million years}.
+\end{itemize}
+
+\textbf{3. Tracking Orbital Elements}
+\\ During the simulation, the following are recorded:
+\begin{itemize}
+    \item \textbf{Eccentricity} evolution.
+    \item \textbf{Semimajor axis} evolution for both planets.
+    \item \textbf{Orbital period ratio}, calculated from:
+    \begin{equation}
+        \frac{P_{\text{Neptune}}}{P_{\text{Planet}}}
+    \end{equation}
+\end{itemize}
+
+\subsubsection{Observational Analysis}
+\textbf{1. Eccentricity Evolution}
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.8\textwidth]{ExpoMig/Eccentricity_Evo.png}
+  \caption{Evolution of eccentricities of Neptune and the inner planet over time for two different migration rates.}
+  \label{fig:eccentricity}
+\end{figure}
+\begin{itemize}
+    \item For \textbf{fast migration} (\(\tau = 10^5\)), the inner planet’s eccentricity \textbf{increases significantly}, which indicates that resonance crossings are occuring more violently. 
+    \\ This suggests that a faster migration of Neptune excites the inner planet's orbit strongly - indicating \textbf{resonance trapping}.
+    \\ After reaching its peak, the eccentricity of the inner planet \textbf{oscillates slightly} but remains high, indicating a \textbf{dynamically excited state.}
+    \item For \textbf{slow migration} (\(\tau = 10^6\)), the inner planet’s eccentricity \textbf{remains nearly zero} for most of the time, only increasing slightly toward the end.
+    \\ The eccentricities of both the planets remain \textbf{relatively low} until the end of the simulation, implying that a slower, gradual migration allows for \textbf{more adiabatic evolution.} This leads to more stable, less eccentric orbits.
+    \\ The slight \textbf{increase} in the inner planet's eccentricity suggests that even slow migration can eventually drive instability, though at a much later stage compared to the faster migration case.
+    \item For both timescales, \textbf{Neptune's eccentricity remains small.} Since Neptune is the more massive planet, it is less affected by the resonant interactions compared to the inner planet.
+    
+  \end{itemize}
+
+\textbf{2. Semimajor Axis Evolution}
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.8\textwidth]{ExpoMig/SemimajorAxis_Evo.png}
+  \caption{Time evolution of the semimajor axes of Neptune and the inner planet for two different migration rates.}
+  \label{fig:semimajor}
+\end{figure}
+\begin{enumerate}
+    \item \textbf{Neptune's Migration}
+    \begin{itemize}
+      \item The blue solid line (For \(\tau = 10^5\)) shows a \textbf{rapid inward migration}, reaching a nearly constant value around 10 AU after about 300,000 years.
+      \item The red solid line (For \(\tau = 10^6\)) shows a \textbf{slower inward migration}, still moving towards 10 AU but at a much more gradual rate.
+    \end{itemize}
+    \item \textbf{Inner Planet's Response}
+    \begin{itemize}
+      \item (For \(\tau = 10^5\)) (Blue dashed line):
+      \\ Initially, the inner planet starts at 10 AU, meaning it is \textbf{not in resonance with Neptune at the beginning.} 
+      \\ The inner planet is \textbf{strongly affected} by Neptune’s rapid movement and gets dragged inward along with it. 
+      \\ Around \textbf{0.15 Myr}, the inner planet's semi-major axis \textbf{stabilizes at approximately 7.5 AU}, indicating that it has been \textbf{captured into a resonance} with Neptune.
+      \item (For \(\tau = 10^6\)) (Red dashed line):
+      \\ The inner planet follows a much more \textbf{gradual inward migration}, remaining around \textbf{9-10 AU} for most of the simulation.
+      \\ A small final inward shift suggests that it is \textbf{slowly moving into resonance}, but in a much more controlled manner.
+    \end{itemize}
+    \item \textbf{Indications of Resonance Capture}
+    \begin{itemize}
+      \item In both cases, the inner planet \textbf{does not} continue migrating indefinitely. Instead, its migration halts once a \textbf{stable mean-motion resonance (MMR)} is reached.
+      \\ Once resonance is achieved, \textbf{orbital interactions create a balance between migration forces and gravitational resonant effects}, preventing further inward drift.
+      \item When Neptune migrates rapidly (For \(\tau = 10^5\)), its \textbf{gravitational perturbations are stronger}, pulling the inner planet inward more aggressively.
+      \\ This process also excites the planet’s eccentricity significantly, as confirmed in the \textbf{eccentricity evolution plot} (See fig.(\ref{fig:eccentricity})).
+      \\ The stronger perturbation causes capture into a \textbf{tighter resonance (3:2)}, which results in the inner planet being displaced to smaller semi-major axes (~7.5 AU).
+      \item A slower migration rate (For \(\tau = 10^6\)) allows the system to gradually adjust, \textbf{making resonance capture more gentle.}
+      \\ This leads to a \textbf{wider resonance (likely 2:1)}, with \textbf{less} eccentricity excitation and a \textbf{more} stable long-term configuration.
+    \end{itemize}
+\end{enumerate}
+
+\textbf{3. Orbital Period Ratio Evolution}
+\begin{itemize}
+    \item For \textbf{fast migration (\(\tau = 10^5\))}, the period ratio quickly drops and stabilizes near 1.5. This suggests that Neptune captures the inner planet into a \textbf{3:2 mean-motion resonance (MMR)}, where Neptune completes three orbits for every two of the inner planet. The rapid drop indicates a strong interaction early in the migration, followed by a stable resonant configuration.
+    \item For \textbf{slow migration (\(\tau = 10^6\))}, The period ratio gradually decreases over time instead of sharply dropping. Around 800,000 years, it stabilizes near 2.0.
+    \\ This indicates a \textbf{2:1 resonance}, meaning Neptune completes two orbits for every one of the inner planet.
+    \\ The \textbf{oscillations} at the end suggest some \textbf{libration around the resonance}, a typical behavior in captured resonant configurations.
+\end{itemize}
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.8\textwidth]{ExpoMig/Period_Evo.png}
+  \caption{Time evolution of the orbital period ratio of Neptune and the inner planet for two different migration rates.}
+  \label{fig:period_ratio}
+\end{figure}
+
+\subsubsection{Conclusion}
+\begin{itemize}
+    \item \textbf{For fast migration:}
+    \\ Resonant capture does occur, but the eccentricity grows significantly, possibly making the system \textbf{unstable in the long term.} 
+    \\ The system reaches \textbf{a 3:2 MMR}, but the planet’s \textbf{high eccentricity} may eventually lead to further dynamical interactions.
+    \item \textbf{For slow migration:}
+    \\ The system reaches a \textbf{stable} resonant configuration with a \textbf{higher period ratio (a 2:1 MMR).}
+    \\ The eccentricities remain low for most of the simulation, indicating \textbf{dynamical stability.}
+\end{itemize}
+
 % For each experimental part:
 % \begin{enumerate}
 %  \item Description of setup and procedure (1 to 3 sentences each).
@@ -517,7 +691,7 @@ At smaller semi-major axis, objects with higher eccentricity more likely to inte
 
 \setcounter{secnumdepth}{0}
 
-\printbibliography
+\printbibliography     
 \appendix
 \section{Appendix}
 \subsection{Code}

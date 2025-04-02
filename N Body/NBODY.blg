@@ -1,0 +1,17 @@
+[1] Config.pm:307> INFO - This is Biber 2.19
+[1] Config.pm:310> INFO - Logfile is 'NBODY.blg'
+[439] biber-MSWIN64:340> INFO - === 
+[546] Biber.pm:419> INFO - Reading 'NBODY.bcf'
+[837] Biber.pm:979> INFO - Found 4 citekeys in bib section 0
+[874] Biber.pm:4419> INFO - Processing section 0
+[908] Biber.pm:4610> INFO - Looking for bibtex file 'NBODY.bib' for section 0
+[1052] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1094] bibtex.pm:1519> INFO - Found BibTeX data source 'NBODY.bib'
+[1229] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1229] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1232] Biber.pm:4239> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'en-US'
+[1233] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[1256] bbl.pm:660> INFO - Writing 'NBODY.bbl' with encoding 'UTF-8'
+[1261] bbl.pm:763> INFO - Output to NBODY.bbl
+[1262] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\praty\AppData\Local\Temp\biber_tmp_FoRa\2b68a386baab12be48ac204dbfbde64f_35900.utf8, line 19, warning: 1 characters of junk seen at toplevel
+[1262] Biber.pm:133> INFO - WARNINGS: 1
