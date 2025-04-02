@@ -127,64 +127,6 @@
       \endverb
       \keyw{methods: numerical,planets and satellites: rings,protoplanetary disks,Astrophysics - Earth and Planetary Astrophysics,Astrophysics - Instrumentation and Methods for Astrophysics,Mathematics - Dynamical Systems,Physics - Computational Physics}
     \endentry
-    \entry{Tamayo_2019}{article}{}{}
-      \name{author}{4}{}{%
-        {{hash=ea2bdde8fad2cc5a38b1ef39dc461f71}{%
-           family={Tamayo},
-           familyi={T\bibinitperiod},
-           given={Daniel},
-           giveni={D\bibinitperiod}}}%
-        {{hash=48d8420f2b5eb5affce94a3061451d3d}{%
-           family={Rein},
-           familyi={R\bibinitperiod},
-           given={Hanno},
-           giveni={H\bibinitperiod}}}%
-        {{hash=26c2f060fc7f3b04dc23137104a6e3f6}{%
-           family={Shi},
-           familyi={S\bibinitperiod},
-           given={Pengshuai},
-           giveni={P\bibinitperiod}}}%
-        {{hash=4a1bf499ceb7eaf0e697bc1561ef2c40}{%
-           family={Hernandez},
-           familyi={H\bibinitperiod},
-           given={David\bibnamedelima M},
-           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Oxford University Press (OUP)}%
-      }
-      \strng{namehash}{8eb84c395b683ad7e620340b53d9e517}
-      \strng{fullhash}{fbd8d4e6e84c1aa8269d37c941a90f88}
-      \strng{fullhashraw}{fbd8d4e6e84c1aa8269d37c941a90f88}
-      \strng{bibnamehash}{8eb84c395b683ad7e620340b53d9e517}
-      \strng{authorbibnamehash}{8eb84c395b683ad7e620340b53d9e517}
-      \strng{authornamehash}{8eb84c395b683ad7e620340b53d9e517}
-      \strng{authorfullhash}{fbd8d4e6e84c1aa8269d37c941a90f88}
-      \strng{authorfullhashraw}{fbd8d4e6e84c1aa8269d37c941a90f88}
-      \field{labelalpha}{Tam+19}
-      \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{1365-2966}
-      \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
-      \field{month}{10}
-      \field{number}{2}
-      \field{title}{REBOUNDx: a library for adding conservative and dissipative forces to otherwise symplectic N-body integrations}
-      \field{volume}{491}
-      \field{year}{2019}
-      \field{pages}{2885\bibrangedash 2901}
-      \range{pages}{17}
-      \verb{doi}
-      \verb 10.1093/mnras/stz2870
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1093/mnras/stz2870
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1093/mnras/stz2870
-      \endverb
-    \endentry
   \enddatalist
 \endrefsection
 \endinput
