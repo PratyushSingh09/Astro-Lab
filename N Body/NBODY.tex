@@ -86,6 +86,22 @@ In this laboratory work numerically we solve various N-body problems using integ
 \section{Theory}\label{sec:theory}
 \subsection{Classical N-Body Problem}
 
+Classical N-body problem solves motion of point masses in their mutual gravitational field. The problem is solved using Hamiltonial of the system given as:
+
+\begin{equation}
+	H = \sum_{i=1}^{N} \frac{\textbf{p}_i^2}{2 m_i} - \sum_{i=1}^{N} \sum_{j=i+1}^{N} \frac{G m_i m_j}{|\textbf{q}_i - \textbf{q}_j|}
+\end{equation}
+
+where $\textbf{p}_i = m_i \textbf{v}_i$ and $\textbf{q}_i = \textbf{r}_i$ are respectible canonical momentum and position of a particle $i$. This gives us equations of motion for the particle:
+
+\begin{equation}
+	\dot{\textbf{q}}_i(t) = \frac{\partial H}{\partial \textbf{p}_i} \xrightarrow{} \frac{d \textbf{r}_i}{dt} = \textbf{v}_i
+\end{equation}
+
+\begin{equation}
+	\dot{\textbf{p}}_i(t) = -\frac{\partial H}{\partial \textbf{q}_i} \xrightarrow{} \frac{d \textbf{v}_i}{dt} = \textbf{a}_i
+\end{equation}
+
 \subsection{Time Integrators}
 \label{integrators}
 Computers can calculate equations of motion for N-bodies with time integrators. Time integrators use certain algorithms to solve ODEs with discrete values of time starting from initial time $t_n$, and computers position and velocity at next time $t_n+\Delta t$. There are various numerical schemes to solve initial value problems in such way, and next subsections will give a general outlook on some of methods, since one of our tasks is to compare different time integrators.
