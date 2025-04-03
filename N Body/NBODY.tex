@@ -80,13 +80,24 @@ This is optional, but never longer than half a page.
 \lhead{\groupno; \experiment}
 
 \section{Introduction}\label{sec:intro} % labels allow references, particularly important for figures and tables
-In this laboratory work numerically we solve various N-body problems using integrator software package REBOUND.
+The N-body problem is required to study planetary systems, star clusters and galactic nuclei. Most interactions involved in these systems are dominated the 
+pairwise gravitational forces between the bodies in the system. Hence, this needs to be accounted for with a high accuracy. \\
+For these Nbody problems in astrophysics, the numbers involved are $\sim 10$ in planetary systems, $\sim 10^4-10^6$ in star clusters and above $\sim 10^8$ in galactiv nuclei. At these large
+magnitudes, we have to rely on numerical integration to integrate the motions of all individual bodies involved in the system. \\
+
+In this laboratory work numerically we solve various N-body problems using integrator software package REBOUND. In section \ref{sec:theory}, we will give small theoretical instructions about the
+classical N Body problem, integrators used in REBOUND, and introductions to REBOUND and REBOUNDX. In section \ref{sec:2body} we simulate the 2 body problem with one large central mass. In section \ref{sec:3body}
+we discuss the three body problem in two cases, one with equal planet masses and the other with unequal planet masses. In section \ref{sec:kirkwood} we observe how jupiter affects the asteroid belt and their formation.
+In section \ref{sec:resonant_capture} we study the resonant capture of a planet with different e-folding times. All the code used in this laboratory can be accessed in section \ref{sec:code}.
 
 
-\section{Theory}\label{sec:theory}
+
+
+\section{Theory}
+\label{sec:theory}
 \subsection{Classical N-Body Problem}
 
-Classical N-body problem solves motion of point masses in their mutual gravitational field. The problem is solved using Hamiltonial of the system given as:
+Classical N-body problem solves motion of point masses in their mutual gravitational field. The problem is solved using Hamiltonian of the system given as:
 
 \begin{equation}
 	H = \sum_{i=1}^{N} \frac{\textbf{p}_i^2}{2 m_i} - \sum_{i=1}^{N} \sum_{j=i+1}^{N} \frac{G m_i m_j}{|\textbf{q}_i - \textbf{q}_j|}
@@ -158,21 +169,11 @@ like the energy, angular momentum and orbital elements.
 we will stick with the latter. REBOUND for python can be easily installed by \texttt{pip install rebound}.
 
 \subsection{REBOUNDX}
-\texttt{Reboundx} is an extension package for the \texttt{REBOUND} N-body integrator, designed to introduce additional physical effects into gravitational simulations. While \texttt{REBOUND} handles pure Newtonian gravity, \texttt{Reboundx} enables users to include non-conservative forces and astrophysical effects such as:
-\begin{itemize}
-    \item Tidal forces
-    \item General relativity corrections
-    \item Stellar evolution effects
-    \item Migration forces (e.g., exponential migration, disk interactions)
-\end{itemize}
-\subsubsection{Supported Platforms}
-\texttt{Reboundx} can run on multiple platforms, including:
-\begin{itemize}
-    \item Linux (like Ubuntu, Fedora, etc.)
-    \item macOS
-    \item Windows (via Windows Subsystem for Linux (WSL) or native Python installations)
-    \item Jupyter Notebooks \& Google Colab
-\end{itemize}
+\texttt{Reboundx} is an extension package for the \texttt{REBOUND} N-body integrator, designed to introduce additional physical effects into gravitational simulations. While \texttt{REBOUND} handles pure Newtonian gravity, 
+\texttt{Reboundx} enables users to include non-conservative forces and astrophysical effects such as tidal forces, general relativity corrections, stellar evolution effects, migration forces (e.g., exponential migration, disk interactions)\\
+
+
+\texttt{Reboundx} can run on multiple platforms, including Linux (like Ubuntu, Fedora, etc.), macOS, Windows (via Windows Subsystem for Linux), Jupyter Notebooks \& Google Colab
 \subsubsection{Installation}
 The \texttt{Reboundx} package was created by Dan Tamayo, and is currently maintained by him as well \cite{Tamayo_2019}. Like REBOUND, it can be run in both C and Python. \\
 For this experiment, we have used Python - and the package can be installed by simply using:
@@ -183,6 +184,7 @@ The Github link for documentation and problem examples concerning \texttt{reboun
 
 \section{Experiment}
 \subsection{Two Body Problem}
+\label{sec:2body}
 We use the simple two body problem to test various integrators in REBOUND (Leapfrog, IAS15, WHFast, Gragg-Bulirsch-Stoer) and compare the quality of the resulting outputs.
 We also test the quality of the results as we change the timestep from 1 to $10^{-6}$\\
 In this two body problem we simulate a moon orbiting a planet or a planet orbiting a star. Here, one body will be significantly heavier than the other. 
@@ -283,6 +285,7 @@ The description of these Integrators is given in section \ref{integrators}.\\
 From figure \ref{fig:int:4} and figure \ref{fig:int:5} we can see that the IAS 15 integrator is significantly more accurate than the other integrators. WHFast and Gragg-Bulirsch-Stoer integrators have similar accuracy while
  the leapfrog integrator is the least accurate.
 \subsection{Three Body Problem and Stability of the Planet System}
+\label{sec:3body}
 Here we will simulate a coplanar 3 body system with a large central mass $(m_1)$ and two smaller masses $(m_2, m_3)$ in circular orbits. The two small objects will start opposite to each other (at a 
 phase difference of $\pi$). We vary the distance  between $m_2$ and $m_3$ to study the stability of the system.\\
 The eccentricity and the semi major axis of the bodies will vary due to gravitational perturbations from the other bodies. For bodies that are closer, the gravitational perturbations will be larger which will result in
@@ -465,14 +468,14 @@ Looking at the evolution of eccentricities with different seperations, we observ
   \caption{Change in eccentricity of the planets with different separations and unequal masses}
 \end{figure}
 \subsection{Jupiter and Kirkwood Gaps}
-
+\label{sec:kirkwood}
 In this part of the lab work we must observe Kirkwood gaps - gaps in the asteroid belt - by simulationg and observing the evolution of Sun-Jupiter-Mars system with 10000 test particles. 
 Using REBOUND we can simulate these objects and get semi-major axis and eccentricity of all bodies up to 1 million years of evolution. Additionally, we check the change of distibution at every 100000 years.
 
 Kirkwood gaps are caused by the resonant interaction between the asteroids and Jupiter \cite{asteroids}. The resonant interaction leads to the instability of the orbits of the asteroids.
 Moreover, the instabilities cause the increase of eccentricity of the asteroids, and the asteroids with higher eccentricity are more likely to collide with inner planets.
 The main Kirkwood gaps are at 2.50, 2.82, 2.95, 3.27 AU corresponding to the resonant periods of 3:1, 5:2, 7:3, 2:1 respectively.
-The observed distribution of asteroids in the asteroid belt are shown in Fig. \cite{fig:real_kirkwood} below:
+The observed distribution of asteroids in the asteroid belt are shown in Fig. \ref{fig:real_kirkwood} below:
 
 \begin{figure}[H]
   \centering
@@ -519,6 +522,7 @@ Accurate results similar to real observed data requires more complex integrator 
 
 
 \subsection{Resonant Capture of a Planet}
+\label{sec:resonant_capture}
 This exercise investigates the effect of a Neptune-sized planet's \textbf{exponential migration} on the orbital evolution of an inner planet. Using the \texttt{REBOUND} package, we simulate the migration process and analyze how the system evolves in terms of \textbf{semimajor axes, eccentricities, and orbital period ratio.}
 \\ Planetary migration is a key process in planetary system formation, occurring when planets exchange angular momentum with a gaseous protoplanetary disk or due to planet-planet interactions. During migration, planets can become locked into \textbf{mean-motion resonances (MMRs)}, which significantly influence their long-term orbital stability and eccentricities.
 
@@ -761,7 +765,7 @@ In this lab exercise, we investigated the effects of \textbf{exponential migrati
 \appendix
 \section{Appendix}
 \subsection{Code}
-\subsubsection{Resonant Capture Simulation Code}
+\label{sec:code}
 The following Python code simulates the migration of a Neptune-sized planet and the resonant capture of an inner planet. 
 \\Code for Kirkwood gaps: \url{https://github.com/ErasylTelman/Nbody/tree/main}. $\tt kirkwood.py$ is the code for simulation. 
 $\tt read_data.py$ was used to generate figures in this protocol from output files - it can be changed to read output file in any way possible.

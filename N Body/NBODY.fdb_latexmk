@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber NBODY"] 1743698627.97751 "NBODY.bcf" "NBODY.bbl" "NBODY" 1743698643.77007 0
-  "NBODY.bcf" 1743698643 108123 f1a0142b2595e298bc6c496ecaa6c0d0 "pdflatex"
+["biber NBODY"] 1743699142.28382 "NBODY.bcf" "NBODY.bbl" "NBODY" 1743700722.93079 0
+  "NBODY.bcf" 1743700722 108051 9d7278c24b4596a66dbac241a585681a "pdflatex"
   "NBODY.bib" 1743613253 1913 cdae2033c8e07d0aa7aea0df4520074d ""
   (generated)
   "NBODY.bbl"
   "NBODY.blg"
   (rewritten before read)
-["pdflatex"] 1743698638.11428 "c:/Users/praty/OneDrive - UT Cloud/Astro Lab/Astro-Lab/N Body/NBODY.tex" "NBODY.pdf" "NBODY" 1743698643.77122 0
+["pdflatex"] 1743700716.92353 "c:/Users/praty/OneDrive - UT Cloud/Astro Lab/Astro-Lab/N Body/NBODY.tex" "NBODY.pdf" "NBODY" 1743700722.93176 0
   "2Body/2BD0.png" 1742316785 28625 e90b7da1a993a64f2db4fafe14fded6f ""
   "2Body/2Body_Energy_Consv_dt.png" 1742303599 224770 9386bb2f596d4e7fbb4aa62d42fce11c ""
   "2Body/2Body_Energy_Consv_int.png" 1742303599 204504 b66de74fc9c1d6953e884c84f2ded3f2 ""
@@ -152,13 +152,13 @@
   "ExpoMig/Eccentricity_Evo.png" 1743613253 141425 d21afd59f10c919ad424d4fc93b61223 ""
   "ExpoMig/Period_Evo.png" 1743613253 116174 9a0c1b7262009e50857230b3e22e7efb ""
   "ExpoMig/SemimajorAxis_Evo.png" 1743613253 134937 d6fc637f07c4c8be9dfbaa0c0dadb797 ""
-  "NBODY.aux" 1743698643 16007 8eca06006662872295c5ee5a74ad601c "pdflatex"
-  "NBODY.bbl" 1743698632 6971 561b2c898dbe5168d51a94f85f2ff713 "biber NBODY"
-  "NBODY.out" 1743698643 4553 5c0bf33a3d1b6598e39d7cb5d038e399 "pdflatex"
-  "NBODY.run.xml" 1743698643 2313 e7b59289b0ac85d00fb25e9c96986adf "pdflatex"
-  "NBODY.tex" 1743698619 42978 b83e2178543d2cbd1abf8e6c6ee7717e ""
-  "NBODY.toc" 1743698643 2430 00ce27c28e3cf5608ed19026243cfb6b "pdflatex"
-  "c:/Users/praty/OneDrive - UT Cloud/Astro Lab/Astro-Lab/N Body/NBODY.tex" 1743698619 42978 b83e2178543d2cbd1abf8e6c6ee7717e ""
+  "NBODY.aux" 1743700722 16071 35d7dc5925a41ddc40a8e4373688c544 "pdflatex"
+  "NBODY.bbl" 1743699145 6940 d5496ec3340409249ec56cc318c267e4 "biber NBODY"
+  "NBODY.out" 1743700722 4161 34500dd2972e5ed1625d5bdf52e52b51 "pdflatex"
+  "NBODY.run.xml" 1743700722 2313 e7b59289b0ac85d00fb25e9c96986adf "pdflatex"
+  "NBODY.tex" 1743700714 44986 a23e85f4abc2dc85ac5afaea6639868e ""
+  "NBODY.toc" 1743700722 2253 dfec9f9e80c63ba283e4a67da1f535f1 "pdflatex"
+  "c:/Users/praty/OneDrive - UT Cloud/Astro Lab/Astro-Lab/N Body/NBODY.tex" 1743700714 44986 a23e85f4abc2dc85ac5afaea6639868e ""
   "kirkwood/a_e_kirkwood.png" 1742424775 1031287 dd0e53d2eb34df245257a38d1eff8d34 ""
   "kirkwood/eccentricity_semimajor.jpeg" 1743697525 154061 59dce7d8417f6905560961fb8cacea49 ""
   "kirkwood/hist_kirkwood.png" 1742424775 289633 72a49aa0e29728c2bc37d3475148db10 ""

@@ -2365,7 +2365,6 @@
     <bcf:citekey order="2" intorder="1">Tamayo_2019</bcf:citekey>
     <bcf:citekey order="3" intorder="1">Gladman</bcf:citekey>
     <bcf:citekey order="4" intorder="1">asteroids</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">fig:real_kirkwood</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="anyt">
