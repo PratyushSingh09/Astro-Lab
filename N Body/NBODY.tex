@@ -455,6 +455,24 @@ Kirkwood gaps are caused by the resonant interaction between the asteroids and J
 Moreover, the instabilities cause the increase of eccentricity of the asteroids, and the asteroids with higher eccentricity are more likely to collide with inner planets.
 The main Kirkwood gaps are at 2.50, 2.82, 2.95, 3.27 AU corresponding to the resonant periods of 3:1, 5:2, 7:3, 2:1 respectively.
 
+The observed distribution of asteroids in the asteroid belt are shown in Fig. \cite{fig:real_kirkwood} below:
+
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}{0.49\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{kirkwood/kirkwood.png}
+  \end{subfigure}
+  \begin{subfigure}{0.49\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{kirkwood/eccentricity_semimajor.jpeg}
+  \end{subfigure}
+  \caption{Number distribution of asteroids and eccentricity vs semi-major axis distributions from observed data.}
+  \label{fig:real_kirkwood}
+\end{figure}
+
+Our task is to simulate these results using REBOUND.
+
 First, Sun, Jupiter and Mars are added with their corresponding masses, semi-major axes and eccentricities. 
 Next, we add 10000 test particles in a range of 2 to 4 AU and random true anomaly and eccentricities. It is important to make only three major objects active with $\tt sim.N\textunderscore active=3$ line so all test particles do not affect the system. 
 Additionally, we simplify the solution by using leap-frog integrator due to the complicatied computation. The code records the values of semi-major axis $a$ and eccentricity $a$ of each body to .txt file for further visualization.
