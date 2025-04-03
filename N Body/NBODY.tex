@@ -456,7 +456,23 @@ Using REBOUND we can simulate these objects and get semi-major axis and eccentri
 Kirkwood gaps are caused by the resonant interaction between the asteroids and Jupiter \cite{asteroids}. The resonant interaction leads to the instability of the orbits of the asteroids.
 Moreover, the instabilities cause the increase of eccentricity of the asteroids, and the asteroids with higher eccentricity are more likely to collide with inner planets.
 The main Kirkwood gaps are at 2.50, 2.82, 2.95, 3.27 AU corresponding to the resonant periods of 3:1, 5:2, 7:3, 2:1 respectively.
+The observed distribution of asteroids in the asteroid belt are shown in Fig. \cite{fig:real_kirkwood} below:
 
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}{0.49\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{kirkwood/kirkwood.png}
+  \end{subfigure}
+  \begin{subfigure}{0.49\textwidth}
+    \centering
+    \includegraphics[width=\linewidth]{kirkwood/eccentricity_semimajor.jpeg}
+  \end{subfigure}
+  \caption{Number distribution of asteroids and eccentricity vs semi-major axis distributions from observed data.}
+  \label{fig:real_kirkwood}
+\end{figure}
+
+Our task is to simulate these results using REBOUND.
 First, Sun, Jupiter and Mars are added with their corresponding masses, semi-major axes and eccentricities. 
 Next, we add 10000 test particles in a range of 2 to 4 AU and random true anomaly and eccentricities. It is important to make only three major objects active with $\tt sim.N\textunderscore active=3$ line so all test particles do not affect the system. 
 Additionally, we simplify the solution by using leap-frog integrator due to the complicatied computation. The code records the values of semi-major axis $a$ and eccentricity $a$ of each body to .txt file for further visualization.
@@ -469,7 +485,7 @@ Additionally, we simplify the solution by using leap-frog integrator due to the 
 \end{figure}
 
 Fig. \ref{fig:kirkwood_histogram} shows the histograms of the number of asteroids at various distances every $10^5$ years.
-End result does not show the exact Kirkwood gaps due to the short timespan of the simulation and simplifications in the model and integrator. However, there are smaller number of asteroids near the expected respnance locations, especially near 2.82 AU and 2.95 AU.
+End result does not show the exact Kirkwood gaps due to the short timespan of the simulation and simplifications in the model and integrator. However, there are smaller number of asteroids near the expected resonance locations, especially near 2.82 AU and 2.95 AU.
 
 Further, we can plot the semi-major axis and eccentricity of the test particles to see the evolution of the system:
 
@@ -481,7 +497,10 @@ Further, we can plot the semi-major axis and eccentricity of the test particles 
 \end{figure}
 
 Fig. \ref{fig:kirkwood_a_e} shows the eccentricity vs semi-major axis of the asteroids over time. One can see gaps near 2.82 and 2.95 AU as well as decrease of the eccentricity at smaller orbits.
-At smaller semi-major axis, objects with higher eccentricity more likely to interact with Mars, but at some even bigger eccentricities can keep being in the system at least for $10^6$ million years.
+At smaller semi-major axis, objects with higher eccentricity are more likely to interact with Mars, but at some even bigger eccentricities can keep being in the system at least for $10^6$ million years.
+
+Accurate results similar to real observed data requires more complex integrator and simulation for longer time period.
+
 
 \subsection{Resonant Capture of a Planet}
 This exercise investigates the effect of a Neptune-sized planet's \textbf{exponential migration} on the orbital evolution of an inner planet. Using the \texttt{REBOUND} package, we simulate the migration process and analyze how the system evolves in terms of \textbf{semimajor axes, eccentricities, and orbital period ratio.}
@@ -692,6 +711,8 @@ The simulation is performed using the \textbf{REBOUND} and \textbf{REBOUNDx} pac
     \item For enequal masses, the planet with smaller mass developed a larger eccentricity
   \end{enumerate}
 
+  In the third task, we managed to successfully simulate the motion of 10000 test particles as asteroids in asteroid belt for $10^6$ years. The end result shows the distribution of bodies closely resempling Kirkwood gaps. 
+  The distribution of eccentricities and semi-major axes also demonstrate close resemblance to observed real distribution, although more correct result requires more accurate integrator as well as longer simulation time.
 \subsection{Concluding the resonant capture problem}
 In this lab exercise, we investigated the effects of \textbf{exponential migration} on a planetary system, focusing on the \textbf{resonant capture} of an inner planet due to the inward migration of Neptune.
 \\ Using the \texttt{REBOUND} and \texttt{REBOUNDx} packages, we simulated the dynamical evolution of the system over \textbf{one million years}, analyzing the changes in \textbf{semimajor axes, eccentricities, and orbital period ratios} for two different migration timescales - (\(\tau = 10^5\) years) and (\(\tau = 10^6\) years).
@@ -726,6 +747,8 @@ In this lab exercise, we investigated the effects of \textbf{exponential migrati
 \subsection{Code}
 \subsubsection{Resonant Capture Simulation Code}
 The following Python code simulates the migration of a Neptune-sized planet and the resonant capture of an inner planet. 
+\\Code for Kirkwood gaps: \url{https://github.com/ErasylTelman/Nbody/tree/main}. $\tt kirkwood.py$ is the code for simulation. 
+$\tt read_data.py$ was used to generate figures in this protocol from output files - it can be changed to read output file in any way possible.
 \\ The file can be accessed using the following link:
 
 \href{https://github.com/PratyushSingh09/Astro-Lab/blob/main/N%20Body/Resonant-Capture.ipynb}{Please click here to open the Jupyter Notebook}

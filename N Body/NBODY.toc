@@ -17,12 +17,12 @@
 \contentsline {subsubsection}{\numberline {3.2.2}Unequal Mass Planets}{11}{subsubsection.3.2.2}%
 \contentsline {subsection}{\numberline {3.3}Jupiter and Kirkwood Gaps}{14}{subsection.3.3}%
 \contentsline {subsection}{\numberline {3.4}Resonant Capture of a Planet}{16}{subsection.3.4}%
-\contentsline {subsubsection}{\numberline {3.4.1}Theory}{16}{subsubsection.3.4.1}%
-\contentsline {subsubsection}{\numberline {3.4.2}Simulation Setup and Code Explanation}{17}{subsubsection.3.4.2}%
+\contentsline {subsubsection}{\numberline {3.4.1}Theory}{17}{subsubsection.3.4.1}%
+\contentsline {subsubsection}{\numberline {3.4.2}Simulation Setup and Code Explanation}{18}{subsubsection.3.4.2}%
 \contentsline {subsubsection}{\numberline {3.4.3}Observational Analysis}{18}{subsubsection.3.4.3}%
 \contentsline {subsubsection}{\numberline {3.4.4}Result}{21}{subsubsection.3.4.4}%
-\contentsline {section}{\numberline {4}Conclusions}{21}{section.4}%
+\contentsline {section}{\numberline {4}Conclusions}{22}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Concluding the resonant capture problem}{22}{subsection.4.1}%
-\contentsline {section}{Appendix}{23}{section*.22}%
-\contentsline {subsection}{Code}{23}{section*.23}%
-\contentsline {subsubsection}{Resonant Capture Simulation Code}{23}{section*.24}%
+\contentsline {section}{Appendix}{24}{section*.23}%
+\contentsline {subsection}{Code}{24}{section*.24}%
+\contentsline {subsubsection}{Resonant Capture Simulation Code}{24}{section*.25}%
