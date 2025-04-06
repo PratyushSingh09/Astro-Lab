@@ -19,15 +19,169 @@
 
 \refsection{0}
   \datalist[entry]{anyt/global//global/global}
-    \entry{Spectral_Classification}{misc}{}
+    \entry{Castor}{misc}{}
+      \list{language}{1}{%
+        {en-US}%
+      }
       \field{sortinit}{}
       \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \field{journaltitle}{NASA Jet Propulsion Laboratory (JPL)}
+      \verb{urlraw}
+      \verb https://www.jpl.nasa.gov/infographics/castor-the-6-star-system-a3-poster/
+      \endverb
+      \verb{url}
+      \verb https://www.jpl.nasa.gov/infographics/castor-the-6-star-system-a3-poster/
+      \endverb
+    \endentry
+    \entry{Spectral_Classification}{misc}{}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labeltitlesource}{title}
       \field{journaltitle}{Spectral Classification}
+      \field{title}{Spec}
       \verb{urlraw}
       \verb https://lweb.cfa.harvard.edu/~pberlind/atlas/htmls/note.html
       \endverb
       \verb{url}
       \verb https://lweb.cfa.harvard.edu/~pberlind/atlas/htmls/note.html
+      \endverb
+    \endentry
+    \entry{NIST_ASD}{misc}{}
+      \name{author}{4}{}{%
+        {{hash=ddbd1f1593f40dee11f838bc95965d76}{%
+           family={A.\bibnamedelimi Kramida},
+           familyi={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=6ecfa994a41c307f1875cdc6e3444b03}{%
+           family={{Yu.~Ralchenko}},
+           familyi={Y\bibinitperiod}}}%
+        {{hash=a4ea16aa5605d8cc9196f34f0c5d1faf}{%
+           family={J.\bibnamedelimi Reader},
+           familyi={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=b05b773e6f5781b33e9b0302df5de708}{%
+           family={{and NIST ASD Team}},
+           familyi={a\bibinitperiod}}}%
+      }
+      \strng{namehash}{1a52701bb6fc3a4484f548a763977709}
+      \strng{fullhash}{2fbeb9bb15c7d95559622e458d2552ea}
+      \strng{bibnamehash}{1a52701bb6fc3a4484f548a763977709}
+      \strng{authorbibnamehash}{1a52701bb6fc3a4484f548a763977709}
+      \strng{authornamehash}{1a52701bb6fc3a4484f548a763977709}
+      \strng{authorfullhash}{2fbeb9bb15c7d95559622e458d2552ea}
+      \field{labelalpha}{A K+24}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{howpublished}{{NIST Atomic Spectra Database (ver. 5.12), [Online]. Available: {\tt{https://physics.nist.gov/asd}} [2025, April 5]. National Institute of Standards and Technology, Gaithersburg, MD.}}
+      \field{year}{2024}
+    \endentry
+    \entry{Wikipedia_contributors_2025}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=e2ceeea38f8620383cfbd3e99c5c0cd8}{%
+           family={contributors},
+           familyi={c\bibinitperiod},
+           given={Wikipedia},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{fullhash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{bibnamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{authorbibnamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{authornamehash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \strng{authorfullhash}{e2ceeea38f8620383cfbd3e99c5c0cd8}
+      \field{labelalpha}{con25}
+      \field{sortinit}{c}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Wikipedia}
+      \field{month}{3}
+      \field{title}{Castor (star)}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://en.wikipedia.org/wiki/Castor_(star)
+      \endverb
+      \verb{url}
+      \verb https://en.wikipedia.org/wiki/Castor_(star)
+      \endverb
+    \endentry
+    \entry{Pourbaix_Tokovinin_Batten_Fekel_Hartkopf_Levato_Morrell_Torres_Udry_2004}{article}{}
+      \name{author}{9}{}{%
+        {{hash=b4cc68233b898977756c02a4e9b2d6f3}{%
+           family={Pourbaix},
+           familyi={P\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=93cb4acfce5ee82e5eb6ea23493a1f03}{%
+           family={Tokovinin},
+           familyi={T\bibinitperiod},
+           given={A.\bibnamedelimi A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=14f63389632228b470f6d73eeeb2c42f}{%
+           family={Batten},
+           familyi={B\bibinitperiod},
+           given={A.\bibnamedelimi H.},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=91be40f83db7149b6340ea335b92ef95}{%
+           family={Fekel},
+           familyi={F\bibinitperiod},
+           given={F.\bibnamedelimi C.},
+           giveni={F\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=a8dddce263fab1305259358c43e5f590}{%
+           family={Hartkopf},
+           familyi={H\bibinitperiod},
+           given={W.\bibnamedelimi I.},
+           giveni={W\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=e530f22ae5dd584bdeddd711b3aae728}{%
+           family={Levato},
+           familyi={L\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=a8a1ba753d8ad5a045127334ee15644f}{%
+           family={Morrell},
+           familyi={M\bibinitperiod},
+           given={N.\bibnamedelimi I.},
+           giveni={N\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=ba7cf6e74961eba82fe2cd43d8a378e1}{%
+           family={Torres},
+           familyi={T\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=63e1515e1b953ca6d89daec2db9cb537}{%
+           family={Udry},
+           familyi={U\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{2f83ce5f88d974d33e7e156b90c79162}
+      \strng{fullhash}{599f54fe41ffd04e870df95a76278f9b}
+      \strng{bibnamehash}{2f83ce5f88d974d33e7e156b90c79162}
+      \strng{authorbibnamehash}{2f83ce5f88d974d33e7e156b90c79162}
+      \strng{authornamehash}{2f83ce5f88d974d33e7e156b90c79162}
+      \strng{authorfullhash}{599f54fe41ffd04e870df95a76278f9b}
+      \field{labelalpha}{Pou+04}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Astronomy and Astrophysics}
+      \field{month}{8}
+      \field{number}{2}
+      \field{title}{S$\mathsf{_{B^9}}$: The ninth catalogue of spectroscopic binary orbits}
+      \field{volume}{424}
+      \field{year}{2004}
+      \field{pages}{727\bibrangedash 732}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1051/0004-6361:20041213
+      \endverb
+      \verb{urlraw}
+      \verb https://www.aanda.org/articles/aa/abs/2004/35/aa1213/aa1213.html
+      \endverb
+      \verb{url}
+      \verb https://www.aanda.org/articles/aa/abs/2004/35/aa1213/aa1213.html
       \endverb
     \endentry
   \enddatalist

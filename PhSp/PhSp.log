@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.10)  31 MAR 2025 01:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.10)  6 APR 2025 18:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -626,120 +626,188 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
 l.71 \newpage
               [1]
 
-LaTeX Warning: Command \r invalid in math mode on input line 99.
+LaTeX Warning: Command \r invalid in math mode on input line 100.
 
-<./Pictures/2004_img_0962.jpg, id=86, 642.4pt x 428.4005pt>
+<./Pictures/2004_img_0962.jpg, id=94, 642.4pt x 428.4005pt>
 File: ./Pictures/2004_img_0962.jpg Graphic file (type jpg)
 <use ./Pictures/2004_img_0962.jpg>
-Package pdftex.def Info: ./Pictures/2004_img_0962.jpg  used on input line 105.
+Package pdftex.def Info: ./Pictures/2004_img_0962.jpg  used on input line 107.
 (pdftex.def)             Requested size: 226.48395pt x 151.03407pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.109     I
+l.111     I
            n figure \ref{fig:80cm_lp} we can see the path light has to trave... [1]
-<Pictures/Nasmyth2.pdf, id=93, 1713.40125pt x 1472.50125pt>
+<Pictures/Nasmyth2.pdf, id=101, 1713.40125pt x 1472.50125pt>
 File: Pictures/Nasmyth2.pdf Graphic file (type pdf)
 <use Pictures/Nasmyth2.pdf>
-Package pdftex.def Info: Pictures/Nasmyth2.pdf  used on input line 114.
+Package pdftex.def Info: Pictures/Nasmyth2.pdf  used on input line 116.
 (pdftex.def)             Requested size: 226.48395pt x 194.6224pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 122--125
+Underfull \hbox (badness 10000) in paragraph at lines 124--127
 
  []
 
 [2 <./Pictures/2004_img_0962.jpg> <./Pictures/Nasmyth2.pdf>]
-<Pictures/HRD_lum_class.png, id=109, 430.60875pt x 535.2497pt>
+<Pictures/HRD_lum_class.png, id=117, 430.60875pt x 535.2497pt>
 File: Pictures/HRD_lum_class.png Graphic file (type png)
 <use Pictures/HRD_lum_class.png>
-Package pdftex.def Info: Pictures/HRD_lum_class.png  used on input line 132.
+Package pdftex.def Info: Pictures/HRD_lum_class.png  used on input line 134.
 (pdftex.def)             Requested size: 226.48395pt x 281.52483pt.
+LaTeX Font Info:    Trying to load font information for OML+cmr on input line 147.
+ (C:\Users\praty\AppData\Local\Programs\MiKTeX\tex/latex/base\omlcmr.fd
+File: omlcmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 147.
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--156
+Underfull \hbox (badness 10000) in paragraph at lines 139--158
 
  []
 
 [3 <./Pictures/HRD_lum_class.png>]
-<Pictures/Line_strength.png, id=120, 583.42969pt x 374.90062pt>
+<Pictures/Line_strength.png, id=128, 583.42969pt x 374.90062pt>
 File: Pictures/Line_strength.png Graphic file (type png)
 <use Pictures/Line_strength.png>
-Package pdftex.def Info: Pictures/Line_strength.png  used on input line 164.
+Package pdftex.def Info: Pictures/Line_strength.png  used on input line 166.
 (pdftex.def)             Requested size: 339.72592pt x 218.3063pt.
-<Pictures/Spectral_class.png, id=122, 290.58563pt x 426.84468pt>
+<Pictures/Spectral_class.png, id=130, 290.58563pt x 426.84468pt>
 File: Pictures/Spectral_class.png Graphic file (type png)
 <use Pictures/Spectral_class.png>
-Package pdftex.def Info: Pictures/Spectral_class.png  used on input line 172.
+Package pdftex.def Info: Pictures/Spectral_class.png  used on input line 174.
 (pdftex.def)             Requested size: 339.72592pt x 499.06108pt.
  [4 <./Pictures/Line_strength.png>] [5 <./Pictures/Spectral_class.png>]
-<Pictures/spectrum_image.png, id=140, 1304.875pt x 1033.8625pt>
+<Pictures/spectrum_image.png, id=148, 1304.875pt x 1033.8625pt>
 File: Pictures/spectrum_image.png Graphic file (type png)
 <use Pictures/spectrum_image.png>
-Package pdftex.def Info: Pictures/spectrum_image.png  used on input line 195.
+Package pdftex.def Info: Pictures/spectrum_image.png  used on input line 198.
 (pdftex.def)             Requested size: 339.72592pt x 269.16075pt.
  [6 <./Pictures/spectrum_image.png>]
-<Pictures/Castor_121sec_2025_2-CalRawSpec.pdf, id=153, 481.8pt x 390.45876pt>
+<Pictures/Castor_121sec_2025_2-CalRawSpec.pdf, id=161, 481.8pt x 390.45876pt>
 File: Pictures/Castor_121sec_2025_2-CalRawSpec.pdf Graphic file (type pdf)
 <use Pictures/Castor_121sec_2025_2-CalRawSpec.pdf>
-Package pdftex.def Info: Pictures/Castor_121sec_2025_2-CalRawSpec.pdf  used on input line 215.
+Package pdftex.def Info: Pictures/Castor_121sec_2025_2-CalRawSpec.pdf  used on input line 218.
 (pdftex.def)             Requested size: 216.81pt x 175.7048pt.
-<Pictures/Castor_121sec_2025_2-RawSpec.pdf, id=154, 481.8pt x 390.45876pt>
+<Pictures/Castor_121sec_2025_2-RawSpec.pdf, id=162, 481.8pt x 390.45876pt>
 File: Pictures/Castor_121sec_2025_2-RawSpec.pdf Graphic file (type pdf)
 <use Pictures/Castor_121sec_2025_2-RawSpec.pdf>
-Package pdftex.def Info: Pictures/Castor_121sec_2025_2-RawSpec.pdf  used on input line 221.
+Package pdftex.def Info: Pictures/Castor_121sec_2025_2-RawSpec.pdf  used on input line 224.
 (pdftex.def)             Requested size: 216.81pt x 175.7048pt.
-<Pictures/ReferenceImage.pdf, id=156, 6145.11826pt x 397.485pt>
+<Pictures/ReferenceImage.pdf, id=164, 6145.11826pt x 397.485pt>
 File: Pictures/ReferenceImage.pdf Graphic file (type pdf)
 <use Pictures/ReferenceImage.pdf>
-Package pdftex.def Info: Pictures/ReferenceImage.pdf  used on input line 234.
+Package pdftex.def Info: Pictures/ReferenceImage.pdf  used on input line 237.
 (pdftex.def)             Requested size: 430.31812pt x 27.83286pt.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 235.
+LaTeX Warning: Command \r invalid in math mode on input line 238.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 235.
+LaTeX Warning: Command \r invalid in math mode on input line 238.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 235.
+LaTeX Warning: Command \r invalid in math mode on input line 238.
 
 
-LaTeX Warning: Command \r invalid in math mode on input line 235.
+LaTeX Warning: Command \r invalid in math mode on input line 238.
 
 [7 <./Pictures/Castor_121sec_2025_2-CalRawSpec.pdf> <./Pictures/Castor_121sec_2025_2-RawSpec.pdf>]
-<Pictures/Castor_121sec_2025_2-CalSpectrum.pdf, id=177, 505.89pt x 390.45876pt>
+<Pictures/Castor_121sec_2025_2-CalSpectrum.pdf, id=185, 505.89pt x 390.45876pt>
 File: Pictures/Castor_121sec_2025_2-CalSpectrum.pdf Graphic file (type pdf)
 <use Pictures/Castor_121sec_2025_2-CalSpectrum.pdf>
-Package pdftex.def Info: Pictures/Castor_121sec_2025_2-CalSpectrum.pdf  used on input line 244.
+Package pdftex.def Info: Pictures/Castor_121sec_2025_2-CalSpectrum.pdf  used on input line 247.
 (pdftex.def)             Requested size: 216.81pt x 167.3399pt.
-<Pictures/Castor_121sec_2025_2-Spectrum.pdf, id=178, 525.965pt x 390.45876pt>
+<Pictures/Castor_121sec_2025_2-Spectrum.pdf, id=186, 525.965pt x 390.45876pt>
 File: Pictures/Castor_121sec_2025_2-Spectrum.pdf Graphic file (type pdf)
 <use Pictures/Castor_121sec_2025_2-Spectrum.pdf>
-Package pdftex.def Info: Pictures/Castor_121sec_2025_2-Spectrum.pdf  used on input line 251.
-(pdftex.def)             Requested size: 216.81pt x 160.95302pt.
- [8 <./Pictures/ReferenceImage.pdf> <./Pictures/Castor_121sec_2025_2-CalSpectrum.pdf> <./Pictures/Castor_121sec_2025_2-Spectrum.pdf>] [9] (PhSp.aux)
+Package pdftex.def Info: Pictures/Castor_121sec_2025_2-Spectrum.pdf  used on input line 254.
+(pdftex.def)             Requested size: 245.71754pt x 182.41342pt.
+
+Overfull \hbox (23.76079pt too wide) in paragraph at lines 254--255
+ [][] 
+ []
+
+<Pictures/Castor.png, id=191, 286.06876pt x 154.32657pt>
+File: Pictures/Castor.png Graphic file (type png)
+<use Pictures/Castor.png>
+Package pdftex.def Info: Pictures/Castor.png  used on input line 267.
+(pdftex.def)             Requested size: 339.72592pt x 183.27644pt.
+[8 <./Pictures/ReferenceImage.pdf> <./Pictures/Castor_121sec_2025_2-CalSpectrum.pdf> <./Pictures/Castor_121sec_2025_2-Spectrum.pdf>]
+
+LaTeX Warning: Command \r invalid in math mode on input line 272.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 272.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 272.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 272.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 272.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 273.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 274.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 275.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 272--276
+
+ []
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 277.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 277--278
+
+ []
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 279.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 279.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 279--280
+
+ []
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 281.
+
+[9 <./Pictures/Castor.png>] [10] (PhSp.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `PhSp.out' has not changed.
-(rerunfilecheck)             Checksum: 115B6E760D3AB2F62EF7A326A0C54D01;1606.
+(rerunfilecheck)             Checksum: E6BD0FF1E8ACCA360C270673A093A967;1709.
 Package logreq Info: Writing requests to 'PhSp.run.xml'.
 \openout1 = `PhSp.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18824 strings out of 476441
- 335413 string characters out of 5794799
+ 18894 strings out of 476441
+ 337302 string characters out of 5794799
  1937542 words of memory out of 5000000
- 40605 multiletter control sequences out of 15000+600000
- 564365 words of font info for 58 fonts, out of 8000000 for 9000
+ 40662 multiletter control sequences out of 15000+600000
+ 565619 words of font info for 62 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 75i,12n,81p,739b,1460s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on PhSp.pdf (11 pages, 3319779 bytes).
+ 75i,12n,81p,739b,1497s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss8.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on PhSp.pdf (12 pages, 3544394 bytes).
 PDF statistics:
- 258 PDF objects out of 1000 (max. 8388607)
- 51 named destinations out of 1000 (max. 500000)
- 168 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 312 PDF objects out of 1000 (max. 8388607)
+ 58 named destinations out of 1000 (max. 500000)
+ 181 words of extra memory for PDF output out of 10000 (max. 10000000)
 

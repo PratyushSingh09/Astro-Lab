@@ -77,15 +77,16 @@ This is optional, but never longer than half a page.
 \lhead{\groupno; \experiment}
 
 \section{Introduction}\label{sec:intro} % labels allow references, particularly important for figures and tables
-In the experiment, we will use the 80 cm telescope of the IAAT to study photometry and spectroscopy. These two topics are fundamental to observational astronomy 
-and are used to study the properties of stars, galaxies and other bodies. In photometry, we aim to determine the brightness of several stars in the star cluster M37 in 
-the B and V filters which will be used to determine the age and distance to the cluster. In spectroscopy, we will look at the spectrum of one (or both) of the stars of 
-the Castor binary system and identify the $H\alpha$ spectral line (and more).
+  In the experiment, we will use the 80 cm telescope of the IAAT to study photometry and spectroscopy. These two topics are fundamental to observational astronomy 
+  and are used to study the properties of stars, galaxies and other bodies. In photometry, we aim to determine the brightness of several stars in the star cluster M37 in 
+  the B and V filters which will be used to determine the age and distance to the cluster. In spectroscopy, we will look at the spectrum of one (or two) of the stars of 
+  the Castor system and identify the $H\alpha$ spectral line (and more).
 
-
+  In section \ref{sec:theory} we give a theoretical introduction to relevant topics like the working of CCD, photometry and spectroscopy. In section \ref{sec:80tele} we describe the 80 cm telescope
+  used to obtain the data. In section \ref{sec:experiment} we describe the process of obtaining the data and then analysing the data seperately for photometry and spectroscopy.
 \section{Theory}\label{sec:theory}
 \subsection{Telescope}
-  Telescopes are used in observing the EM radiation emitted by distant sources. Telescopes collect light from a certain direction and are used to apply an angular magnification to the image. The two major types of telescopes are 
+  Telescopes are used in observing the EM radiation emitted by distant sources. They collect light from a certain direction and are used to apply an angular magnification to the image. The two major types of telescopes are 
   the lens telescope (the refractor) or the mirror telescope (the reflector). The amount of light that a telescope can gather depends on the `aperture' of the telescope $D$. The ratio of this and the focal length
   $F$ is the aperture ratio $F/D$. A telescope with a higher aperture ratio will produce a brighter image. The magnification of the telescope is determined by the ratio of the main mirror focal length $F$ and the eye piece focal length
   $f$. i.e. $M = F/f$. 
@@ -98,6 +99,7 @@ the Castor binary system and identify the $H\alpha$ spectral line (and more).
   Unfortunately due to atmospheric effects, the resolving power is slightly worse and is limited to $\alpha = \lambda/D$. For a telescope with an aperture of 80 cm, the resolving power
   at $\lambda = 5700 \AA$  is \dots.
   \subsubsection{The 80 cm Telescope}
+  \label{sec:80tele}
     The 80 cm telescope is located in Sand, Tübingen and was built in 2003. It is a mirror telescope in Cassegrain configuration with Nasmyth focus. It has an aperture of 80 cm and 
     a focal length of 6.4 m. For slewing, the telescope is mounted on an equatorial open fork mount and can move to focus on any point in the sky in its line of sight.
     \begin{figure}[H]
@@ -142,7 +144,7 @@ the Castor binary system and identify the $H\alpha$ spectral line (and more).
         Spectral Type & Temperature Range (K) & Distinguishing Features\\
         \hline
         \hline
-        O	&> 25,000K	&H; HeI; HeII\\
+        O	& \textgreater 25,000K	&H; HeI; HeII\\
         B	&10,000-25,000K	&H; HeI; HeII absent\\
         A	&7,500-10,000K	&H; CaII; HeI and HeII absent\\
         F	&6,000-7,500K	  &H; metals (CaII, Fe, etc)\\
@@ -174,6 +176,7 @@ the Castor binary system and identify the $H\alpha$ spectral line (and more).
       \label{fig:spec_class}
     \end{figure}
 \section{Experiment} 
+\label{sec:experiment}
 \subsection{Spectroscopy}
     We observed the spectrum of one (or both) stars in the Castor binary system. To observe the spectra, the 10C spectrograph was mounted on the 
     left focus of the 80 cm telescope. The spectrograph uses a CCD camera to obtain the spectral image of the star. To control the spectrograph, `Maxim DL'
@@ -248,13 +251,37 @@ the Castor binary system and identify the $H\alpha$ spectral line (and more).
                 \end{subfigure}
                 \begin{subfigure}{0.49\textwidth}
                   \centering
-                  \includegraphics[width=3in]{Pictures/Castor_121sec_2025_2-Spectrum.pdf}
+                  \includegraphics[width=3.4in]{Pictures/Castor_121sec_2025_2-Spectrum.pdf}
                   \caption{Calibrated star spectrum}
                   \label{fig:calibrated_starspec}
                 \end{subfigure}
                 \caption{The calibrated spectrum with the wavelength on the x axis and the intensity on the y axis}
               \end{figure}
       \end{enumerate}
+
+    \subsubsection{Results}
+      Comparing the observed spectra in figure \ref{fig:calibrated_starspec} from the spectrum of stars in various spectral classes in figure \ref{fig:spec_class} we see that it best matches that of a 
+      type A star. This is indeed the case. Castor is a system of six stars in three spectroscopic binary systems. The two brightest stars observed by the 80 cm telescope (Castor Aa and Castor Ba) are type A stars (A1V and Am respectively).\cite{Wikipedia_contributors_2025}\cite{Pourbaix_Tokovinin_Batten_Fekel_Hartkopf_Levato_Morrell_Torres_Udry_2004}
+      \begin{figure}[H]
+        \centering
+        \includegraphics[width=0.75\textwidth]{Pictures/Castor.png}
+        \caption{Diagram of the Castor system. Courtesy NASA/JPL-Caltech\cite{Wikipedia_contributors_2025}\cite{Castor}}
+        \label{fig:comparison}
+      \end{figure}
+
+      Looking closely at the spectrum in figure \ref{fig:calibrated_starspec} and using a digital ruler, we roughly find the most prominent absorption lines at $\sim 5900 \AA$(two lines close by), $\sim 6280 \AA$, $\sim 6350 \AA$, $\sim 6375 \AA$, $\sim 6460 \AA$ and the most prominent line 
+      being located at $\sim 6563 \AA$. This is the $H_\alpha$ line formed due to the Balmer transition in neutral H. This is present in large quantities in all main sequence stars.\\
+      Two lines close by, likely at $5890 \AA$ and $5896$ AA could be the sodium doublet lines originating from neutral sodium. Comparing with lines on the NIST database, these had the highest relative intensity.\cite{NIST_ASD} This could be present in the star atmosphere. \\
+      The line close to $6280 \AA$ could be caused by $O_2$ in the earth's atmosphere and is not a part of the star's spectra. \\
+
+      Looking at the NIST database, the line with the largest relative intensity close to $6350 \AA$ is from neutral Vanadium. This could possibly be present in the star's atmostphere.\\ 
+
+      The peak near $6375 \AA$ could be the $6363 \AA$ neutral oxygen line in stellar spectra.\\
+
+      The peak near $6460 \AA$ could be the neutral iron line. It appears blended with another spectral line close by. 
+
+
+
 \section{Conclusions}
 An important section in which you should critically review the experiment and its results. Mention also parts that did not work out as expected, but keep a neutral to positive view. This can span from a few sentences to half a page.
 
