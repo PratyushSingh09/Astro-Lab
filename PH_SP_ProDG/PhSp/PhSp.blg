@@ -1,0 +1,17 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'PhSp.blg'
+[150] biber-MSWIN64:340> INFO - === 
+[204] Biber.pm:419> INFO - Reading 'PhSp.bcf'
+[327] Biber.pm:979> INFO - Found 5 citekeys in bib section 0
+[344] Biber.pm:4419> INFO - Processing section 0
+[360] Biber.pm:4610> INFO - Looking for bibtex file 'PhSp.bib' for section 0
+[462] bibtex.pm:1713> INFO - LaTeX decoding ...
+[505] bibtex.pm:1519> INFO - Found BibTeX data source 'PhSp.bib'
+[605] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[605] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[605] Biber.pm:4239> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'en-US'
+[606] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[620] bbl.pm:660> INFO - Writing 'PhSp.bbl' with encoding 'UTF-8'
+[625] bbl.pm:763> INFO - Output to PhSp.bbl
+[626] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\praty\AppData\Local\Temp\biber_tmp_R1mb\ad5ec63e75c48a83277c94a03aab73c5_33380.utf8, line 19, warning: 1 characters of junk seen at toplevel
+[626] Biber.pm:133> INFO - WARNINGS: 1
