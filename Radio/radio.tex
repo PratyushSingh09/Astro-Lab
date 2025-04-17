@@ -1,0 +1,109 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{subcaption}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}  
+\hypersetup{
+  pdfborder = {0 0 0}
+}
+\usepackage[
+backend=biber,
+style=alphabetic,
+]{biblatex}
+
+\addbibresource{radio.bib}
+
+\graphicspath{{./N Body/}}
+\DeclareGraphicsExtensions{.pdf,.jpeg,.jpg,.png}
+
+\usepackage{amsmath} % equations
+\usepackage{fancyhdr} % nicer page header
+\usepackage{listings} % For inclusion of code
+
+
+\setlength{\parindent}{0pt} % no paragraph indents
+\setlength{\parskip}{1em} % paragraphs separated by one line
+
+\newcommand\experiment{Experiment Radio astronomy} %%%%% experiment name
+\newcommand\groupno{Group 3+12}       %%%%% group number
+\newcommand\names{Pratyush Singh,\\
+                  Proshmit Dasputpa,\\
+                  Dhruv Nahar}        %%%%% full names
+\newcommand\expdate{25/03/2025}    %%%%% date of experiment day
+
+\begin{document}
+\begin{titlepage}
+   \begin{center}
+        \vspace*{3cm}
+        \Huge{\experiment}
+				
+        \vspace{0.5cm}
+        \LARGE{Lab course protocol}
+				
+        \vspace{3 cm}
+        \Large{\groupno}
+				
+        \vspace{0.25cm}
+        \large{\names}
+				
+        \vspace{2 cm}
+        \Large{\expdate}
+				
+        \vspace{0.25 cm}
+        \Large{Advanced lab course in astronomy\\
+				Eberhard Karls Universit\"at T\"ubingen}
+				
+				\vspace{0.1 cm}
+        \Large{WiSe 2024/25}
+				
+       \vfill
+    \end{center}
+\end{titlepage}
+
+\pagestyle{fancy}
+\fancyhf{}
+\setlength{\headheight}{14.5pt}
+\lhead{\groupno; \experiment}
+
+% \section*{Abstract}
+% This is optional, but never longer than half a page.
+
+\tableofcontents
+\newpage
+
+\setcounter{page}{1}
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{\thepage}
+\lhead{\groupno; \experiment}
+
+\section{Introduction}\label{sec:intro} % labels allow references, particularly important for figures and tables
+
+
+\section{Theory}
+\label{sec:theory}
+  \subsection{The Sun}
+  \subsection{The Milky Way}
+    \subsubsection{Doppler Effect}
+    \subsubsection{Milkay Way Rotation}
+    \subsubsection{Mass Estimate}
+    % MORE IF NEEDED
+
+\section{Experiment}
+    \subsection{Observation}
+        \subsubsection{The Telescope}
+        \subsubsection{Observation of the Sun}
+        \subsubsection{Observation of the Milky Way Disk}
+
+    \subsection{Data Analysis}
+
+\section{Conclusions}
+
+\printbibliography     
+\appendix
+\section{Appendix}
+
+\end{document}
+
