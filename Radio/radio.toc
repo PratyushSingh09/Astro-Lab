@@ -6,10 +6,10 @@
 \contentsline {subsubsection}{\numberline {2.2.2}Milkay Way Rotation}{1}{subsubsection.2.2.2}%
 \contentsline {subsubsection}{\numberline {2.2.3}Mass Estimate}{1}{subsubsection.2.2.3}%
 \contentsline {section}{\numberline {3}Experiment}{1}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Observation}{1}{subsection.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}The Telescope}{1}{subsubsection.3.1.1}%
-\contentsline {subsubsection}{\numberline {3.1.2}Observation of the Sun}{1}{subsubsection.3.1.2}%
-\contentsline {subsubsection}{\numberline {3.1.3}Observation of the Milky Way Disk}{1}{subsubsection.3.1.3}%
-\contentsline {subsection}{\numberline {3.2}Data Analysis}{1}{subsection.3.2}%
-\contentsline {section}{\numberline {4}Conclusions}{1}{section.4}%
-\contentsline {section}{\numberline {A}Appendix}{1}{appendix.A}%
+\contentsline {subsection}{\numberline {3.1}The Telescope}{1}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Observations}{2}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Observation of the Sun}{2}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Observation of the Milky Way Disk}{2}{subsubsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.3}Data Analysis}{2}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Conclusions}{2}{section.4}%
+\contentsline {section}{\numberline {A}Appendix}{2}{appendix.A}%

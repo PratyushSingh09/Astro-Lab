@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.10)  17 APR 2025 00:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.10)  17 APR 2025 23:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -648,37 +648,49 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.74 \newpage
               [1]
-
-LaTeX Warning: Empty bibliography on input line 104.
-
+<./Pictures/telescope.png, id=90, 526.21594pt x 395.22656pt>
+File: ./Pictures/telescope.png Graphic file (type png)
+<use ./Pictures/telescope.png>
+Package pdftex.def Info: ./Pictures/telescope.png  used on input line 104.
+(pdftex.def)             Requested size: 226.48395pt x 170.10693pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.108 \end{document}
-                     [1] (radio.aux)
+l.110     \subsection
+                     {Observations} [1 <./Pictures/telescope.png>]
+<./Pictures/qradio_config.png, id=99, 166.37157pt x 462.22687pt>
+File: ./Pictures/qradio_config.png Graphic file (type png)
+<use ./Pictures/qradio_config.png>
+Package pdftex.def Info: ./Pictures/qradio_config.png  used on input line 114.
+(pdftex.def)             Requested size: 67.94241pt x 188.76662pt.
+
+
+LaTeX Warning: Empty bibliography on input line 128.
+
+[2 <./Pictures/qradio_config.png>] (radio.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `radio.out' has not changed.
-(rerunfilecheck)             Checksum: A2481CF10FCB190D653B2338AC97BD94;1928.
+(rerunfilecheck)             Checksum: E3F119A26C7AB60E0A1B108BB8375966;1923.
 Package logreq Info: Writing requests to 'radio.run.xml'.
 \openout1 = `radio.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19809 strings out of 476441
- 346418 string characters out of 5794799
+ 19841 strings out of 476441
+ 347200 string characters out of 5794799
  1932542 words of memory out of 5000000
- 41616 multiletter control sequences out of 15000+600000
+ 41645 multiletter control sequences out of 15000+600000
  563595 words of font info for 55 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  75i,11n,81p,741b,803s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb>
-Output written on radio.pdf (3 pages, 62272 bytes).
+<C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on radio.pdf (4 pages, 2038100 bytes).
 PDF statistics:
- 112 PDF objects out of 1000 (max. 8388607)
- 18 named destinations out of 1000 (max. 500000)
- 121 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 130 PDF objects out of 1000 (max. 8388607)
+ 21 named destinations out of 1000 (max. 500000)
+ 131 words of extra memory for PDF output out of 10000 (max. 10000000)
 

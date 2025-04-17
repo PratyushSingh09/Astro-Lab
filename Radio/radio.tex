@@ -15,7 +15,7 @@ style=alphabetic,
 
 \addbibresource{radio.bib}
 
-\graphicspath{{./N Body/}}
+\graphicspath{{./Pictures/}}
 \DeclareGraphicsExtensions{.pdf,.jpeg,.jpg,.png}
 
 \usepackage{amsmath} % equations
@@ -92,10 +92,34 @@ style=alphabetic,
     % MORE IF NEEDED
 
 \section{Experiment}
-    \subsection{Observation}
-        \subsubsection{The Telescope}
+    \subsection{The Telescope}
+        The radio telescope at Sand 1, Tübingen is a parabolic antenna with a diameter of 2.3 m. At the 21 cm Hydrogen line, it has a
+        resolution of $5^\circ$. The telescope is controlled using the qradio software on a computer attached to it. \\
+        The telescope can either be operated as a bolometer (measuring the total power of radio signal) or as a spectrometer. For the first case,
+        the measured signal is compared to the calibration source (`noise diode') located in the middle of the dish. For spectrometry, the power is measured 
+        together for the source and the background such that radio noise from human sources, sky emissions and the continuum emission of the source can be subtracted.
+
+        \begin{figure}[H]
+            \centering
+            \includegraphics[width=0.5\textwidth]{telescope.png}
+            \caption{Radio telescope at Sand 1, Tübingen}
+            \label{fig:telescope}
+        \end{figure}
+
+        The telescope is on a Alt-Az mount. Using the computer, the telescope can be moved by specifying galactic, equatorial and other coordinate systems.
+    \subsection{Observations}
+            To start the observations, first a restart of the computer is required. The program qradio is started with the following configurations:\ref{fig:qradio_config}
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=0.15\textwidth]{qradio_config.png}
+                \caption{qradio configuration. All the shown values much match}
+                \label{fig:qradio_config}
+            \end{figure} 
+
+            Now using the GUI, different parameters are set for the observations of the sun and the Milky Way.
         \subsubsection{Observation of the Sun}
         \subsubsection{Observation of the Milky Way Disk}
+            
 
     \subsection{Data Analysis}
 

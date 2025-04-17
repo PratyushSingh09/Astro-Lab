@@ -208,6 +208,18 @@ INPUT C:\Users\praty\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cme
 INPUT C:\Users\praty\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 OUTPUT radio.toc
 INPUT C:\Users\praty\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
+INPUT .\Pictures\telescope.png
+INPUT .\Pictures\telescope.png
+INPUT .\Pictures\telescope.png
+INPUT .\Pictures\telescope.png
+INPUT .\Pictures\telescope.png
+INPUT .\Pictures\telescope.png
+INPUT .\Pictures\qradio_config.png
+INPUT .\Pictures\qradio_config.png
+INPUT .\Pictures\qradio_config.png
+INPUT .\Pictures\qradio_config.png
+INPUT .\Pictures\qradio_config.png
+INPUT .\Pictures\qradio_config.png
 INPUT radio.aux
 INPUT .\radio.out
 INPUT .\radio.out
@@ -219,3 +231,5 @@ INPUT C:\Users\praty\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\praty\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
 INPUT C:\Users\praty\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb
 INPUT C:\Users\praty\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr17.pfb
+INPUT C:\Users\praty\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
+INPUT C:\Users\praty\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb

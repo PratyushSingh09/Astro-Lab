@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber radio"] 1744841337.71547 "radio.bcf" "radio.bbl" "radio" 1744844309.02615 0
-  "radio.bcf" 1744844308 107797 e51b005eb59e98236d1a6559b2204e72 "pdflatex"
+["biber radio"] 1744841337.71547 "radio.bcf" "radio.bbl" "radio" 1744924084.57377 0
+  "radio.bcf" 1744924084 107797 e51b005eb59e98236d1a6559b2204e72 "pdflatex"
   (generated)
   "radio.bbl"
   "radio.blg"
   (rewritten before read)
-["pdflatex"] 1744844306.3418 "c:/Users/praty/OneDrive - UT Cloud/Astro Lab/Astro-Lab/Radio/radio.tex" "radio.pdf" "radio" 1744844309.02739 0
+["pdflatex"] 1744924082.03799 "c:/Users/praty/OneDrive - UT Cloud/Astro Lab/Astro-Lab/Radio/radio.tex" "radio.pdf" "radio" 1744924084.57546 0
   "C:/Users/praty/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1742773512 82666 6ae954049cbd801ff08c004e318ae5a8 ""
   "C:/Users/praty/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1710090178 21099418 0159a99414e81aa6d3ff6bc36213b4d6 ""
   "C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -25,6 +25,7 @@
   "C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1247596666 32080 340ef9bf63678554ee606688e7b5339d ""
   "C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1247596667 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1247596666 32362 bc3f3eec7ab7d65fe700963d4017d32c ""
+  "C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1247596667 32626 5abc8bb2f28aa647d4c70f8ea38cc0d3 ""
   "C:/Users/praty/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mkii" 1580390158 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "C:/Users/praty/AppData/Local/Programs/MiKTeX/tex/generic/atbegshi/atbegshi.sty" 1575571100 24708 5584a51a7101caf7e6bbf1fc27d8f7b1 ""
   "C:/Users/praty/AppData/Local/Programs/MiKTeX/tex/generic/bigintcalc/bigintcalc.sty" 1576433602 40635 c40361e206be584d448876bba8a64a3b ""
@@ -98,13 +99,15 @@
   "C:/Users/praty/AppData/Local/Programs/MiKTeX/tex/latex/refcount/refcount.sty" 1576433952 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "C:/Users/praty/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657800696 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "C:/Users/praty/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "c:/Users/praty/OneDrive - UT Cloud/Astro Lab/Astro-Lab/Radio/radio.tex" 1744844301 2562 297f6d0dcaf93ec449209eb94896fac6 ""
-  "radio.aux" 1744844308 2200 87d72d887823c9b483bbd6f435d2a5b6 "pdflatex"
+  "Pictures/qradio_config.png" 1744923888 221792 d09cfb402c57ee6c421f962a6a6cfa22 ""
+  "Pictures/telescope.png" 1744923308 1686181 f2d306d5f19572db8d8d3d7e3a2a95dd ""
+  "c:/Users/praty/OneDrive - UT Cloud/Astro Lab/Astro-Lab/Radio/radio.tex" 1744924076 4270 9cb764e45f2ae50107ff5307da1c3642 ""
+  "radio.aux" 1744924084 2785 f0c70163d098af73094cd6cc8f446d7b "pdflatex"
   "radio.bbl" 1744841349 486 ee04f40f768daeed26442158e95aba61 "biber radio"
-  "radio.out" 1744844308 1928 a2481cf10fcb190d653b2338ac97bd94 "pdflatex"
-  "radio.run.xml" 1744844308 2313 4ab5e9cb95f73dca6b943a20ff2bcdd2 "pdflatex"
-  "radio.tex" 1744844301 2562 297f6d0dcaf93ec449209eb94896fac6 ""
-  "radio.toc" 1744844308 1206 ece6cc28728d20d3246b9e18caa7bb16 "pdflatex"
+  "radio.out" 1744924084 1923 e3f119a26c7ab60e0a1b108bb8375966 "pdflatex"
+  "radio.run.xml" 1744924084 2313 4ab5e9cb95f73dca6b943a20ff2bcdd2 "pdflatex"
+  "radio.tex" 1744924076 4270 9cb764e45f2ae50107ff5307da1c3642 ""
+  "radio.toc" 1744924084 1197 848a528e2dc09252cb20b3f46b4bb76f "pdflatex"
   (generated)
   "radio.aux"
   "radio.bcf"
