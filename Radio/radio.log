@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.10)  17 APR 2025 23:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.10)  18 APR 2025 00:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -664,11 +664,20 @@ File: ./Pictures/qradio_config.png Graphic file (type png)
 <use ./Pictures/qradio_config.png>
 Package pdftex.def Info: ./Pictures/qradio_config.png  used on input line 114.
 (pdftex.def)             Requested size: 67.94241pt x 188.76662pt.
+<./Pictures/qradio_gui.png, id=100, 523.20468pt x 380.17032pt>
+File: ./Pictures/qradio_gui.png Graphic file (type png)
+<use ./Pictures/qradio_gui.png>
+Package pdftex.def Info: ./Pictures/qradio_gui.png  used on input line 123.
+(pdftex.def)             Requested size: 226.48395pt x 164.56642pt.
+ [2 <./Pictures/qradio_config.png> <./Pictures/qradio_gui.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 139--140
+
+ []
 
 
-LaTeX Warning: Empty bibliography on input line 128.
+LaTeX Warning: Empty bibliography on input line 147.
 
-[2 <./Pictures/qradio_config.png>] (radio.aux)
+[3] (radio.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -680,17 +689,17 @@ Package logreq Info: Writing requests to 'radio.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19841 strings out of 476441
- 347200 string characters out of 5794799
- 1932542 words of memory out of 5000000
- 41645 multiletter control sequences out of 15000+600000
- 563595 words of font info for 55 fonts, out of 8000000 for 9000
+ 19863 strings out of 476441
+ 347620 string characters out of 5794799
+ 1933542 words of memory out of 5000000
+ 41658 multiletter control sequences out of 15000+600000
+ 563942 words of font info for 56 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  75i,11n,81p,741b,803s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on radio.pdf (4 pages, 2038100 bytes).
+<C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on radio.pdf (5 pages, 2304164 bytes).
 PDF statistics:
- 130 PDF objects out of 1000 (max. 8388607)
- 21 named destinations out of 1000 (max. 500000)
- 131 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 159 PDF objects out of 1000 (max. 8388607)
+ 29 named destinations out of 1000 (max. 500000)
+ 136 words of extra memory for PDF output out of 10000 (max. 10000000)
 

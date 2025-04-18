@@ -117,9 +117,28 @@ style=alphabetic,
             \end{figure} 
 
             Now using the GUI, different parameters are set for the observations of the sun and the Milky Way.
+
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=0.5\textwidth]{qradio_gui.png}
+                \caption{the qradio GUI}
+                \label{fig:qradio_gui}
+            \end{figure}
         \subsubsection{Observation of the Sun}
         \subsubsection{Observation of the Milky Way Disk}
+            To observe the Milky Way, the following parameters were set:
+            \begin{enumerate}
+                \item In the \textit{receiver} box, \textit{Mode} is set as `switched' with \textit{Switching} set to `frequency'.
+                \item In the \textit{Frequency/Gain} box, $dB*10$ is adjusted such that both signal and reference levels are about $30\%$. We set the it to 30.
+                \item We set the coordinates in the \textit{Telescope} box by first setting the coordinate system as `Galactic'. The coordinates are then entered in degrees.
+                \item By clicking on \textit{Track} the telescope will move to the required position and will track that coordinate over time.
+                \item The spectrum is observed by setting an \textit{integration time} of 10 seconds and by clicking \textit{observe}. The spectrum can then be inspected in the \textit{Control} tab and can be saved.
+                \item Next we track and get the spectrum for several sets of coordinates. 
+            \end{enumerate}
             
+            To choose the coordinates to observe, we first start with part of the disk that is closest to setting in the west anc continue eastward. Spectrums are obtained for $l=25^\circ,30^\circ,40^\circ \dots 80^\circ, 89^\circ$ as b is kept constant at $b=0^\circ$ since we are observing the centre of the disk. \\
+
+            Background measurements are taken at $l=30^\circ,50^\circ,80^\circ$ and $b=30^\circ$ to be subtracted from the previous set of observations.
 
     \subsection{Data Analysis}
 

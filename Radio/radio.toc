@@ -8,8 +8,8 @@
 \contentsline {section}{\numberline {3}Experiment}{1}{section.3}%
 \contentsline {subsection}{\numberline {3.1}The Telescope}{1}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Observations}{2}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}Observation of the Sun}{2}{subsubsection.3.2.1}%
-\contentsline {subsubsection}{\numberline {3.2.2}Observation of the Milky Way Disk}{2}{subsubsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.3}Data Analysis}{2}{subsection.3.3}%
-\contentsline {section}{\numberline {4}Conclusions}{2}{section.4}%
-\contentsline {section}{\numberline {A}Appendix}{2}{appendix.A}%
+\contentsline {subsubsection}{\numberline {3.2.1}Observation of the Sun}{3}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Observation of the Milky Way Disk}{3}{subsubsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.3}Data Analysis}{3}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Conclusions}{3}{section.4}%
+\contentsline {section}{\numberline {A}Appendix}{3}{appendix.A}%
