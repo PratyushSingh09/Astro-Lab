@@ -12,4 +12,7 @@
 \contentsline {subsection}{\numberline {3.4}Capture and Decay Reactions of Relevant Isotopes}{6}{subsection.3.4}%
 \contentsline {section}{\numberline {4}Analysis}{7}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Plateau Curve and Operating Voltage}{7}{subsection.4.1}%
-\contentsline {section}{Appendix}{7}{section*.6}%
+\contentsline {subsection}{\numberline {4.2}Background}{7}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Silver Decay Curves}{8}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Indium Decay Curves}{8}{subsection.4.4}%
+\contentsline {section}{\numberline {5}Conclusions}{9}{section.5}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.10)  18 APR 2025 16:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.3.10)  18 APR 2025 22:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -667,13 +667,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has b
                    \relax 
 l.119   \item $
                N(t)$ is the number of undecayed nuclei at time $t$, and $N_0... [1] [2] [3]
-<Pictures/AmBe Source.png, id=115, 581.17125pt x 388.45125pt>
+<Pictures/AmBe Source.png, id=130, 581.17125pt x 388.45125pt>
 File: Pictures/AmBe Source.png Graphic file (type png)
 <use Pictures/AmBe Source.png>
 Package pdftex.def Info: Pictures/AmBe Source.png  used on input line 238.
 (pdftex.def)             Requested size: 317.07614pt x 211.93585pt.
  [4]
-<Pictures/GM_Schematic.png, id=123, 422.32782pt x 275.52937pt>
+<Pictures/GM_Schematic.png, id=138, 422.32782pt x 275.52937pt>
 File: Pictures/GM_Schematic.png Graphic file (type png)
 <use Pictures/GM_Schematic.png>
 Package pdftex.def Info: Pictures/GM_Schematic.png  used on input line 259.
@@ -683,39 +683,71 @@ Underfull \hbox (badness 2698) in paragraph at lines 260--260
 []\OT1/cmr/m/n/10.95 (a) |Work-ing prin-ci-ple of a Geiger-M^^?uller
  []
 
-<Pictures/GM_IV.png, id=124, 703.12688pt x 506.6428pt>
+<Pictures/GM_IV.png, id=139, 703.12688pt x 506.6428pt>
 File: Pictures/GM_IV.png Graphic file (type png)
 <use Pictures/GM_IV.png>
 Package pdftex.def Info: Pictures/GM_IV.png  used on input line 265.
 (pdftex.def)             Requested size: 221.95676pt x 159.92575pt.
 [5 <./Pictures/AmBe Source.png>] [6 <./Pictures/GM_Schematic.png> <./Pictures/GM_IV.png>]
-Overfull \hbox (8.31233pt too wide) in paragraph at lines 309--309
+<./Pictures/left_GC.png, id=160, 408.873pt x 274.407pt>
+File: ./Pictures/left_GC.png Graphic file (type png)
+<use ./Pictures/left_GC.png>
+Package pdftex.def Info: ./Pictures/left_GC.png  used on input line 306.
+(pdftex.def)             Requested size: 221.95676pt x 148.96474pt.
+<./Pictures/right_GC.png, id=161, 419.166pt x 277.473pt>
+File: ./Pictures/right_GC.png Graphic file (type png)
+<use ./Pictures/right_GC.png>
+Package pdftex.def Info: ./Pictures/right_GC.png  used on input line 310.
+(pdftex.def)             Requested size: 221.95676pt x 146.92873pt.
+<./Pictures/Background.png, id=162, 490.56pt x 258.42pt>
+File: ./Pictures/Background.png Graphic file (type png)
+<use ./Pictures/Background.png>
+Package pdftex.def Info: ./Pictures/Background.png  used on input line 322.
+(pdftex.def)             Requested size: 490.55879pt x 258.41936pt.
+
+Overfull \hbox (37.5909pt too wide) in paragraph at lines 322--323
+ [][] 
+ []
+
+[7 <./Pictures/left_GC.png> <./Pictures/right_GC.png>]
+<./Pictures/Indium.png, id=170, 412.6617pt x 328.8285pt>
+File: ./Pictures/Indium.png Graphic file (type png)
+<use ./Pictures/Indium.png>
+Package pdftex.def Info: ./Pictures/Indium.png  used on input line 334.
+(pdftex.def)             Requested size: 412.66068pt x 328.8277pt.
+ [8 <./Pictures/Background.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 342--344
+
+ []
+
+[9 <./Pictures/Indium.png>]
+Overfull \hbox (8.31233pt too wide) in paragraph at lines 357--357
 \OT1/cmtt/m/n/12 nuclear -[] power . com / nuclear -[] engineering / radiation -[] detection / gaseous -[]
  []
 
-[7] (NAK.aux)
+[10] (NAK.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `NAK.out' has not changed.
-(rerunfilecheck)             Checksum: 4837E6316303F706FDFCAEC484560276;2837.
+(rerunfilecheck)             Checksum: C5B826AEB0E69DEADDF9C62E08BD78B7;3277.
 Package logreq Info: Writing requests to 'NAK.run.xml'.
 \openout1 = `NAK.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18755 strings out of 476441
- 332569 string characters out of 5794799
+ 18811 strings out of 476441
+ 333915 string characters out of 5794799
  1935542 words of memory out of 5000000
- 40550 multiletter control sequences out of 15000+600000
- 566482 words of font info for 65 fonts, out of 8000000 for 9000
+ 40594 multiletter control sequences out of 15000+600000
+ 566783 words of font info for 66 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  75i,12n,81p,737b,1676s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\praty\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on NAK.pdf (9 pages, 288275 bytes).
+ <C:\Users\praty\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
+Output written on NAK.pdf (12 pages, 564592 bytes).
 PDF statistics:
- 228 PDF objects out of 1000 (max. 8388607)
- 34 named destinations out of 1000 (max. 500000)
- 136 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 289 PDF objects out of 1000 (max. 8388607)
+ 45 named destinations out of 1000 (max. 500000)
+ 180 words of extra memory for PDF output out of 10000 (max. 10000000)
 

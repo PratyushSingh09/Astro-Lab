@@ -1,15 +1,15 @@
-[2] Config.pm:307> INFO - This is Biber 2.19
-[2] Config.pm:310> INFO - Logfile is 'NAK.blg'
-[211] biber-MSWIN64:340> INFO - === 
-[280] Biber.pm:419> INFO - Reading 'NAK.bcf'
-[426] Biber.pm:979> INFO - Found 1 citekeys in bib section 0
-[441] Biber.pm:4419> INFO - Processing section 0
-[482] Biber.pm:4610> INFO - Looking for bibtex file 'NAK.bib' for section 0
-[593] bibtex.pm:1713> INFO - LaTeX decoding ...
-[618] bibtex.pm:1519> INFO - Found BibTeX data source 'NAK.bib'
-[725] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[725] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[725] Biber.pm:4239> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'en-US'
-[725] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[728] bbl.pm:660> INFO - Writing 'NAK.bbl' with encoding 'UTF-8'
-[728] bbl.pm:763> INFO - Output to NAK.bbl
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'NAK.blg'
+[174] biber-MSWIN64:340> INFO - === 
+[259] Biber.pm:419> INFO - Reading 'NAK.bcf'
+[479] Biber.pm:979> INFO - Found 3 citekeys in bib section 0
+[498] Biber.pm:4419> INFO - Processing section 0
+[518] Biber.pm:4610> INFO - Looking for bibtex file 'NAK.bib' for section 0
+[636] bibtex.pm:1713> INFO - LaTeX decoding ...
+[644] bibtex.pm:1519> INFO - Found BibTeX data source 'NAK.bib'
+[723] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[723] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[723] Biber.pm:4239> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'en-US'
+[724] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[739] bbl.pm:660> INFO - Writing 'NAK.bbl' with encoding 'UTF-8'
+[741] bbl.pm:763> INFO - Output to NAK.bbl

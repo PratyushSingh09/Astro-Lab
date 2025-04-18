@@ -19,6 +19,72 @@
 
 \refsection{0}
   \datalist[entry]{anyt/global//global/global}
+    \entry{Jaeck116}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=d0abd7deed5196d65ada4c1d6004eae3}{%
+           family={Jaeck},
+           familyi={J\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{d0abd7deed5196d65ada4c1d6004eae3}
+      \strng{fullhash}{d0abd7deed5196d65ada4c1d6004eae3}
+      \strng{bibnamehash}{d0abd7deed5196d65ada4c1d6004eae3}
+      \strng{authorbibnamehash}{d0abd7deed5196d65ada4c1d6004eae3}
+      \strng{authornamehash}{d0abd7deed5196d65ada4c1d6004eae3}
+      \strng{authorfullhash}{d0abd7deed5196d65ada4c1d6004eae3}
+      \field{extraname}{1}
+      \field{labelalpha}{Jae}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Andreas Jaeck}
+      \field{title}{Indium-116 - isotopic data and properties}
+      \verb{urlraw}
+      \verb https://chemlin.org/isotope/indium-116
+      \endverb
+      \verb{url}
+      \verb https://chemlin.org/isotope/indium-116
+      \endverb
+    \endentry
+    \entry{Jaeck117}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=d0abd7deed5196d65ada4c1d6004eae3}{%
+           family={Jaeck},
+           familyi={J\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{d0abd7deed5196d65ada4c1d6004eae3}
+      \strng{fullhash}{d0abd7deed5196d65ada4c1d6004eae3}
+      \strng{bibnamehash}{d0abd7deed5196d65ada4c1d6004eae3}
+      \strng{authorbibnamehash}{d0abd7deed5196d65ada4c1d6004eae3}
+      \strng{authornamehash}{d0abd7deed5196d65ada4c1d6004eae3}
+      \strng{authorfullhash}{d0abd7deed5196d65ada4c1d6004eae3}
+      \field{extraname}{2}
+      \field{labelalpha}{Jae}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Andreas Jaeck}
+      \field{title}{Indium-117 - isotopic data and properties}
+      \verb{urlraw}
+      \verb https://chemlin.org/isotope/indium-117
+      \endverb
+      \verb{url}
+      \verb https://chemlin.org/isotope/indium-117
+      \endverb
+    \endentry
     \entry{GM}{misc}{}
       \name{author}{1}{}{%
         {{hash=853b6fabb6356b7b42d5aab000ed4c2f}{%

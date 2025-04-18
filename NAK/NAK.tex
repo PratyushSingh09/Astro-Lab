@@ -300,14 +300,60 @@ To determine a suitable operating voltage for the Geiger-Müller counters, the c
 
 The plateau region corresponds to the range where the count rate remains approximately constant despite increasing voltage, indicating stable detector operation. Based on the curves, a voltage of 325 V was selected, lying within the first third of the plateau. This ensures reliable detection while minimizing the risk of continuous discharge or excessive dead time.
 
+\begin{figure}[H]
+  \centering
+  \begin{subfigure}{0.49\textwidth}
+    \includegraphics[width=\textwidth]{./Pictures/left_GC.png}
+    \caption{Plateau Curve for left Geiger Counter}
+  \end{subfigure}
+  \begin{subfigure}{0.49\textwidth}
+    \includegraphics[width=\textwidth]{./Pictures/right_GC.png}
+    \caption{Plateau Curve for Right Geiger Counter}
+  \end{subfigure}
+  \caption{Plateau Curves}
+  \label{fig:l}
+\end{figure}
 
+\subsection{Background}
+  In order to find the correct half life and initial activities, we need to substract the background radiation in the lab. We measured this using the geiger counters for 
+  45 minutes with an interval of 5 minutes. 
+  \begin{figure}[H]
+    \centering
+    \includegraphics{./Pictures/Background.png}
+    \caption{Background Radiation Measured using both of the geiger counters}
+    \label{fig:bk}
+  \end{figure}
 
+  On average we found the background radiation to be $0.83$ counts/second. This is subtracted from the next measurements. 
 
+  \subsection{Silver Decay Curves}
+  \subsection{Indium Decay Curves}
+    The Indium sample was activated over a period of 3-4 hours. The time taken for the sample to travel from the neutron source to the counter was 18 seconds.
+    \begin{figure}[H]
+      \centering
+      \includegraphics{./Pictures/Indium.png}
+      \caption{Activity of Activated Indium Sample over time. The data points are fitted with a double exponential curve}
+      \label{fig:ind}
+    \end{figure}
+
+    The decay curve obtained in figure \ref{fig:ind} is fitted with a double exponential curve of the form $a_1e^{b_1x}+a_2e^{b_2x}$. This fits the two different decays happening in the sample. \\
+    $^{116}$In decays largely by $\beta^-$ decay with a half life of $14.10$ seconds\cite{Jaeck116} and $^{117}$In also decays by $\beta^-$ with a half life of 43.2 minutes\cite{Jaeck117}.
+    
+    With the double exponential fitting we found decay contants $\lambda_1 =3.21 ~min^{-1}$  and $\lambda_2=0.0119 ~min^{-1}$ which imply half lives of 12.93 seconds and 57.8 minutes. These values are relatively close 
+    to the actual half lives we expect. For Indium, we found an initial activity of 321 counts/minute.\\
+
+    The observed half lives fit the expected values relatively well, with some errors being present due to errors in handling the experiment and impurities in the material.
+
+  \section{Conclusions}
+    We initally found the plateau region of the geiger coutners and set it to 360 V for our experiments. We observed the background counts for 45 minutes, giving us an activity of 0.83 counts/second. \\
+    For silver, we found \dots. We were unable to find \dots\\
+    For the Indium sample we obtained the decay curve and fitted it with a double exponential function to obtain half lives of two decays happening in the sample. The observed values of half life were relatively close to their
+    theoretical counterparts.
 \setcounter{secnumdepth}{0}
 
 \printbibliography
-\appendix
-\section{Appendix}
+% \appendix
+% \section{Appendix}
 
 
 

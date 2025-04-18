@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber NAK"] 1744986662.56112 "NAK.bcf" "NAK.bbl" "NAK" 1744986863.19833 0
-  "NAK.bcf" 1744986862 107909 4834c0f1b74fd5d80953fa21900114dc "pdflatex"
-  "NAK.bib" 1744984258 326 9db8a0d32fc7bbfb96beb66074567c16 ""
+["biber NAK"] 1745005909.5968 "NAK.bcf" "NAK.bbl" "NAK" 1745006889.31594 0
+  "NAK.bcf" 1745006888 108035 4195679cc2eb615dfe3958d84cc6e134 "pdflatex"
+  "NAK.bib" 1745005690 686 e9bbb3ff69b53ce0c2fb0d67098b20e1 ""
   (generated)
   "NAK.bbl"
   "NAK.blg"
   (rewritten before read)
-["pdflatex"] 1744986860.60526 "c:/Users/praty/OneDrive - UT Cloud/Astro Lab/Astro-Lab/NAK/NAK.tex" "NAK.pdf" "NAK" 1744986863.20078 0
+["pdflatex"] 1745006886.27327 "c:/Users/praty/OneDrive - UT Cloud/Astro Lab/Astro-Lab/NAK/NAK.tex" "NAK.pdf" "NAK" 1745006889.31715 0
   "C:/Users/praty/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1742773512 82666 6ae954049cbd801ff08c004e318ae5a8 ""
   "C:/Users/praty/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1200.pk" 1742315169 14064 b0f4837ffa9aabca42f4a49d92f27066 ""
   "C:/Users/praty/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1710090178 21099418 0159a99414e81aa6d3ff6bc36213b4d6 ""
@@ -16,6 +16,7 @@
   "C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx12.tfm" 1136765053 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbx8.tfm" 1136765053 1332 1fde11373e221473104d6cc5993f046e ""
   "C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmbxti10.tfm" 1136765053 1532 9162035f4e7176612125649e348e2195 ""
+  "C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmcsc10.tfm" 1136765053 1300 63a6111ee6274895728663cf4b4e7e81 ""
   "C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmex10.tfm" 1136765053 992 662f679a0b3d2d53c1b94050fdaa3f50 ""
   "C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi12.tfm" 1136765053 1524 4414a8315f39513458b80dfc63bff03a ""
   "C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi6.tfm" 1136765053 1512 f21f83efb36853c0b70002322c1ab3ad ""
@@ -33,6 +34,7 @@
   "C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1247596666 32080 340ef9bf63678554ee606688e7b5339d ""
   "C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx8.pfb" 1247596666 32166 b0c356b15f19587482a9217ce1d8fa67 ""
   "C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb" 1247596667 36554 b67dc2cfa451409e100b3fcf5f506509 ""
+  "C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb" 1247596667 32001 6aeea3afe875097b1eb0da29acd61e28 ""
   "C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1247596667 30251 6afa5cb1d0204815a708a080681d4674 ""
   "C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1247596667 36741 0ee9e374ec3e30da87cdfb0ea3575226 ""
   "C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb" 1247596666 37166 8ab3487cbe3ab49ebce74c29ea2418db ""
@@ -40,6 +42,7 @@
   "C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247596667 35752 024fb6c41858982481f6968b5fc26508 ""
   "C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1247596667 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1247596666 32362 bc3f3eec7ab7d65fe700963d4017d32c ""
+  "C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb" 1247596667 32734 69e00a6b65cedb993666e42eedb3d48f ""
   "C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1247596667 32726 39f0f9e62e84beb801509898a605dbd5 ""
   "C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "C:/Users/praty/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1247596667 32626 5abc8bb2f28aa647d4c70f8ea38cc0d3 ""
@@ -115,16 +118,20 @@
   "C:/Users/praty/AppData/Local/Programs/MiKTeX/tex/latex/refcount/refcount.sty" 1576433952 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "C:/Users/praty/AppData/Local/Programs/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1657800696 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "C:/Users/praty/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
-  "NAK.aux" 1744986862 3386 05dac00036de9c569a77f7f2da283233 "pdflatex"
-  "NAK.bbl" 1744986666 1724 8071e88d75a8a18c5a9dcf2a342b7b11 "biber NAK"
-  "NAK.out" 1744986862 2837 4837e6316303f706fdfcaec484560276 "pdflatex"
-  "NAK.run.xml" 1744986862 2297 00947c4212c607d067d6fe842242c319 "pdflatex"
-  "NAK.tex" 1744986857 14580 8afd26acec49fd6819c10724ea0e8f74 ""
-  "NAK.toc" 1744986862 1337 bbd0c7816edd0a976bc5283f1583c112 "pdflatex"
+  "NAK.aux" 1745006888 4888 fc8901aafb33fc082ab1fe1246e9e2a6 "pdflatex"
+  "NAK.bbl" 1745005912 4186 cfe70e294db78f46c55980560496814d "biber NAK"
+  "NAK.out" 1745006888 3277 c5b826aeb0e69deaddf9c62e08bd78b7 "pdflatex"
+  "NAK.run.xml" 1745006888 2297 00947c4212c607d067d6fe842242c319 "pdflatex"
+  "NAK.tex" 1745006882 17528 b045c34e0924f6f6e68772e80ec170e5 ""
+  "NAK.toc" 1745006888 1600 61b28780bdbde24a0b8c5ecd5e9a1937 "pdflatex"
   "Pictures/AmBe Source.png" 1744984259 45935 573d80c0440aa79d0795ab39e305c331 ""
+  "Pictures/Background.png" 1744984378 56117 7617fffa4b698a61e461aa18902d82ba ""
   "Pictures/GM_IV.png" 1744984259 45221 2bb0275df21ca09784a78dfb5845a0c4 ""
   "Pictures/GM_Schematic.png" 1744984259 16053 b48e24b389b78907afebe6510c08186a ""
-  "c:/Users/praty/OneDrive - UT Cloud/Astro Lab/Astro-Lab/NAK/NAK.tex" 1744986857 14580 8afd26acec49fd6819c10724ea0e8f74 ""
+  "Pictures/Indium.png" 1745004783 52425 483df5a0b2fa32fe1f7db01c7999909f ""
+  "Pictures/left_GC.png" 1744984333 53027 f1c26b226e8ee9487a347f2cb095d9b1 ""
+  "Pictures/right_GC.png" 1744984298 49214 b06dc3916afe94c1362a740f5340c183 ""
+  "c:/Users/praty/OneDrive - UT Cloud/Astro Lab/Astro-Lab/NAK/NAK.tex" 1745006882 17528 b045c34e0924f6f6e68772e80ec170e5 ""
   (generated)
   "NAK.aux"
   "NAK.bcf"
