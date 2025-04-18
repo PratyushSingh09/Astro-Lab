@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex bbl format version 3.3 $
+% $ biblatex bbl format version 3.2 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -18,8 +18,8 @@
 
 
 \refsection{0}
-  \datalist[entry]{anyt/global//global/global/global}
-    \entry{GM}{misc}{}{}
+  \datalist[entry]{anyt/global//global/global}
+    \entry{GM}{misc}{}
       \name{author}{1}{}{%
         {{hash=853b6fabb6356b7b42d5aab000ed4c2f}{%
            family={Power},
@@ -29,12 +29,10 @@
       }
       \strng{namehash}{853b6fabb6356b7b42d5aab000ed4c2f}
       \strng{fullhash}{853b6fabb6356b7b42d5aab000ed4c2f}
-      \strng{fullhashraw}{853b6fabb6356b7b42d5aab000ed4c2f}
       \strng{bibnamehash}{853b6fabb6356b7b42d5aab000ed4c2f}
       \strng{authorbibnamehash}{853b6fabb6356b7b42d5aab000ed4c2f}
       \strng{authornamehash}{853b6fabb6356b7b42d5aab000ed4c2f}
       \strng{authorfullhash}{853b6fabb6356b7b42d5aab000ed4c2f}
-      \strng{authorfullhashraw}{853b6fabb6356b7b42d5aab000ed4c2f}
       \field{labelalpha}{Pow25}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
