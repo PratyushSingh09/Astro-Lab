@@ -1,0 +1,347 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{anyt/global//global/global/global}
+    \entry{belfiore2023calibrating}{article}{}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{3}{}{%
+        {{hash=168ead967fae93605bf94298feb8c7d3}{%
+           family={Belfiore},
+           familyi={B\bibinitperiod},
+           given={Francesco},
+           giveni={F\bibinitperiod}}}%
+        {{hash=414e81ddfed8e9e94686d9e2d7651f48}{%
+           family={Leroy},
+           familyi={L\bibinitperiod},
+           given={Adam\bibnamedelima K.},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=e286dbf3ae8a276fe8994fb4728a950b}{%
+           family={Williams},
+           familyi={W\bibinitperiod},
+           given={Thomas\bibnamedelima G.},
+           giveni={T\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{fa43cda0f60b7eb0a4aabec1412e8d8a}
+      \strng{fullhash}{fa43cda0f60b7eb0a4aabec1412e8d8a}
+      \strng{fullhashraw}{fa43cda0f60b7eb0a4aabec1412e8d8a}
+      \strng{bibnamehash}{fa43cda0f60b7eb0a4aabec1412e8d8a}
+      \strng{authorbibnamehash}{fa43cda0f60b7eb0a4aabec1412e8d8a}
+      \strng{authornamehash}{fa43cda0f60b7eb0a4aabec1412e8d8a}
+      \strng{authorfullhash}{fa43cda0f60b7eb0a4aabec1412e8d8a}
+      \strng{authorfullhashraw}{fa43cda0f60b7eb0a4aabec1412e8d8a}
+      \field{labelalpha}{BLW+23}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2306.11811}
+      \field{title}{Calibrating mid-infrared emission as a tracer of obscured star formation on HII-region scales in the era of JWST}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2306.11811
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2306.11811
+      \endverb
+    \endentry
+    \entry{bolatto2013co}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=5e07f80f1fa4601cdb71be43544efa8d}{%
+           family={Bolatto},
+           familyi={B\bibinitperiod},
+           given={Alberto\bibnamedelima D.},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=8c1c611d18f06f7537a5c1f21ed7b369}{%
+           family={Wolfire},
+           familyi={W\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod}}}%
+        {{hash=414e81ddfed8e9e94686d9e2d7651f48}{%
+           family={Leroy},
+           familyi={L\bibinitperiod},
+           given={Adam\bibnamedelima K.},
+           giveni={A\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Annual Reviews}%
+      }
+      \strng{namehash}{72986f217f72bffe6a0f5a8d5167ef3e}
+      \strng{fullhash}{72986f217f72bffe6a0f5a8d5167ef3e}
+      \strng{fullhashraw}{72986f217f72bffe6a0f5a8d5167ef3e}
+      \strng{bibnamehash}{72986f217f72bffe6a0f5a8d5167ef3e}
+      \strng{authorbibnamehash}{72986f217f72bffe6a0f5a8d5167ef3e}
+      \strng{authornamehash}{72986f217f72bffe6a0f5a8d5167ef3e}
+      \strng{authorfullhash}{72986f217f72bffe6a0f5a8d5167ef3e}
+      \strng{authorfullhashraw}{72986f217f72bffe6a0f5a8d5167ef3e}
+      \field{labelalpha}{BWL13}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annual Review of Astronomy and Astrophysics}
+      \field{title}{The CO-to-H$_2$ Conversion Factor}
+      \field{volume}{51}
+      \field{year}{2013}
+      \field{pages}{207\bibrangedash 268}
+      \range{pages}{62}
+      \verb{doi}
+      \verb 10.1146/annurev-astro-082812-140944
+      \endverb
+    \endentry
+    \entry{MWMC}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=f99126ff352009de384fa0caad8c7b9d}{%
+           family={{Dame}},
+           familyi={D\bibinitperiod},
+           given={T.M.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=d6f43101bd3d17a3c8b29aeb40a2d74a}{%
+           family={{Hartmann}},
+           familyi={H\bibinitperiod},
+           given={Dap},
+           giveni={D\bibinitperiod}}}%
+        {{hash=c327a1c2b664a19a661af78330e5d3e3}{%
+           family={{Thaddeus}},
+           familyi={T\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{8654f8b33a6db3d9d92ac51505940d91}
+      \strng{fullhash}{8654f8b33a6db3d9d92ac51505940d91}
+      \strng{fullhashraw}{8654f8b33a6db3d9d92ac51505940d91}
+      \strng{bibnamehash}{8654f8b33a6db3d9d92ac51505940d91}
+      \strng{authorbibnamehash}{8654f8b33a6db3d9d92ac51505940d91}
+      \strng{authornamehash}{8654f8b33a6db3d9d92ac51505940d91}
+      \strng{authorfullhash}{8654f8b33a6db3d9d92ac51505940d91}
+      \strng{authorfullhashraw}{8654f8b33a6db3d9d92ac51505940d91}
+      \field{labelalpha}{DHT01}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{astro-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{ApJ}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{{The Milky Way in Molecular Clouds: A New Complete CO Survey}}
+      \field{volume}{547}
+      \field{year}{2001}
+      \field{pages}{792\bibrangedash 813}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1086/318388
+      \endverb
+      \verb{eprint}
+      \verb astro-ph/0009217
+      \endverb
+      \keyw{Galaxy: Structure,ISM: Clouds,ISM: Molecules,Radio Lines: ISM,Galaxy: Solar Neighborhood,Stars: Formation,Astrophysics}
+    \endentry
+    \entry{jiao2023}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=a6d70036bc4070304d37aac2b2d48633}{%
+           family={Jiao},
+           familyi={J\bibinitperiod},
+           given={Yue},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=79f7bfddeca962fcb0d592d74df0a983}{%
+           family={Hammer},
+           familyi={H\bibinitperiod},
+           given={François},
+           giveni={F\bibinitperiod}}}%
+        {{hash=09f3bb0a381bac10cf1f95927c363aba}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={He},
+           giveni={H\bibinitperiod}}}%
+        {{hash=34577db2b010af0f60e1cfeaf9c9eeea}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Jianling},
+           giveni={J\bibinitperiod}}}%
+        {{hash=8fc1dbc8c321cbdc10cda81eadacca82}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Yuhui},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{3fa016daab6ffe13f8490700d25fc3e5}
+      \strng{fullhash}{80160888669e3999e065d90c5535e9c9}
+      \strng{fullhashraw}{80160888669e3999e065d90c5535e9c9}
+      \strng{bibnamehash}{3fa016daab6ffe13f8490700d25fc3e5}
+      \strng{authorbibnamehash}{3fa016daab6ffe13f8490700d25fc3e5}
+      \strng{authornamehash}{3fa016daab6ffe13f8490700d25fc3e5}
+      \strng{authorfullhash}{80160888669e3999e065d90c5535e9c9}
+      \strng{authorfullhashraw}{80160888669e3999e065d90c5535e9c9}
+      \field{labelalpha}{Jia+23}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2306.05461}
+      \field{title}{Revisiting mass estimates of the Milky Way}
+      \field{year}{2023}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2306.05461
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2306.05461
+      \endverb
+    \endentry
+    \entry{kennicutt1998star}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=2d248004510a742fcca16af4c230dffe}{%
+           family={Kennicutt},
+           familyi={K\bibinitperiod},
+           given={Robert\bibnamedelima C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Annual Reviews}%
+      }
+      \strng{namehash}{2d248004510a742fcca16af4c230dffe}
+      \strng{fullhash}{2d248004510a742fcca16af4c230dffe}
+      \strng{fullhashraw}{2d248004510a742fcca16af4c230dffe}
+      \strng{bibnamehash}{2d248004510a742fcca16af4c230dffe}
+      \strng{authorbibnamehash}{2d248004510a742fcca16af4c230dffe}
+      \strng{authornamehash}{2d248004510a742fcca16af4c230dffe}
+      \strng{authorfullhash}{2d248004510a742fcca16af4c230dffe}
+      \strng{authorfullhashraw}{2d248004510a742fcca16af4c230dffe}
+      \field{labelalpha}{Ken98}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Annual Review of Astronomy and Astrophysics}
+      \field{title}{Star Formation in Galaxies Along the Hubble Sequence}
+      \field{volume}{36}
+      \field{year}{1998}
+      \field{pages}{189\bibrangedash 232}
+      \range{pages}{44}
+      \verb{doi}
+      \verb 10.1146/annurev.astro.36.1.189
+      \endverb
+    \endentry
+    \entry{starform}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=beaf3516dbac3f4dc73821c48b0b7cbc}{%
+           family={{Klaassen, P. D.}},
+           familyi={K\bibinitperiod}}}%
+        {{hash=84e07c846d05b023df21b1211ec2cc57}{%
+           family={{Wilson, C. D.}},
+           familyi={W\bibinitperiod}}}%
+        {{hash=2c4666d30c51993888cb47f7150fb3bf}{%
+           family={{Keto, E. R.}},
+           familyi={K\bibinitperiod}}}%
+        {{hash=bb67e6242413b2d34da8df4c3ea2d53f}{%
+           family={{Zhang, Q.}},
+           familyi={Z\bibinitperiod}}}%
+        {{hash=2c7cd05bcf2354f2fe7eedbe16e60716}{%
+           family={{Galván-Madrid, R.}},
+           familyi={G\bibinitperiod}}}%
+        {{hash=30efcd1410e35caceccd7a3131d93a31}{%
+           family={{Liu, H.-Y. B.}},
+           familyi={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{839a1667da15091861e0e7a033d37b52}
+      \strng{fullhash}{a2ccc85026b89e6dc25799db404ccfc5}
+      \strng{fullhashraw}{a2ccc85026b89e6dc25799db404ccfc5}
+      \strng{bibnamehash}{839a1667da15091861e0e7a033d37b52}
+      \strng{authorbibnamehash}{839a1667da15091861e0e7a033d37b52}
+      \strng{authornamehash}{839a1667da15091861e0e7a033d37b52}
+      \strng{authorfullhash}{a2ccc85026b89e6dc25799db404ccfc5}
+      \strng{authorfullhashraw}{a2ccc85026b89e6dc25799db404ccfc5}
+      \field{labelalpha}{Kla+11}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{A$\&$A}
+      \field{title}{High resolution CO observation of massive star forming regions}
+      \field{volume}{530}
+      \field{year}{2011}
+      \field{pages}{A53}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1051/0004-6361/201016371
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1051/0004-6361/201016371
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1051/0004-6361/201016371
+      \endverb
+    \endentry
+    \entry{lum_mass}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=d89ab71072cd4ea676996eaf6cb779a9}{%
+           family={Oregon},
+           familyi={O\bibinitperiod},
+           given={University},
+           giveni={U\bibinitperiod},
+           prefix={of},
+           prefixi={o\bibinitperiod}}}%
+      }
+      \strng{namehash}{d89ab71072cd4ea676996eaf6cb779a9}
+      \strng{fullhash}{d89ab71072cd4ea676996eaf6cb779a9}
+      \strng{fullhashraw}{d89ab71072cd4ea676996eaf6cb779a9}
+      \strng{bibnamehash}{d89ab71072cd4ea676996eaf6cb779a9}
+      \strng{authorbibnamehash}{d89ab71072cd4ea676996eaf6cb779a9}
+      \strng{authornamehash}{d89ab71072cd4ea676996eaf6cb779a9}
+      \strng{authorfullhash}{d89ab71072cd4ea676996eaf6cb779a9}
+      \strng{authorfullhashraw}{d89ab71072cd4ea676996eaf6cb779a9}
+      \field{labelalpha}{Ore}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://pages.uoregon.edu/jimbrau/astr123/Notes/Chapter23.html}}
+      \field{note}{Accessed: April 22, 2025}
+      \field{title}{The Mass of the Milky Way Galaxy}
+    \endentry
+    \entry{enwiki:1280656493}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=b6aea1a416c89509a7df1cbb69249cb6}{%
+           family={{Wikipedia contributors}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{fullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{fullhashraw}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{bibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorbibnamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authornamehash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorfullhash}{b6aea1a416c89509a7df1cbb69249cb6}
+      \strng{authorfullhashraw}{b6aea1a416c89509a7df1cbb69249cb6}
+      \field{labelalpha}{Wik25}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://en.wikipedia.org/w/index.php?title=Hydrogen_line&oldid=1280656493}}
+      \field{note}{[Online; accessed 23-April-2025]}
+      \field{title}{Hydrogen line --- {Wikipedia}{,} The Free Encyclopedia}
+      \field{year}{2025}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
