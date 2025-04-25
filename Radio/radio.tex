@@ -80,7 +80,12 @@ style=alphabetic,
 \lhead{\groupno; \experiment}
 
 \section{Introduction}\label{sec:intro} % labels allow references, particularly important for figures and tables
+    In this experiment, we observe radio emissions from the Sun and the Milky Way using the radio telescope at Sand 1, Tübingen. We aim to detect the Sun as a point source, 
+    since the resolution of our telescope isn't high enough to detect it as an extended source.\\
+    We also aim to observe the 21 cm Hydrogen line to derive the galactic rotation curve and to also create a radio map of the milky way.\\
 
+    In section \ref{sec:theory} we discuss the theory of the solar and milky way radio emissions and how to obtain the rotation curve. In section \ref{sec:experiment} we describe the 
+    radio telescope used for the observations and how the observations were made in section \ref{sec:observations}. Finally in section \ref{sec:data_analysis} we display our results and describe the data analysis steps used to obtain them. 
 
 \section{Theory}
 \label{sec:theory}
@@ -92,6 +97,7 @@ style=alphabetic,
     % MORE IF NEEDED
 
 \section{Experiment}
+\label{sec:experiment}
     \subsection{The Telescope}
         The radio telescope at Sand 1, Tübingen is a parabolic antenna with a diameter of 2.3 m. At the 21 cm Hydrogen line, it has a
         resolution of $5^\circ$. The telescope is controlled using the qradio software on a computer attached to it. \\
@@ -108,6 +114,7 @@ style=alphabetic,
 
         The telescope is on a Alt-Az mount. Using the computer, the telescope can be moved by specifying galactic, equatorial and other coordinate systems.
     \subsection{Observations}
+        \label{sec:observations}
             To start the observations, first a restart of the computer is required. The program qradio is started with the following configurations:\ref{fig:qradio_config}
             \begin{figure}[H]
                 \centering
@@ -141,6 +148,7 @@ style=alphabetic,
             Background measurements are taken at $l=30^\circ,50^\circ,80^\circ$ and $b=30^\circ$ to be subtracted from the previous set of observations.
 
     \subsection{Data Analysis}
+    \label{sec:data_analysis}
 
 \section{Conclusions}
 

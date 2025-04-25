@@ -1,0 +1,18 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'PhSp_Final.blg'
+[120] biber-MSWIN64:340> INFO - === 
+[171] Biber.pm:419> INFO - Reading 'PhSp_Final.bcf'
+[264] Biber.pm:979> INFO - Found 7 citekeys in bib section 0
+[274] Biber.pm:4419> INFO - Processing section 0
+[286] Biber.pm:4610> INFO - Looking for bibtex file 'PhSp.bib' for section 0
+[347] bibtex.pm:1713> INFO - LaTeX decoding ...
+[357] bibtex.pm:1519> INFO - Found BibTeX data source 'PhSp.bib'
+[421] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[421] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[421] Biber.pm:4239> INFO - Sorting list 'anyt/global//global/global' of type 'entry' with template 'anyt' and locale 'en-US'
+[421] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[432] bbl.pm:660> INFO - Writing 'PhSp_Final.bbl' with encoding 'UTF-8'
+[436] bbl.pm:763> INFO - Output to PhSp_Final.bbl
+[437] Biber.pm:131> WARN - BibTeX subsystem: C:\Users\praty\AppData\Local\Temp\biber_tmp_YHfL\ad5ec63e75c48a83277c94a03aab73c5_32456.utf8, line 19, warning: 1 characters of junk seen at toplevel
+[437] Biber.pm:131> WARN - I didn't find a database entry for '2018AJ....155..128M' (section 0)
+[437] Biber.pm:133> INFO - WARNINGS: 2
